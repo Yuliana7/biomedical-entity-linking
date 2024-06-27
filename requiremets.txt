@@ -1,0 +1,4 @@
+mistralai
+pandas
+numpy
+scikit-learn

@@ -1,0 +1,15 @@
+version: '4.31.0'
+services:
+  neo4j:
+    image: neo4j:5.20.0-community-ubi9
+    ports:
+      - 7888:7474
+      - 7999:7687
+    restart: unless-stopped
+    environment:
+      NEO4J_AUTH: neo4j/password
+    volumes:
+      - ./data:/data
+      - ./logs:/logs
+      - ./plugins:/plugins
+      - ./conf:/conf
