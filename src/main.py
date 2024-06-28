@@ -1,4 +1,3 @@
-from src.config import Config
 from data.data_loader import load_belb_data, preprocess_data, save_processed_data
 from models.rag_model import RagModelWrapper
 

@@ -8,8 +8,9 @@ services:
     restart: unless-stopped
     environment:
       NEO4J_AUTH: neo4j/password
+      NEO4J_PLUGINS: '["apoc"]'
     volumes:
-      - ./data:/data
-      - ./logs:/logs
-      - ./plugins:/plugins
-      - ./conf:/conf
+      - ./db/data:/data
+      - ./db/logs:/logs
+      - ./db/plugins:/plugins
+      - ./db/conf:/conf
