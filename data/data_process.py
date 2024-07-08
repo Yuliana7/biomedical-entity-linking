@@ -1,6 +1,7 @@
-# Function to create disease nodes
 import pandas as pd
+from neo4j import GraphDatabase
 
+# Function to create disease nodes
 def create_disease_nodes(tx, disease):
     tx.run("""
         MERGE (d:Disease {DiseaseID: $DiseaseID})
@@ -30,16 +31,22 @@ def create_hierarchy(tx, disease):
             """, DiseaseID=disease['DiseaseID'], ParentID=parent_id)
 
 # Function to get disease descriptions
-def get_disease_descriptions(tx):
+def get_disease_name(tx):
     result = tx.run("""
         MATCH (d:Disease) 
-        RETURN d.DiseaseID AS DiseaseID, d.DiseaseName AS DiseaseName, d.Definition AS Definition
+        RETURN d.DiseaseID AS DiseaseID, d.DiseaseName AS DiseaseName
     """)
     return result.data()
 
 # Function to update disease embeddings
-def update_disease_embeddings(tx, disease_id, embedding):
-    tx.run("""
-        MATCH (d:Disease {DiseaseID: $DiseaseID}) 
-        SET d.DiseaseEmbedding = $embedding
-    """, DiseaseID=disease_id, embedding=embedding)
+def update_disease_embeddings(tx, disease_id, embedding, embedding_model_name):
+    disease_embedding = f"DiseaseEmbedding-{embedding_model_name.replace('.', '_').replace('/', '_')}"
+
+    query = """
+        MATCH (d:Disease {DiseaseID: $DiseaseID})
+        CALL apoc.create.setProperty(d, $disease_embedding, $embedding)
+        YIELD node
+        RETURN node;
+    """
+
+    tx.run(query, DiseaseID=disease_id, embedding=embedding, disease_embedding=disease_embedding)
