@@ -1,0 +1,961 @@
+ID,Start,End,Description,Type,MESH ID
+9949209,23,39,copper toxicosis,Modifier,OMIM:215600
+9949209,158,185,hepatic copper accumulation,SpecificDisease,MESH:D008107
+9949209,206,224,inherited disorder,DiseaseClass,MESH:D030342
+9949209,272,299,hepatic copper accumulation,SpecificDisease,MESH:D008107
+9949209,346,360,Wilson disease,SpecificDisease,MESH:D006527
+9949209,362,364,WD,SpecificDisease,MESH:D006527
+9949209,499,514,copper overload,SpecificDisease,MESH:D008107
+9949209,523,553,non-Indian childhood cirrhosis,SpecificDisease,OMIM:215600
+9949209,637,653,copper toxicosis,SpecificDisease,OMIM:215600
+9949209,655,657,CT,SpecificDisease,OMIM:215600
+9949209,738,751,liver disease,DiseaseClass,MESH:D008107
+9949209,777,779,WD,Modifier,MESH:D006527
+9949209,814,816,CT,SpecificDisease,OMIM:215600
+9949209,999,1001,CT,SpecificDisease,OMIM:215600
+9949209,1147,1149,WD,SpecificDisease,MESH:D006527
+9949209,1174,1176,CT,SpecificDisease,OMIM:215600
+9949209,1261,1263,CT,SpecificDisease,OMIM:215600
+9950360,26,29,APC,Modifier,MESH:D011125
+9950360,96,99,FAP,SpecificDisease,MESH:D011125
+9950360,129,132,APC,Modifier,MESH:D011125
+9950360,155,172,colorectal cancer,Modifier,MESH:D015179
+9950360,225,242,colorectal cancer,SpecificDisease,MESH:D015179
+9950360,298,328,familial adenomatous polyposis,SpecificDisease,MESH:D011125
+9950360,330,333,FAP,SpecificDisease,MESH:D011125
+9950360,380,406,adenomatous polyposis coli,Modifier,MESH:D011125
+9950360,408,411,APC,Modifier,MESH:D011125
+9950360,476,479,APC,Modifier,MESH:D011125
+9950360,617,620,APC,Modifier,MESH:D011125
+9950360,642,659,colorectal cancer,SpecificDisease,MESH:D015179
+9950360,674,677,APC,Modifier,MESH:D011125
+9950360,713,716,FAP,Modifier,MESH:D011125
+9950360,732,749,colorectal cancer,Modifier,MESH:D015179
+9950360,943,946,FAP,Modifier,MESH:D011125
+9950360,1069,1086,colorectal cancer,Modifier,MESH:D015179
+9950360,1220,1223,FAP,Modifier,MESH:D011125
+9950360,1642,1645,FAP,Modifier,MESH:D011125
+9950360,1658,1675,colorectal cancer,Modifier,MESH:D015179
+9634518,32,68,phenylalanine hydroxylase deficiency,SpecificDisease,OMIM:261600
+9634518,177,192,Phenylketonuria,SpecificDisease,MESH:D010661
+9634518,194,197,PKU,SpecificDisease,MESH:D010661
+9634518,203,229,mild hyperphenylalaninemia,SpecificDisease,MESH:D010661
+9634518,231,234,MHP,SpecificDisease,MESH:D010661
+9634518,240,257,allelic disorders,DiseaseClass,MESH:D030342
+9634518,413,427,PAH deficiency,SpecificDisease,OMIM:261600
+9634518,1442,1456,PAH deficiency,SpecificDisease,OMIM:261600
+9634518,1640,1661,hyperphenylalaninemia,SpecificDisease,MESH:D010661
+9563950,61,79,myotonic dystrophy,SpecificDisease,MESH:D009223
+9563950,81,99,Myotonic dystrophy,SpecificDisease,MESH:D009223
+9563950,101,103,DM,SpecificDisease,MESH:D009223
+9563950,170,172,DM,Modifier,MESH:D009223
+9563950,192,194,DM,Modifier,MESH:D009223
+9563950,672,674,DM,Modifier,MESH:D009223
+9563950,858,860,DM,Modifier,MESH:D009223
+9674903,0,15,Maternal disomy,DiseaseClass,MESH:D024182
+9674903,20,41,Prader-Willi syndrome,SpecificDisease,MESH:D011218
+9674903,137,188,Maternal uniparental disomy (UPD) for chromosome 15,SpecificDisease,MESH:C538037
+9674903,237,258,Prader-Willi syndrome,SpecificDisease,MESH:D011218
+9674903,260,263,PWS,SpecificDisease,MESH:D011218
+9674903,298,316,maternal disomy 15,SpecificDisease,MESH:C538037
+9674903,320,323,PWS,SpecificDisease,MESH:D011218
+9674903,534,537,PWS,SpecificDisease,MESH:D011218
+9674903,864,867,PWS,Modifier,MESH:D011218
+9674903,961,964,PWS,Modifier,MESH:D011218
+9674903,1203,1218,Maternal disomy,DiseaseClass,MESH:D024182
+9674903,1542,1560,Uniparental disomy,DiseaseClass,MESH:D024182
+9674903,1722,1725,PWS,SpecificDisease,MESH:D011218
+9674903,1818,1833,maternal UPD 15,SpecificDisease,MESH:C538037
+9674903,1838,1841,PWS,SpecificDisease,MESH:D011218
+9863607,26,44,myotonic dystrophy,SpecificDisease,MESH:D009223
+9863607,46,64,Myotonic dystrophy,SpecificDisease,MESH:D009223
+9863607,66,68,DM,SpecificDisease,MESH:D009223
+9863607,76,102,autosomal dominant disease,DiseaseClass,MESH:D030342
+9863607,198,209,infertility,SpecificDisease,MESH:D007246
+9863607,214,243,congenital myotonic dystrophy,SpecificDisease,MESH:D009223
+9863607,245,248,CDM,SpecificDisease,MESH:D009223
+9863607,276,278,DM,SpecificDisease,MESH:D009223
+9863607,405,407,DM,Modifier,MESH:D009223
+9863607,476,478,DM,SpecificDisease,MESH:D009223
+9863607,513,515,DM,SpecificDisease,MESH:D009223
+9863607,684,686,DM,Modifier,MESH:D009223
+9863607,917,919,DM,SpecificDisease,MESH:D009223
+9863607,982,984,DM,Modifier,MESH:D009223
+9863607,1071,1073,DM,Modifier,MESH:D009223
+9443866,0,21,Ataxia-telangiectasia,SpecificDisease,MESH:D001260
+9443866,215,228,breast cancer,SpecificDisease,MESH:D001943
+9443866,309,330,ataxia-telangiectasia,Modifier,MESH:D001260
+9443866,332,335,A-T,Modifier,MESH:D001260
+9443866,1236,1239,A-T,Modifier,MESH:D001260
+9311732,60,85,unilateral retinoblastoma,SpecificDisease,MESH:D012175
+9311732,118,143,unilateral retinoblastoma,SpecificDisease,MESH:D012175
+9311732,145,150,tumor,Modifier,MESH:D009369
+9311732,278,292,retinoblastoma,Modifier,MESH:D012175
+9311732,429,454,unilateral retinoblastoma,SpecificDisease,MESH:D012175
+9311732,503,508,tumor,Modifier,MESH:D009369
+9311732,533,539,tumors,DiseaseClass,MESH:D009369
+9311732,742,748,tumors,DiseaseClass,MESH:D009369
+9311732,894,900,tumors,DiseaseClass,MESH:D009369
+9311732,928,934,tumors,DiseaseClass,MESH:D009369
+9311732,997,1003,tumors,DiseaseClass,MESH:D009369
+9311732,1093,1099,tumors,DiseaseClass,MESH:D009369
+9311732,1792,1798,tumors,DiseaseClass,MESH:D009369
+9311732,1829,1853,bilateral retinoblastoma,SpecificDisease,MESH:D012175
+9311732,1939,1953,retinoblastoma,SpecificDisease,MESH:D012175
+9931324,103,131,congenital eye malformations,DiseaseClass,MESH:D005124
+9931324,175,183,aniridia,SpecificDisease,MESH:D015783
+9931324,185,215,congenital absence of the iris,SpecificDisease,MESH:D015783
+9931324,234,257,malformation of the eye,DiseaseClass,MESH:D005124
+9931324,293,301,aniridia,Modifier,MESH:D015783
+9931324,742,750,aniridia,Modifier,MESH:D015783
+9931324,976,984,aniridia,SpecificDisease,MESH:D015783
+9931324,1083,1099,ectopia pupillae,SpecificDisease,MESH:C536185
+9931324,1101,1117,displaced pupils,SpecificDisease,MESH:C536185
+9931324,1123,1143,congenital nystagmus,SpecificDisease,MESH:D020417
+9931324,1145,1159,searching gaze,SpecificDisease,MESH:D020417
+9931324,1208,1216,aniridia,Modifier,MESH:D015783
+9931324,1549,1570,PAX6 -related disease,DiseaseClass,OMIM:106210
+9668171,65,83,myotonic dystrophy,Modifier,MESH:D009223
+9668171,324,342,myotonic dystrophy,SpecificDisease,MESH:D009223
+9668171,344,346,DM,SpecificDisease,MESH:D009223
+9668171,648,650,DM,SpecificDisease,MESH:D009223
+9668171,667,683,genetic diseases,DiseaseClass,MESH:D030342
+9668171,879,881,DM,Modifier,MESH:D009223
+9668171,1165,1167,DM,Modifier,MESH:D009223
+9463314,32,53,ataxia-telangiectasia,Modifier,MESH:D001260
+9463314,126,134,leukemia,SpecificDisease,MESH:D007938
+9463314,136,144,lymphoma,SpecificDisease,MESH:D008223
+9463314,150,163,breast cancer,SpecificDisease,MESH:D001943
+9463314,220,241,ataxia-telangiectasia,Modifier,MESH:D001260
+9463314,243,246,A-T,Modifier,MESH:D001260
+9463314,455,478,cerebellar degeneration,SpecificDisease,MESH:D013132
+9463314,520,523,A-T,Modifier,MESH:D001260
+9463314,613,626,breast cancer,SpecificDisease,MESH:D001943
+9463314,731,734,A-T,Modifier,MESH:D001260
+9463314,771,794,cerebellar degeneration,SpecificDisease,MESH:D013132
+9463314,965,968,A-T,Modifier,MESH:D001260
+9463314,1009,1017,leukemia,SpecificDisease,MESH:D007938
+9463314,1019,1027,lymphoma,SpecificDisease,MESH:D008223
+9463314,1066,1082,Hodgkin lymphoma,SpecificDisease,MESH:D006689
+9463314,1254,1257,A-T,Modifier,MESH:D001260
+9391879,55,76,breast/ovarian cancer,Modifier,MESH:D061325
+9391879,127,148,breast/ovarian cancer,Modifier,MESH:D061325
+9391879,247,260,breast cancer,Modifier,MESH:D001943
+9391879,281,302,breast-ovarian cancer,Modifier,MESH:D061325
+9391879,835,856,breast/ovarian cancer,Modifier,MESH:D061325
+9700175,36,61,hereditary ovarian cancer,SpecificDisease,MESH:D061325
+9700175,63,88,Hereditary Ovarian Cancer,Modifier,MESH:D061325
+9700175,211,225,ovarian cancer,SpecificDisease,MESH:D010051
+9700175,263,277,ovarian cancer,SpecificDisease,MESH:D010051
+9700175,344,378,hereditary forms of ovarian cancer,SpecificDisease,MESH:D061325
+9700175,416,441,hereditary ovarian cancer,SpecificDisease,MESH:D061325
+9700175,925,939,ovarian cancer,SpecificDisease,MESH:D010051
+9700175,1244,1258,ovarian cancer,SpecificDisease,MESH:D010051
+9700175,1528,1542,ovarian cancer,SpecificDisease,MESH:D010051
+9792861,53,78,breast and ovarian cancer,Modifier,MESH:D061325
+9792861,138,151,breast cancer,Modifier,MESH:D001943
+9792861,210,223,breast cancer,Modifier,MESH:D001943
+9792861,228,249,breast/ovarian cancer,Modifier,MESH:D061325
+9792861,355,361,cancer,Modifier,MESH:D009369
+9792861,807,821,ovarian cancer,SpecificDisease,MESH:D010051
+9792861,967,980,breast cancer,SpecificDisease,MESH:D001943
+9792861,1029,1042,breast cancer,Modifier,MESH:D001943
+9792861,1453,1466,breast cancer,Modifier,MESH:D001943
+9792861,1471,1492,breast/ovarian cancer,Modifier,MESH:D061325
+9705283,425,433,aniridia,SpecificDisease,MESH:D015783
+9705283,435,449,Peters anomaly,SpecificDisease,MESH:C537884
+9705283,451,479,autosomal dominant keratitis,SpecificDisease,MESH:C537022
+9705283,485,510,familial foveal dysplasia,SpecificDisease,OMIM:136520
+9705283,592,600,aniridia,SpecificDisease,MESH:D015783
+9705283,757,765,Aniridia,SpecificDisease,MESH:D015783
+9705283,1524,1532,aniridia,SpecificDisease,MESH:D015783
+9546397,25,40,hemochromatosis,Modifier,MESH:D006432
+9546397,173,194,iron-overload disease,SpecificDisease,MESH:D019190
+9546397,195,221,hereditary hemochromatosis,SpecificDisease,MESH:D006432
+9546397,414,429,hemochromatosis,Modifier,MESH:D006432
+9774970,63,68,tumor,Modifier,MESH:D009369
+9774970,180,208,breast and/or ovarian cancer,CompositeMention,MESH:D061325
+9774970,834,873,hereditary breast and/or ovarian cancer,CompositeMention,MESH:D061325
+9790667,269,299,cerebrotendinous xanthomatosis,SpecificDisease,MESH:D019294
+9790667,301,304,CTX,SpecificDisease,MESH:D019294
+9790667,1364,1412,deficiency in the sterol 27-hydroxylase activity,SpecificDisease,MESH:D019294
+9702690,23,43,adrenoleukodystrophy,SpecificDisease,MESH:D000326
+9702690,163,183,adrenoleukodystrophy,SpecificDisease,MESH:D000326
+9702690,185,188,ALD,SpecificDisease,MESH:D000326
+9702690,242,245,ALD,Modifier,MESH:D000326
+9702690,511,514,ALD,Modifier,MESH:D000326
+9702690,703,721,Alzheimers disease,SpecificDisease,MESH:D000544
+9702690,723,725,AD,SpecificDisease,MESH:D000544
+9702690,776,829,abnormalities in the bilateral cerebellar hemispheres,DiseaseClass,MESH:D002526
+9702690,1079,1121,demyelination of the cerebral white matter,DiseaseClass,MESH:D003711
+9702690,1194,1197,ALD,SpecificDisease,MESH:D000326
+9702690,1407,1410,ALD,SpecificDisease,MESH:D000326
+9702690,1539,1555,insidious lesion,DiseaseClass,MESH:D004194
+9702690,1678,1699,neuronal degeneration,DiseaseClass,MESH:D009410
+9702690,1703,1706,ALD,SpecificDisease,MESH:D000326
+9618166,35,51,Pendred syndrome,SpecificDisease,MESH:C536648
+9618166,53,69,Pendred syndrome,SpecificDisease,MESH:C536648
+9618166,76,104,autosomal recessive disorder,DiseaseClass,MESH:D030342
+9618166,138,146,deafness,SpecificDisease,MESH:D003638
+9618166,151,157,goiter,SpecificDisease,MESH:D006042
+9618166,386,389,PDS,Modifier,MESH:C536648
+9618166,415,422,Pendred,Modifier,MESH:C536648
+9618166,893,900,Pendred,Modifier,MESH:C536648
+9618166,1132,1135,PDS,Modifier,MESH:C536648
+9618166,1189,1205,Pendred syndrome,SpecificDisease,MESH:C536648
+9427148,0,22,Aspartylglucosaminuria,SpecificDisease,MESH:D054880
+9427148,48,70,Aspartylglucosaminuria,SpecificDisease,MESH:D054880
+9427148,72,75,AGU,SpecificDisease,MESH:D054880
+9427148,87,122,disorder of glycoprotein metabolism,DiseaseClass,MESH:D008661
+9427148,137,195,deficiency of the lysosomal enzyme aspartylglucosaminidase,SpecificDisease,MESH:D054880
+9427148,203,206,AGU,SpecificDisease,MESH:D054880
+9427148,354,357,AGU,SpecificDisease,MESH:D054880
+9427148,559,562,AGU,SpecificDisease,MESH:D054880
+9467011,53,67,Cowden disease,SpecificDisease,MESH:D006223
+9467011,72,96,Bannayan-Zonana syndrome,SpecificDisease,MESH:D006223
+9467011,102,121,hamartoma syndromes,DiseaseClass,MESH:D006223
+9467011,155,161,tumour,Modifier,MESH:D009369
+9467011,354,364,malignancy,DiseaseClass,MESH:D009369
+9467011,420,470,"sporadic breast, brain, prostate and kidney cancer",Modifier,MESH:D001943|MESH:D001932|MESH:D011471|MESH:D007680
+9467011,505,512,tumours,DiseaseClass,MESH:D009369
+9467011,521,543,endometrial carcinomas,SpecificDisease,MESH:D016889
+9467011,545,563,malignant melanoma,SpecificDisease,MESH:D008545
+9467011,568,583,thyroid tumours,SpecificDisease,MESH:D013964
+9467011,653,672,hamartoma syndromes,DiseaseClass,MESH:D006223
+9467011,674,688,Cowden disease,SpecificDisease,MESH:D006223
+9467011,690,692,CD,SpecificDisease,MESH:D006223
+9467011,710,765,Bannayan-Zonana (BZS) or Ruvalcaba-Riley-Smith syndrome,CompositeMention,MESH:D006223
+9467011,805,807,CD,Modifier,MESH:D006223
+9467011,827,830,BZS,Modifier,MESH:D006223
+9467011,931,933,CD,Modifier,MESH:D006223
+9467011,1215,1217,CD,SpecificDisease,MESH:D006223
+9467011,1300,1302,CD,Modifier,MESH:D006223
+9467011,1575,1578,BZS,Modifier,MESH:D006223
+9467011,1799,1801,CD,Modifier,MESH:D006223
+9467011,1819,1822,BZS,Modifier,MESH:D006223
+9467011,1900,1903,BZS,Modifier,MESH:D006223
+9467011,1966,1968,CD,Modifier,MESH:D006223
+9467011,2109,2111,CD,Modifier,MESH:D006223
+9467011,2126,2140,breast disease,DiseaseClass,MESH:D001941
+9467011,2406,2430,malignant breast disease,DiseaseClass,MESH:D001941
+9467011,2825,2827,CD,Modifier,MESH:D006223
+9831355,59,101,hereditary non-polyposis colorectal cancer,SpecificDisease,MESH:D003123
+9831355,133,175,hereditary non-polyposis colorectal cancer,Modifier,MESH:D003123
+9831355,177,182,HNPCC,Modifier,MESH:D003123
+9831355,325,342,colorectal cancer,SpecificDisease,MESH:D015179
+9831355,622,628,cancer,DiseaseClass,MESH:D009369
+9590178,0,12,Wilms' tumor,Modifier,MESH:D009396
+9590178,146,157,Wilms tumor,Modifier,MESH:D009396
+9590178,538,564,male pseudohermaphroditism,SpecificDisease,MESH:D058490
+9590178,568,588,Denys-Drash syndrome,SpecificDisease,MESH:D030321
+9358014,95,121,hereditary hemochromatosis,SpecificDisease,MESH:D006432
+9358014,123,125,HH,SpecificDisease,MESH:D006432
+9358014,798,800,HH,SpecificDisease,MESH:D006432
+9358014,945,947,HH,SpecificDisease,MESH:D006432
+9358014,1048,1054,cancer,DiseaseClass,MESH:D009369
+9382108,41,59,Huntington disease,SpecificDisease,MESH:D006816
+9382108,94,112,Huntington disease,SpecificDisease,MESH:D006816
+9382108,114,116,HD,SpecificDisease,MESH:D006816
+9382108,232,234,HD,SpecificDisease,MESH:D006816
+9382108,426,428,HD,Modifier,MESH:D006816
+9554743,111,125,Wilson disease,SpecificDisease,MESH:D006527
+9554743,277,291,Wilson disease,SpecificDisease,MESH:D006527
+9554743,748,762,Wilson disease,SpecificDisease,MESH:D006527
+9792860,89,124,autosomal recessive Alport syndrome,SpecificDisease,MESH:C536587
+9792860,126,161,Autosomal recessive Alport syndrome,SpecificDisease,MESH:C536587
+9792860,179,207,hematuric glomerulonephritis,SpecificDisease,MESH:D005921
+9792860,225,267,glomerular basement membrane abnormalities,DiseaseClass,MESH:D005921
+9792860,716,751,autosomal recessive Alport syndrome,SpecificDisease,MESH:C536587
+9771706,68,85,diabetes mellitus,SpecificDisease,MESH:D003920
+9771706,90,103,optic atrophy,SpecificDisease,MESH:D009896
+9771706,105,121,Wolfram syndrome,SpecificDisease,OMIM:222300
+9771706,124,140,Wolfram syndrome,SpecificDisease,OMIM:222300
+9771706,142,145,WFS,SpecificDisease,OMIM:222300
+9771706,166,212,autosomal recessive neurodegenerative disorder,DiseaseClass,MESH:D020271
+9771706,247,282,insulin-dependent diabetes mellitus,SpecificDisease,MESH:D003922
+9771706,299,312,optic atrophy,SpecificDisease,MESH:D009896
+9771706,458,461,WFS,Modifier,OMIM:222300
+9771706,642,645,WFS,Modifier,OMIM:222300
+9472666,35,69,complement component C6 deficiency,SpecificDisease,OMIM:612446
+9472666,101,135,Complement component C6 deficiency,SpecificDisease,OMIM:612446
+9472666,137,140,C6D,SpecificDisease,OMIM:612446
+9472666,200,224,meningococcal meningitis,SpecificDisease,MESH:D008585
+9472666,272,275,C6D,SpecificDisease,OMIM:612446
+9472666,300,310,meningitis,SpecificDisease,MESH:D008581
+9472666,320,340,neisserial infection,SpecificDisease,MESH:D016870
+9472666,720,723,C6D,SpecificDisease,OMIM:612446
+9733027,24,41,Friedreich ataxia,Modifier,MESH:D005621
+9733027,113,117,FRDA,Modifier,MESH:D005621
+9733027,124,141,Friedreich ataxia,SpecificDisease,MESH:D005621
+9733027,225,229,FRDA,Modifier,MESH:D005621
+9506545,0,26,Eye movement abnormalities,DiseaseClass,MESH:D005124
+9506545,73,97,cerebellar ataxia type I,DiseaseClass,MESH:D020754
+9506545,278,303,cerebellar ataxias type I,DiseaseClass,MESH:D020754
+9506545,304,335,spinocerebellar ataxias 1 and 2,CompositeMention,OMIM:164400|OMIM:183090
+9506545,337,341,SCA1,SpecificDisease,OMIM:164400
+9506545,351,355,SCA2,SpecificDisease,OMIM:183090
+9506545,369,373,SCA3,SpecificDisease,MESH:D017827
+9506545,374,396,Machado-Joseph disease,SpecificDisease,MESH:D017827
+9506545,398,401,MJD,SpecificDisease,MESH:D017827
+9506545,416,420,SCA1,SpecificDisease,OMIM:164400
+9506545,482,493,hypermetria,SpecificDisease,MESH:D002524
+9506545,537,541,SCA2,SpecificDisease,OMIM:183090
+9506545,816,820,SCA3,SpecificDisease,MESH:D017827
+9506545,822,843,gaze-evoked nystagmus,SpecificDisease,MESH:D009759
+9506545,1011,1032,gaze-evoked nystagmus,SpecificDisease,MESH:D009759
+9506545,1081,1085,SCA1,SpecificDisease,OMIM:164400
+9506545,1098,1102,SCA2,SpecificDisease,OMIM:183090
+9506545,1133,1137,SCA3,SpecificDisease,MESH:D017827
+9506545,1228,1232,SCA1,SpecificDisease,OMIM:164400
+9506545,1234,1238,SCA2,SpecificDisease,OMIM:183090
+9506545,1244,1248,SCA3,SpecificDisease,MESH:D017827
+9288106,40,61,ataxia-telangiectasia,Modifier,MESH:D001260
+9288106,72,97,sporadic T-cell leukaemia,SpecificDisease,MESH:D015458
+9288106,99,120,Ataxia-telangiectasia,SpecificDisease,MESH:D001260
+9288106,122,125,A-T,SpecificDisease,MESH:D001260
+9288106,132,163,recessive multi-system disorder,DiseaseClass,MESH:D030342
+9288106,235,241,cancer,DiseaseClass,MESH:D009369
+9288106,254,273,lymphoid neoplasias,DiseaseClass,MESH:D008223
+9288106,304,307,A-T,Modifier,MESH:D001260
+9288106,389,395,tumour,Modifier,MESH:D009369
+9288106,419,459,sporadic T-cell prolymphocytic leukaemia,SpecificDisease,MESH:D015461
+9288106,461,466,T-PLL,SpecificDisease,MESH:D015461
+9288106,476,493,clonal malignancy,DiseaseClass,MESH:D007945
+9288106,517,540,mature T-cell leukaemia,SpecificDisease,MESH:D015458
+9288106,549,552,A-T,SpecificDisease,MESH:D001260
+9288106,606,611,T-PLL,SpecificDisease,MESH:D015461
+9288106,663,666,A-T,SpecificDisease,MESH:D001260
+9288106,713,722,leukaemia,DiseaseClass,MESH:D007938
+9288106,1030,1035,T-PLL,SpecificDisease,MESH:D015461
+9288106,1070,1073,A-T,Modifier,MESH:D001260
+9288106,1160,1166,tumour,Modifier,MESH:D009369
+9288106,1212,1221,leukaemia,DiseaseClass,MESH:D007938
+9288106,1279,1285,tumour,Modifier,MESH:D009369
+9288106,1309,1338,B-cell non-Hodgkins lymphomas,SpecificDisease,MESH:D016393
+9288106,1340,1345,B-NHL,SpecificDisease,MESH:D016393
+9288106,1353,1358,B-NHL,Modifier,MESH:D016393
+9288106,1517,1524,tumours,DiseaseClass,MESH:D009369
+9288106,1594,1608,sporadic T-PLL,SpecificDisease,MESH:D015461
+9288106,1641,1647,tumour,Modifier,MESH:D009369
+9288106,1741,1746,T-PLL,SpecificDisease,MESH:D015461
+9580132,140,184,familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9580132,186,230,Familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9580132,232,236,FNDI,SpecificDisease,OMIM:125700
+9580132,244,270,autosomal dominant disease,DiseaseClass,MESH:D030342
+9580132,463,467,FNDI,SpecificDisease,OMIM:125700
+9580132,1173,1177,FNDI,Modifier,OMIM:125700
+9714764,171,206,insulin-dependent diabetes mellitus,Modifier,MESH:D003922
+9714764,208,212,IDDM,Modifier,MESH:D003922
+9714764,340,348,diabetes,DiseaseClass,MESH:D003920
+9792409,36,57,ataxia-telangiectasia,Modifier,MESH:D001260
+9792409,151,179,autosomal recessive disorder,DiseaseClass,MESH:D030342
+9792409,180,201,ataxia-telangiectasia,SpecificDisease,MESH:D001260
+9792409,203,206,A-T,SpecificDisease,MESH:D001260
+9792409,284,287,A-T,Modifier,MESH:D001260
+9792409,1019,1022,A-T,Modifier,MESH:D001260
+9792409,1077,1080,A-T,Modifier,MESH:D001260
+9792409,1526,1529,A-T,SpecificDisease,MESH:D001260
+9867744,13,28,hemochromatosis,SpecificDisease,MESH:D006432
+9867744,44,59,hemochromatosis,SpecificDisease,MESH:D006432
+9867744,90,101,early death,SpecificDisease,MESH:D003643
+9867744,452,465,iron overload,SpecificDisease,MESH:D019190
+9867744,533,542,cirrhosis,SpecificDisease,MESH:D008103
+9867744,682,697,hemochromatosis,SpecificDisease,MESH:D006432
+9867744,793,808,hemochromatosis,SpecificDisease,MESH:D006432
+9867744,904,919,hemochromatosis,SpecificDisease,MESH:D006432
+9867744,927,944,hepatic cirrhosis,SpecificDisease,MESH:D008103
+9482572,69,77,aniridia,SpecificDisease,MESH:D015783
+9482572,120,134,Peters anomaly,SpecificDisease,MESH:C537884
+9482572,141,161,congenital cataracts,SpecificDisease,MESH:D002386
+9482572,168,196,autosomal dominant keratitis,SpecificDisease,MESH:C537022
+9482572,207,233,isolated foveal hypoplasia,SpecificDisease,OMIM:136520
+9482572,295,303,aniridia,SpecificDisease,MESH:D015783
+9674906,0,31,Schwartz-Jampel syndrome type 2,SpecificDisease,MESH:C537502
+9674906,36,60,Stuve-Wiedemann syndrome,SpecificDisease,MESH:C537502
+9674906,180,204,Schwartz-Jampel syndrome,SpecificDisease,MESH:D010009
+9674906,206,209,SJS,SpecificDisease,MESH:D010009
+9674906,214,222,myotonia,SpecificDisease,MESH:D009222
+9674906,227,245,skeletal dysplasia,SpecificDisease,MESH:C535662
+9674906,263,273,SJS type 2,SpecificDisease,MESH:C537502
+9674906,335,359,Stuve-Wiedemann syndrome,SpecificDisease,MESH:C537502
+9674906,361,364,SWS,SpecificDisease,MESH:C537502
+9674906,383,393,campomelia,SpecificDisease,MESH:C537966
+9674906,408,426,skeletal dysplasia,SpecificDisease,MESH:C535662
+9674906,428,440,contractures,SpecificDisease,MESH:D003286
+9674906,446,457,early death,SpecificDisease,MESH:D003643
+9674906,621,631,SJS type 2,SpecificDisease,MESH:C537502
+9674906,665,668,SWS,SpecificDisease,MESH:C537502
+9674906,729,732,SJS,SpecificDisease,MESH:D010009
+9674906,736,739,SWS,SpecificDisease,MESH:C537502
+9674906,792,814,neuromuscular disorder,DiseaseClass,MESH:D009468
+9674906,821,850,congenital joint contractures,SpecificDisease,MESH:D003286
+9674906,902,914,hyperthermia,SpecificDisease,MESH:D005334
+9674906,963,1004,campomelic-metaphyseal skeletal dysplasia,SpecificDisease,MESH:D055036
+9674906,1206,1220,bone dysplasia,SpecificDisease,MESH:D001848
+9674906,1251,1261,SJS type 2,SpecificDisease,MESH:C537502
+9674906,1272,1275,SWS,SpecificDisease,MESH:C537502
+9674906,1365,1368,SWS,SpecificDisease,MESH:C537502
+9674906,1373,1383,SJS type 2,SpecificDisease,MESH:C537502
+9536083,188,222,familial breast and ovarian cancer,CompositeMention,OMIM:613399
+9536083,929,950,breast/ovarian cancer,CompositeMention,MESH:D061325
+9400934,38,73,ectopic intracranial retinoblastoma,SpecificDisease,MESH:D012175
+9400934,130,165,ectopic intracranial retinoblastoma,SpecificDisease,MESH:D012175
+9400934,199,225,pineal and retinal tumours,CompositeMention,MESH:D019572|MESH:D010871
+9400934,350,380,retinal and the pineal tumours,CompositeMention,MESH:D019572|MESH:D010871
+9400934,753,767,retinoblastoma,SpecificDisease,MESH:D012175
+9729124,31,59,congenital chloride diarrhea,Modifier,MESH:C536210
+9729124,61,64,CLD,Modifier,MESH:C536210
+9729124,72,100,Congenital chloride diarrhea,SpecificDisease,MESH:C536210
+9729124,102,105,CLD,SpecificDisease,MESH:C536210
+9729124,249,252,CLD,Modifier,MESH:C536210
+9729124,643,646,CLD,Modifier,MESH:C536210
+9729124,900,903,CLD,Modifier,MESH:C536210
+9729124,971,987,Pendred syndrome,Modifier,MESH:C536648
+9729124,994,997,PDS,SpecificDisease,MESH:C536648
+9585605,30,47,Angelman syndrome,Modifier,MESH:D017204
+9585605,58,75,Angelman syndrome,SpecificDisease,MESH:D017204
+9585605,77,79,AS,SpecificDisease,MESH:D017204
+9585605,157,175,uniparental disomy,SpecificDisease,MESH:D024182
+9585605,177,180,UPD,SpecificDisease,MESH:D024182
+9585605,402,404,AS,Modifier,MESH:D017204
+9585605,981,983,AS,Modifier,MESH:D017204
+9585605,1025,1027,AS,Modifier,MESH:D017204
+9585605,1067,1069,AS,Modifier,MESH:D017204
+9360520,0,54,Autosomal dominant neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9360520,131,185,Autosomal dominant neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9360520,187,192,ADNDI,SpecificDisease,OMIM:125700
+9360520,200,217,inherited disease,DiseaseClass,MESH:D030342
+9360520,453,471,diabetes insipidus,SpecificDisease,MESH:D003919
+9360520,587,592,ADNDI,SpecificDisease,OMIM:125700
+9360520,1176,1214,dominantly inherited neurodegeneration,DiseaseClass,MESH:D020271
+9709714,19,46,hypertrophic cardiomyopathy,SpecificDisease,MESH:D002312
+9709714,89,145,very-long-chain acyl-coenzyme A dehydrogenase deficiency,SpecificDisease,MESH:C536353
+9709714,147,211,Very-long-chain acyl-coenzyme A dehydrogenase (VLCAD) deficiency,SpecificDisease,MESH:C536353
+9709714,364,380,VLCAD deficiency,SpecificDisease,MESH:C536353
+9709714,431,458,hypertrophic cardiomyopathy,SpecificDisease,MESH:D002312
+9709714,460,472,hepatomegaly,SpecificDisease,MESH:D006529
+9709714,474,488,encephalopathy,DiseaseClass,MESH:D001927
+9709714,494,503,hypotonia,SpecificDisease,MESH:D009123
+9709714,535,551,VLCAD deficiency,SpecificDisease,MESH:C536353
+9709714,1061,1077,VLCAD deficiency,SpecificDisease,MESH:C536353
+9709714,1149,1163,cardiomyopathy,DiseaseClass,MESH:D009202
+9600235,47,68,ataxia-telangiectasia,Modifier,MESH:D001260
+9600235,280,297,recessive disease,DiseaseClass,MESH:D030342
+9600235,298,319,ataxia-telangiectasia,SpecificDisease,MESH:D001260
+9600235,321,324,A-T,SpecificDisease,MESH:D001260
+9600235,401,404,A-T,Modifier,MESH:D001260
+9600235,555,558,A-T,Modifier,MESH:D001260
+9770531,56,76,renal cell carcinoma,Modifier,MESH:D002292
+9770531,101,118,von Hippel-Lindau,Modifier,MESH:D006623
+9770531,161,178,von Hippel-Lindau,Modifier,MESH:D006623
+9770531,180,183,VHL,Modifier,MESH:D006623
+9770531,219,239,renal cell carcinoma,Modifier,MESH:D002292
+9770531,675,678,VHL,SpecificDisease,MESH:D006623
+9770531,750,770,renal cell carcinoma,Modifier,MESH:D002292
+9770531,919,922,VHL,Modifier,MESH:D006623
+9770531,1178,1185,cancers,DiseaseClass,MESH:D009369
+9770531,1358,1364,cancer,Modifier,MESH:D009369
+9385378,96,121,mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9385378,123,148,Mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9385378,150,157,MPS IVA,SpecificDisease,OMIM:253000
+9385378,165,211,autosomal recessive lysosomal storage disorder,DiseaseClass,MESH:D016464
+9385378,224,238,genetic defect,DiseaseClass,MESH:D030342
+9385378,498,505,MPS IVA,Modifier,OMIM:253000
+9385378,772,779,MPS IVA,Modifier,OMIM:253000
+9603435,133,153,G(M2) gangliosidosis,SpecificDisease,MESH:D020143
+9603435,285,302,Tay-Sachs disease,SpecificDisease,MESH:D013661
+9603435,304,307,TSD,SpecificDisease,MESH:D013661
+9603435,320,367,"infantile form of G (M2) gangliosidosis, Type 1",SpecificDisease,MESH:D020143
+9603435,737,758,G (M2) gangliosidosis,SpecificDisease,MESH:D020143
+9603435,1470,1473,TSD,SpecificDisease,MESH:D013661
+9603435,1678,1701,Hex A enzyme deficiency,SpecificDisease,MESH:D013661
+9603435,1916,1932,Hex A deficiency,SpecificDisease,MESH:D013661
+9294109,0,18,Myotonic dystrophy,Modifier,MESH:D009223
+9294109,114,132,Myotonic dystrophy,SpecificDisease,MESH:D009223
+9294109,134,136,DM,SpecificDisease,MESH:D009223
+9294109,158,175,muscular disorder,DiseaseClass,MESH:D009135
+9294109,262,264,DM,Modifier,MESH:D009223
+9618170,57,60,DMD,Modifier,MESH:D020388
+9618170,77,108,X-linked dilated cardiomyopathy,SpecificDisease,MESH:D002311
+9618170,110,141,X-linked dilated cardiomyopathy,SpecificDisease,MESH:D002311
+9618170,143,148,XLDCM,SpecificDisease,MESH:D002311
+9618170,177,193,dystrophinopathy,DiseaseClass,MESH:D009136
+9618170,233,255,myocardial involvement,DiseaseClass,MESH:D009202
+9618170,292,309,skeletal myopathy,SpecificDisease,MESH:D009135
+9618170,345,372,Duchenne muscular dystrophy,Modifier,MESH:D020388
+9618170,422,427,XLDCM,SpecificDisease,MESH:D002311
+9618170,508,513,XLDCM,Modifier,MESH:D002311
+9618170,659,664,XLDCM,Modifier,MESH:D002311
+9618170,1151,1156,XLDCM,SpecificDisease,MESH:D002311
+9585583,25,49,Saethre-Chotzen syndrome,SpecificDisease,OMIM:101400
+9585583,131,155,Saethre-Chotzen syndrome,SpecificDisease,OMIM:101400
+9585583,166,194,autosomal dominant condition,DiseaseClass,MESH:D030342
+9585583,198,214,craniosynostosis,SpecificDisease,MESH:D003398
+9585583,219,233,limb anomalies,DiseaseClass,MESH:D017880
+9585583,561,585,Saethre-Chotzen syndrome,Modifier,OMIM:101400
+9585583,845,863,coronal synostosis,SpecificDisease,MESH:D003398
+9585583,865,878,brachycephaly,SpecificDisease,MESH:D003398
+9585583,880,900,low frontal hairline,SpecificDisease,MESH:D019465
+9585583,902,918,facial asymmetry,SpecificDisease,MESH:D005146
+9585583,920,926,ptosis,SpecificDisease,MESH:D001763
+9585583,928,941,hypertelorism,SpecificDisease,MESH:D006972
+9585583,943,959,broad great toes,SpecificDisease,MESH:D005532
+9585583,965,977,clinodactyly,SpecificDisease,MESH:C536852
+9585583,1197,1223,craniosynostotic condition,DiseaseClass,MESH:D003398
+9585583,1232,1280,"Saethre-Chotzen, Crouzon, and Pfeiffer syndromes",CompositeMention,OMIM:101400|OMIM:123500|OMIM:101600
+9371490,47,62,prostate cancer,SpecificDisease,MESH:D011471
+9371490,64,91,Sporadic prostate carcinoma,SpecificDisease,MESH:D011471
+9371490,111,122,male cancer,DiseaseClass,MESH:D005834
+9371490,230,236,cancer,DiseaseClass,MESH:D009369
+9371490,378,402,sporadic prostate cancer,SpecificDisease,MESH:D011471
+9371490,526,531,tumor,Modifier,MESH:D009369
+9371490,667,682,prostate cancer,Modifier,MESH:D011471
+9371490,710,725,prostate tumors,SpecificDisease,MESH:D011471
+9371490,1065,1071,tumors,DiseaseClass,MESH:D009369
+9371490,1140,1164,sporadic prostate cancer,SpecificDisease,MESH:D011471
+9521421,27,52,mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9521421,173,198,Mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9521421,200,207,MPS IVA,SpecificDisease,OMIM:253000
+9521421,215,261,autosomal recessive lysosomal storage disorder,DiseaseClass,MESH:D016464
+9521421,274,288,genetic defect,DiseaseClass,MESH:D030342
+9521421,476,483,MPS IVA,Modifier,OMIM:253000
+9521421,593,600,MPS IVA,Modifier,OMIM:253000
+9521421,1889,1896,MPS IVA,SpecificDisease,OMIM:253000
+9852676,57,75,myotonic dystrophy,SpecificDisease,MESH:D009223
+9852676,144,162,myotonic dystrophy,Modifier,MESH:D009223
+9852676,164,166,DM,Modifier,MESH:D009223
+9852676,306,308,DM,Modifier,MESH:D009223
+9852676,370,372,DM,Modifier,MESH:D009223
+9852676,524,526,DM,Modifier,MESH:D009223
+9852676,718,720,DM,Modifier,MESH:D009223
+9852676,917,919,DM,Modifier,MESH:D009223
+9852676,1258,1260,DM,SpecificDisease,MESH:D009223
+9852676,1265,1283,Friedreichs ataxia,SpecificDisease,MESH:D005621
+9425228,52,60,melanoma,Modifier,MESH:D008545
+9425228,98,115,Familial Melanoma,Modifier,MESH:D008545
+9425228,208,216,melanoma,Modifier,MESH:D008545
+9425228,321,329,melanoma,Modifier,MESH:D008545
+9425228,949,966,familial melanoma,SpecificDisease,MESH:D008545
+9425228,1010,1018,melanoma,Modifier,MESH:D008545
+9888388,66,91,hereditary coproporphyria,SpecificDisease,MESH:D046349
+9888388,113,138,Hereditary coproporphyria,SpecificDisease,MESH:D046349
+9888388,140,142,HC,SpecificDisease,MESH:D046349
+9888388,156,173,hepatic porphyria,SpecificDisease,MESH:D017094
+9888388,220,272,deficient activity of coproporphyrinogen III oxidase,SpecificDisease,MESH:D046349
+9888388,357,381,neurological dysfunction,DiseaseClass,MESH:D009422
+9888388,450,469,infectious diseases,DiseaseClass,MESH:D003141
+9888388,773,775,HC,Modifier,MESH:D046349
+9888388,1886,1888,HC,SpecificDisease,MESH:D046349
+9888388,1971,1983,gene defects,DiseaseClass,MESH:D030342
+9463309,46,63,anhaptoglobinemia,SpecificDisease,MESH:D000740
+9463309,152,169,anhaptoglobinemia,SpecificDisease,MESH:D000740
+9463309,456,473,anhaptoglobinemia,SpecificDisease,MESH:D000740
+9463309,678,697,hypohaptoglobinemia,SpecificDisease,MESH:D000740
+9463309,879,898,hypohaptoglobinemic,Modifier,MESH:D000740
+9463309,986,1005,hypohaptoglobinemic,Modifier,MESH:D000740
+9463309,1746,1763,anhaptoglobinemia,SpecificDisease,MESH:D000740
+9463309,1871,1890,hypohaptoglobinemia,SpecificDisease,MESH:D000740
+9585611,35,72,attenuated adenomatous polyposis coli,SpecificDisease,MESH:C538265
+9585611,101,106,tumor,Modifier,MESH:D009369
+9585611,140,177,attenuated adenomatous polyposis coli,SpecificDisease,MESH:C538265
+9585611,179,183,AAPC,SpecificDisease,MESH:C538265
+9585611,199,229,familial adenomatous polyposis,SpecificDisease,MESH:D011125
+9585611,231,234,FAP,SpecificDisease,MESH:D011125
+9585611,237,241,AAPC,SpecificDisease,MESH:C538265
+9585611,283,299,colonic adenomas,SpecificDisease,MESH:D018256
+9585611,321,338,colorectal cancer,SpecificDisease,MESH:D015179
+9585611,428,432,AAPC,Modifier,MESH:C538265
+9585611,515,518,APC,Modifier,MESH:D011125
+9585611,569,573,AAPC,Modifier,MESH:C538265
+9585611,653,656,APC,Modifier,MESH:D011125
+9585611,759,762,APC,Modifier,MESH:D011125
+9585611,899,918,colorectal adenomas,SpecificDisease,MESH:D018256
+9585611,1132,1140,adenomas,DiseaseClass,MESH:D000236
+9585611,1260,1264,AAPC,Modifier,MESH:C538265
+9585611,1305,1324,colorectal adenomas,SpecificDisease,MESH:D018256
+9585611,1329,1341,rectal polyp,Modifier,MESH:D011127
+9585611,1367,1381,desmoid tumors,SpecificDisease,MESH:D018222
+9585611,1438,1442,AAPC,Modifier,MESH:C538265
+9585611,1473,1476,APC,Modifier,MESH:D011125
+9585611,1631,1634,FAP,Modifier,MESH:D011125
+9724771,4,7,APC,Modifier,MESH:D011125
+9724771,55,72,colorectal tumors,DiseaseClass,MESH:D015179
+9724771,122,152,familial adenomatous polyposis,SpecificDisease,MESH:D011125
+9724771,154,157,FAP,SpecificDisease,MESH:D011125
+9724771,180,206,autosomal dominant disease,DiseaseClass,MESH:D030342
+9724771,252,285,colorectal adenomas and carcinoma,CompositeMention,MESH:D018256|MESH:D015179
+9724771,336,339,APC,Modifier,MESH:D011125
+9724771,359,362,FAP,SpecificDisease,MESH:D011125
+9724771,366,403,attenuated adenomatous polyposis coli,SpecificDisease,MESH:C538265
+9724771,474,477,APC,Modifier,MESH:D011125
+9724771,484,521,Attenuated adenomatous polyposis coli,Modifier,MESH:C538265
+9724771,549,568,colorectal adenomas,SpecificDisease,MESH:D000236
+9724771,638,641,FAP,SpecificDisease,MESH:D011125
+9724771,683,691,adenomas,DiseaseClass,MESH:D000236
+9724771,716,719,APC,Modifier,MESH:D011125
+9724771,865,868,APC,SpecificDisease,MESH:D011125
+9724771,926,943,colorectal tumors,SpecificDisease,MESH:D015179
+9724771,964,972,adenomas,DiseaseClass,MESH:D000236
+9724771,1041,1077,colorectal adenomas and/or carcinoma,CompositeMention,MESH:D018256|MESH:D015179
+9724771,1126,1129,APC,Modifier,MESH:D011125
+9724771,1392,1428,metaplastic polyps of the colorectum,SpecificDisease,MESH:D003111
+9724771,1502,1505,APC,Modifier,MESH:D011125
+9724771,1558,1591,colorectal adenomas and carcinoma,CompositeMention,MESH:D018256|MESH:D015179
+9724771,1639,1642,FAP,SpecificDisease,MESH:D011125
+9724771,1677,1694,colorectal cancer,SpecificDisease,MESH:D015179
+9585606,4,19,hemochromatosis,Modifier,MESH:D006432
+9585606,96,111,Hemochromatosis,SpecificDisease,MESH:D006432
+9585606,117,154,inherited disorder of iron metabolism,DiseaseClass,MESH:D019189
+9585606,192,205,iron overload,SpecificDisease,MESH:D019190
+9585606,210,225,premature death,SpecificDisease,MESH:D003643
+9585606,231,246,hemochromatosis,Modifier,MESH:D006432
+9585606,473,488,hemochromatosis,SpecificDisease,MESH:D006432
+9703501,77,102,breast and ovarian cancer,Modifier,MESH:D061325
+9703501,463,481,deficient in BRCA1,Modifier,OMIM:604370
+9689113,24,46,von Willebrand disease,SpecificDisease,MESH:D014842
+9689113,74,84,thrombosis,SpecificDisease,MESH:D013927
+9689113,86,124,von Willebrand factor (vWf) deficiency,SpecificDisease,MESH:C531844
+9689113,139,161,von Willebrand disease,SpecificDisease,MESH:D014842
+9689113,242,255,vWf-deficient,Modifier,MESH:C531844
+9689113,353,367,von Willebrand,Modifier,MESH:D014842
+9689113,769,779,thrombosis,SpecificDisease,MESH:D013927
+9689113,835,850,vascular injury,SpecificDisease,MESH:D057772
+9689113,1085,1107,von Willebrand disease,SpecificDisease,MESH:D014842
+9448273,4,27,von Hippel-Lindau tumor,Modifier,MESH:D006623
+9448273,123,152,von Hippel-Lindau (VHL) tumor,Modifier,MESH:D006623
+9448273,215,234,VHL cancer syndrome,SpecificDisease,MESH:D006623
+9448273,258,288,sporadic renal cell carcinomas,SpecificDisease,MESH:D002292
+9448273,290,293,RCC,SpecificDisease,MESH:D002292
+9448273,299,322,brain hemangioblastomas,SpecificDisease,MESH:D018325
+9448273,343,346,RCC,Modifier,MESH:D002292
+9448273,427,430,VHL,SpecificDisease,MESH:D006623
+9448273,571,577,cancer,Modifier,MESH:D009369
+9448273,692,695,VHL,Modifier,MESH:D006623
+9448273,738,748,RCC cancer,Modifier,MESH:D002292
+9448273,851,854,RCC,Modifier,MESH:D002292
+9448273,1007,1010,VHL,SpecificDisease,MESH:D006623
+9448273,1099,1102,VHL,Modifier,MESH:D006623
+9448273,1200,1205,tumor,Modifier,MESH:D009369
+9448273,1270,1273,VHL,SpecificDisease,MESH:D006623
+9448273,1287,1290,VHL,SpecificDisease,MESH:D006623
+9448273,1304,1309,tumor,Modifier,MESH:D009369
+9703418,87,111,complement C9 deficiency,SpecificDisease,OMIM:613825
+9703418,113,166,Deficiency of the ninth component of human complement,SpecificDisease,OMIM:613825
+9703418,191,212,complement deficiency,DiseaseClass,MESH:D007153
+9703418,288,301,C9 deficiency,SpecificDisease,OMIM:613825
+9703418,319,331,C9-deficient,Modifier,OMIM:613825
+9703418,363,387,meningococcal meningitis,SpecificDisease,MESH:D008585
+9703418,517,529,C9-deficient,Modifier,OMIM:613825
+9703418,882,895,C9 deficiency,SpecificDisease,OMIM:613825
+9848786,0,36,Human complement factor H deficiency,SpecificDisease,OMIM:609814
+9848786,53,78,hemolytic uremic syndrome,SpecificDisease,MESH:D006463
+9848786,115,177,deficiency in the human complement regulatory protein Factor H,SpecificDisease,OMIM:609814
+9848786,204,223,acute renal disease,SpecificDisease,MESH:D007674
+9848786,296,321,hemolytic uremic syndrome,SpecificDisease,MESH:D006463
+9848786,323,326,HUS,SpecificDisease,MESH:D006463
+9848786,891,910,Factor H deficiency,SpecificDisease,OMIM:609814
+9848786,923,944,complement deficiency,DiseaseClass,MESH:D007153
+9848786,961,964,HUS,SpecificDisease,MESH:D006463
+9848786,1061,1064,HUS,SpecificDisease,MESH:D006463
+9342365,163,188,breast and ovarian cancer,CompositeMention,MESH:D061325
+9342365,241,246,tumor,Modifier,MESH:D009369
+9342365,1403,1408,tumor,Modifier,MESH:D009369
+9521325,42,77,idiopathic ventricular fibrillation,SpecificDisease,MESH:C537182
+9521325,79,103,Ventricular fibrillation,SpecificDisease,MESH:D014693
+9521325,328,363,idiopathic ventricular fibrillation,SpecificDisease,MESH:C537182
+9521325,365,368,IVF,SpecificDisease,MESH:C537182
+9521325,391,394,IVF,Modifier,MESH:C537182
+9521325,552,564,sudden death,SpecificDisease,MESH:D003645
+9521325,604,607,IVF,SpecificDisease,MESH:C537182
+9521325,640,643,IVF,SpecificDisease,MESH:C537182
+9521325,954,957,IVF,Modifier,MESH:C537182
+9521325,1258,1261,IVF,SpecificDisease,MESH:C537182
+9869602,25,28,APC,Modifier,MESH:D011125
+9869602,98,115,colorectal cancer,SpecificDisease,MESH:D015179
+9869602,204,221,colorectal cancer,Modifier,MESH:D015179
+9869602,272,275,APC,Modifier,MESH:D011125
+9869602,348,365,colorectal cancer,Modifier,MESH:D015179
+9869602,484,501,colorectal cancer,SpecificDisease,MESH:D015179
+9869602,636,645,neoplasia,DiseaseClass,MESH:D009369
+9869602,777,794,colorectal cancer,SpecificDisease,MESH:D015179
+9869602,947,953,cancer,DiseaseClass,MESH:D009369
+9869602,1024,1030,cancer,Modifier,MESH:D009369
+9869602,1037,1057,Colorectal neoplasia,SpecificDisease,MESH:D015179
+9869602,1198,1207,neoplasia,DiseaseClass,MESH:D009369
+9869602,1285,1314,"colorectal, or other, cancers",CompositeMention,MESH:D009369|MESH:D015179
+9869602,1381,1398,colorectal cancer,SpecificDisease,MESH:D015179
+9336417,18,40,ankylosing spondylitis,SpecificDisease,MESH:D013167
+9336417,199,221,ankylosing spondylitis,SpecificDisease,MESH:D013167
+9336417,223,225,AS,SpecificDisease,MESH:D013167
+9336417,248,250,AS,SpecificDisease,MESH:D013167
+9336417,304,322,Rheumatic Diseases,DiseaseClass,MESH:D012216
+9336417,808,810,AS,SpecificDisease,MESH:D013167
+9336417,1512,1514,AS,SpecificDisease,MESH:D013167
+9336417,1693,1695,AS,SpecificDisease,MESH:D013167
+9731533,25,31,cancer,Modifier,MESH:D009369
+9731533,132,162,familial adenomatous polyposis,SpecificDisease,MESH:D011125
+9731533,164,167,FAP,SpecificDisease,MESH:D011125
+9731533,189,216,autosomal dominant disorder,DiseaseClass,MESH:D030342
+9731533,254,260,polyps,DiseaseClass,MESH:D011127
+9731533,316,333,colorectal cancer,SpecificDisease,MESH:D015179
+9731533,335,338,CRC,SpecificDisease,MESH:D015179
+9731533,341,344,APC,SpecificDisease,MESH:D011125
+9731533,401,408,tumours,DiseaseClass,MESH:D009369
+9731533,741,744,CRC,SpecificDisease,MESH:D015179
+9731533,789,795,cancer,DiseaseClass,MESH:D009369
+9731533,880,916,"colorectal, breast and other cancers",CompositeMention,MESH:D001943|MESH:D015179|MESH:D009369
+9465039,4,19,hemochromatosis,Modifier,MESH:D006432
+9465039,185,211,hereditary hemochromatosis,SpecificDisease,MESH:D006432
+9465039,1984,2010,hereditary hemochromatosis,SpecificDisease,MESH:D006432
+9457913,154,191,atrophic benign epidermolysis bullosa,SpecificDisease,MESH:D016109
+9457913,219,256,atrophic benign epidermolysis bullosa,SpecificDisease,MESH:D016109
+9457913,463,500,atrophic benign epidermolysis bullosa,SpecificDisease,MESH:D016109
+9463318,35,53,myotonic dystrophy,Modifier,MESH:D009223
+9463318,318,336,myotonic dystrophy,SpecificDisease,MESH:D009223
+9425239,77,95,myotonic dystrophy,Modifier,MESH:D009223
+9425239,127,145,myotonic dystrophy,SpecificDisease,MESH:D009223
+9425239,147,149,DM,SpecificDisease,MESH:D009223
+9425239,215,217,DM,Modifier,MESH:D009223
+9425239,293,295,DM,Modifier,MESH:D009223
+9425239,963,965,DM,Modifier,MESH:D009223
+9425239,1053,1071,myotonic dystrophy,Modifier,MESH:D009223
+9973276,0,30,Inherited colorectal polyposis,SpecificDisease,MESH:D011125
+9973276,35,41,cancer,Modifier,MESH:D009369
+9973276,129,132,APC,Modifier,MESH:D011125
+9973276,162,178,colorectal tumor,Modifier,MESH:D015179
+9973276,192,231,familial adenomatous polyposis syndrome,SpecificDisease,MESH:D011125
+9973276,364,367,APC,Modifier,MESH:D011125
+9973276,473,476,APC,Modifier,MESH:D011125
+9973276,600,618,adenomatous polyps,SpecificDisease,MESH:D018256
+9973276,627,645,"colorectal cancer,",SpecificDisease,MESH:D015179
+9973276,904,924,colorectal neoplasia,SpecificDisease,MESH:D015179
+9973276,1026,1034,adenomas,DiseaseClass,MESH:D000236
+9973276,1039,1057,colorectal cancers,SpecificDisease,MESH:D015179
+9973276,1179,1186,adenoma,Modifier,MESH:D000236
+9973276,1256,1273,colorectal cancer,SpecificDisease,MESH:D015179
+9973276,1507,1524,colorectal cancer,Modifier,MESH:D015179
+9927033,37,61,hematological malignancy,DiseaseClass,MESH:D019337
+9927033,66,90,neurofibromatosis type 1,SpecificDisease,MESH:D009456
+9927033,166,207,hereditary nonpolyposis colorectal cancer,SpecificDisease,MESH:D003123
+9927033,352,393,hereditary nonpolyposis colorectal cancer,Modifier,MESH:D003123
+9927033,415,439,hematological malignancy,DiseaseClass,MESH:D019337
+9927033,505,529,neurofibromatosis type 1,SpecificDisease,MESH:D009456
+9927033,531,534,NF1,SpecificDisease,MESH:D009456
+9927033,802,810,leukemia,DiseaseClass,MESH:D007938
+9927033,818,826,lymphoma,DiseaseClass,MESH:D008223
+9927033,843,867,neurofibromatosis type 1,SpecificDisease,MESH:D009456
+9800909,56,76,cognitive impairment,DiseaseClass,MESH:D003072
+9800909,80,107,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
+9800909,205,232,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
+9800909,234,237,DMD,SpecificDisease,MESH:D020388
+9800909,288,308,cognitive impairment,DiseaseClass,MESH:D003072
+9800909,326,329,DMD,Modifier,MESH:D020388
+9800909,481,484,DMD,Modifier,MESH:D020388
+9800909,912,932,cognitive impairment,DiseaseClass,MESH:D003072
+9800909,1039,1059,cerebral dysfunction,DiseaseClass,MESH:D001927
+9800909,1168,1171,DMD,Modifier,MESH:D020388
+9800909,1226,1246,cognitive impairment,DiseaseClass,MESH:D003072
+9800909,1263,1266,DMD,SpecificDisease,MESH:D020388
+9861003,105,131,bipolar affective disorder,SpecificDisease,MESH:D001714
+9861003,159,185,Bipolar affective disorder,SpecificDisease,MESH:D001714
+9861003,187,191,BPAD,SpecificDisease,MESH:D001714
+9861003,193,217,manic-depressive illness,SpecificDisease,MESH:D001714
+9861003,251,256,mania,SpecificDisease,MESH:D001714
+9861003,264,273,hypomania,SpecificDisease,MESH:D019964
+9861003,303,313,depression,SpecificDisease,MESH:D003866
+9861003,409,413,BPAD,SpecificDisease,MESH:D001714
+9861003,544,548,BPAD,SpecificDisease,MESH:D001714
+9861003,651,655,BPAD,SpecificDisease,MESH:D001714
+9861003,694,711,genetic disorders,DiseaseClass,MESH:D030342
+9861003,760,780,psychiatric disorder,DiseaseClass,MESH:D001523
+9861003,932,936,BPAD,SpecificDisease,MESH:D001714
+9861003,1484,1488,BPAD,SpecificDisease,MESH:D001714
+9861003,1515,1534,affective disorders,DiseaseClass,MESH:D019964
+932197,0,58,Hereditary deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
+932197,156,214,hereditary deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
+932197,279,307,systemic lupus erythematosus,SpecificDisease,MESH:D008180
+932197,983,996,C5 deficiency,SpecificDisease,OMIM:609536
+932197,1055,1067,C5-deficient,Modifier,OMIM:609536
+932197,1069,1072,C5D,Modifier,OMIM:609536
+932197,1257,1260,C5D,Modifier,OMIM:609536
+932197,1426,1429,C5D,Modifier,OMIM:609536
+932197,1630,1648,glomerulonephritis,SpecificDisease,MESH:D005921
+932197,1650,1660,vasculitis,SpecificDisease,MESH:D014657
+932197,1666,1675,arthritis,DiseaseClass,MESH:D001168
+932197,1769,1789,bacterial infections,DiseaseClass,MESH:D001424
+932197,1916,1919,C5D,Modifier,OMIM:609536
+932197,2034,2052,pyogenic infection,DiseaseClass,MESH:D007239
+9439660,42,63,ataxia-telangiectasia,Modifier,MESH:D001260
+9439660,152,173,ataxia-telangiectasia,Modifier,MESH:D001260
+9439660,175,178,A-T,Modifier,MESH:D001260
+9439660,236,264,autosomal recessive syndrome,DiseaseClass,MESH:D030342
+9439660,381,391,malignancy,DiseaseClass,MESH:D009369
+9439660,455,458,A-T,SpecificDisease,MESH:D001260
+9439660,470,476,cancer,Modifier,MESH:D009369
+9439660,621,624,A-T,Modifier,MESH:D001260
+9439660,647,650,A-T,Modifier,MESH:D001260
+9439660,840,843,A-T,Modifier,MESH:D001260
+9439660,1092,1095,A-T,Modifier,MESH:D001260
+9439660,1199,1228,familial and sporadic cancers,CompositeMention,MESH:D009369
+9439660,1301,1306,tumor,Modifier,MESH:D009369
+9856498,23,36,C6 deficiency,SpecificDisease,OMIM:612446
+9856498,72,125,Deficiency of the sixth component of human complement,SpecificDisease,OMIM:612446
+9856498,210,231,Meningococcal disease,SpecificDisease,MESH:D008589
+9856498,289,302,C6 deficiency,SpecificDisease,OMIM:612446
+9856498,1150,1162,C6-deficient,Modifier,OMIM:612446
+9744473,53,81,metachromatic leukodystrophy,SpecificDisease,MESH:D007966
+9744473,83,112,Deficiency of arylsulfatase A,SpecificDisease,MESH:D007966
+9744473,143,171,metachromatic leukodystrophy,SpecificDisease,MESH:D007966
+9744473,173,176,MLD,SpecificDisease,MESH:D007966
+9744473,227,230,MLD,SpecificDisease,MESH:D007966
+9744473,320,323,MLD,SpecificDisease,MESH:D007966
+9744473,750,753,MLD,SpecificDisease,MESH:D007966
+9450866,0,10,Piebaldism,SpecificDisease,MESH:D016116
+9450866,16,24,deafness,SpecificDisease,MESH:D003638
+9450866,122,132,piebaldism,SpecificDisease,MESH:D016116
+9450866,157,179,sensorineural deafness,SpecificDisease,MESH:D006319
+9450866,330,348,auditory anomalies,DiseaseClass,MESH:D001304
+9450866,431,439,deafness,SpecificDisease,MESH:D003638
+9450866,464,474,piebaldism,SpecificDisease,MESH:D016116
+9450866,500,522,sensorineural deafness,SpecificDisease,MESH:D006319
+9450866,584,594,piebaldism,SpecificDisease,MESH:D016116
+9450866,675,685,piebaldism,SpecificDisease,MESH:D016116
+9450866,711,731,Waardenburg syndrome,SpecificDisease,MESH:D014849
+9497246,78,91,breast cancer,Modifier,MESH:D001943
+9497246,106,119,Breast Cancer,Modifier,MESH:D001943
+9497246,179,202,inherited breast cancer,SpecificDisease,MESH:D001943
+9497246,299,312,breast cancer,SpecificDisease,MESH:D001943
+9497246,331,344,Breast Cancer,Modifier,MESH:D001943
+9497246,424,448,ovarian or other cancers,CompositeMention,MESH:D010051|MESH:D009369
+9497246,681,702,breast-ovarian cancer,Modifier,MESH:D061325
+9497246,810,839,male and female breast cancer,CompositeMention,MESH:D018567|MESH:D001943
+9497246,981,994,breast cancer,SpecificDisease,MESH:D001943
+9497246,1616,1629,breast cancer,SpecificDisease,MESH:D001943
+9497246,1736,1750,ovarian cancer,Modifier,MESH:D010051
+9497246,1863,1876,breast cancer,SpecificDisease,MESH:D001943
+9620771,19,26,obesity,SpecificDisease,MESH:D009765
+9620771,28,49,adrenal insufficiency,DiseaseClass,MESH:D000309
+9620771,398,413,ACTH deficiency,SpecificDisease,OMIM:201400|MESH:C535668
+9620771,702,709,obesity,SpecificDisease,MESH:D009765
+9620771,821,828,obesity,SpecificDisease,MESH:D009765
+9620771,1001,1008,obesity,SpecificDisease,MESH:D009765
+9620771,1041,1056,ACTH deficiency,SpecificDisease,OMIM:201400|MESH:C535668
+9620771,1476,1490,genetic defect,DiseaseClass,MESH:D030342
+9620771,1529,1557,monogenic endocrine disorder,DiseaseClass,MESH:D004700
+9620771,1583,1590,obesity,SpecificDisease,MESH:D009765
+9620771,1592,1613,adrenal insufficiency,DiseaseClass,MESH:D000309
+9420335,4,9,tumor,Modifier,MESH:D009369
+9420335,150,155,tumor,Modifier,MESH:D009369
+9420335,254,272,pancreatic cancers,SpecificDisease,MESH:D010190
+9420335,475,493,Growth retardation,DiseaseClass,MESH:D005317
+9420335,681,700,gastrulation defect,SpecificDisease,MESH:D004194
+9420335,820,839,gastrulation defect,SpecificDisease,MESH:D004194
+9888390,92,120,metachromatic leukodystrophy,SpecificDisease,MESH:D007966
+9888390,239,267,metachromatic leukodystrophy,SpecificDisease,MESH:D007966
+9888390,269,272,MLD,SpecificDisease,MESH:D007966
+9888390,572,575,MLD,Modifier,MESH:D007966
+9888390,1289,1292,MLD,Modifier,MESH:D007966
+9888390,1440,1443,MLD,SpecificDisease,MESH:D007966
+9888390,1557,1560,MLD,Modifier,MESH:D007966
+941901,202,210,melanoma,Modifier,MESH:D008545
+941901,273,292,deficiency of hex A,SpecificDisease,MESH:D013661
+941901,347,364,Tay-Sachs disease,SpecificDisease,MESH:D013661
+941901,366,369,TSD,SpecificDisease,MESH:D013661
+941901,738,741,TSD,Modifier,MESH:D013661
+941901,972,975,TSD,Modifier,MESH:D013661
+941901,1114,1117,TSD,SpecificDisease,MESH:D013661
+941901,1151,1167,hex A deficiency,SpecificDisease,MESH:D013661
+9590284,18,39,Prader-Willi syndrome,SpecificDisease,MESH:D011218
+9590284,283,304,Prader-Willi syndrome,SpecificDisease,MESH:D011218
+9590284,306,309,PWS,SpecificDisease,MESH:D011218
+9590284,373,376,PWS,SpecificDisease,MESH:D011218
+9590284,546,549,PWS,SpecificDisease,MESH:D011218
+9590284,754,757,PWS,Modifier,MESH:D011218
+9457914,74,111,atrophic benign epidermolysis bullosa,SpecificDisease,MESH:D016109
+9457914,185,222,atrophic benign epidermolysis bullosa,SpecificDisease,MESH:D016109
+9457914,252,284,junctional epidermolysis bullosa,SpecificDisease,MESH:D016109
+9457914,303,313,blistering,SpecificDisease,MESH:D001768
+9457914,315,329,nail dystrophy,SpecificDisease,MESH:C538333
+9457914,331,346,patchy alopecia,SpecificDisease,MESH:C531609
+9457914,352,372,dental abnormalities,DiseaseClass,MESH:D014071
+9457914,374,388,Skin fragility,DiseaseClass,MESH:C536183
+9457914,536,573,atrophic benign epidermolysis bullosa,SpecificDisease,MESH:D016109
+9843038,65,90,hereditary coproporphyria,Modifier,MESH:D046349
+9843038,99,124,Hereditary coproporphyria,SpecificDisease,MESH:D046349
+9843038,126,129,HCP,SpecificDisease,MESH:D046349
+9843038,137,163,autosomal dominant disease,DiseaseClass,MESH:D030342
+9843038,183,223,deficiency of coproporphyrinogen oxidase,SpecificDisease,MESH:D046349
+9843038,320,323,HCP,Modifier,MESH:D046349
+993342,105,153,deficiency of the second component of complement,SpecificDisease,OMIM:217000
+993342,257,305,deficiency of the second component of complement,SpecificDisease,OMIM:217000
+993342,453,466,C2 deficiency,SpecificDisease,OMIM:217000
+993342,512,525,C2 deficiency,SpecificDisease,OMIM:217000
+993342,603,616,C2 deficiency,Modifier,OMIM:217000
+993342,734,747,C2 deficiency,SpecificDisease,OMIM:217000
+993342,1337,1350,C2 deficiency,SpecificDisease,OMIM:217000
+993342,1448,1461,C2 deficiency,SpecificDisease,OMIM:217000
+993342,1489,1502,C2 deficiency,SpecificDisease,OMIM:217000
+993342,1666,1679,C2 deficiency,Modifier,OMIM:217000
+9671401,45,59,retinoblastoma,Modifier,MESH:D012175
+9671401,105,110,tumor,Modifier,MESH:D009369
+9671401,282,296,retinoblastoma,Modifier,MESH:D012175
+9671401,354,371,unilateral tumors,DiseaseClass,MESH:D009369
+9671401,800,806,tumors,DiseaseClass,MESH:D009369
+9856499,0,24,Complement C7 deficiency,SpecificDisease,OMIM:610102
+9856499,131,144,C7 deficiency,SpecificDisease,OMIM:610102
+9856499,487,497,C7 defects,SpecificDisease,OMIM:610102
+9529364,74,101,diffuse mesangial sclerosis,SpecificDisease,MESH:C537346
+9529364,356,376,Denys-Drash syndrome,SpecificDisease,MESH:D030321
+9529364,378,381,DDS,SpecificDisease,MESH:D030321
+9529364,387,414,diffuse mesangial sclerosis,SpecificDisease,MESH:C537346
+9529364,416,419,DMS,SpecificDisease,MESH:C537346
+9529364,437,458,pseudohermaphroditism,SpecificDisease,MESH:D012734
+9529364,466,477,Wilms tumor,SpecificDisease,MESH:D009396
+9529364,479,481,WT,SpecificDisease,MESH:D009396
+9529364,502,505,DDS,Modifier,MESH:D030321
+9529364,675,687,isolated DMS,SpecificDisease,MESH:C537346
+9529364,689,693,IDMS,SpecificDisease,MESH:C537346
+9529364,704,707,DDS,SpecificDisease,MESH:D030321
+9529364,720,744,urogenital abnormalities,DiseaseClass,MESH:D014564
+9529364,752,754,WT,SpecificDisease,MESH:D009396
+9529364,834,838,IDMS,SpecificDisease,MESH:C537346
+9529364,864,868,IDMS,Modifier,MESH:C537346
+9529364,953,957,IDMS,SpecificDisease,MESH:C537346
+9529364,996,999,DDS,Modifier,MESH:D030321
+9529364,1058,1062,IDMS,Modifier,MESH:C537346
+9529364,1420,1423,DMS,SpecificDisease,MESH:C537346
+9529364,1449,1452,DMS,SpecificDisease,MESH:C537346
+9391889,25,54,congenital myotonic dystrophy,SpecificDisease,MESH:D009223
+9391889,104,133,congenital myotonic dystrophy,SpecificDisease,MESH:D009223
+9391889,135,137,DM,SpecificDisease,MESH:D009223
+9391889,170,187,mentally retarded,Modifier,MESH:D008607
+9391889,212,229,muscular weakness,DiseaseClass,MESH:D018908
+9391889,337,339,DM,SpecificDisease,MESH:D009223
+9391889,381,383,DM,SpecificDisease,MESH:D009223
+9391889,462,475,congenital DM,SpecificDisease,MESH:D009223
+9391889,558,571,congenital DM,SpecificDisease,MESH:D009223
+9391889,619,621,DM,SpecificDisease,MESH:D009223
+9391889,746,759,congenital DM,SpecificDisease,MESH:D009223
+9391889,946,959,congenital DM,SpecificDisease,MESH:D009223
+9391889,1003,1016,congenital DM,SpecificDisease,MESH:D009223
+9391889,1065,1067,DM,SpecificDisease,MESH:D009223
+9465301,173,190,Angelman syndrome,Modifier,MESH:D017204
+9465301,255,273,uniparental disomy,SpecificDisease,MESH:D024182
+9949197,68,101,Emery-Dreifuss muscular dystrophy,SpecificDisease,MESH:D020389
+9949197,173,206,Emery-Dreifuss muscular dystrophy,SpecificDisease,MESH:D020389
+9949197,208,212,EDMD,SpecificDisease,MESH:D020389
+9949197,1146,1161,cardiac defects,DiseaseClass,MESH:D006330
+9949197,1165,1169,EDMD,SpecificDisease,MESH:D020389
+9949197,1456,1460,EDMD,SpecificDisease,MESH:D020389
+9949197,1685,1689,EDMD,SpecificDisease,MESH:D020389
+9988281,56,87,non-inherited breast carcinomas,SpecificDisease,MESH:D001943
+9988281,125,131,tumour,Modifier,MESH:D009369
+9988281,152,188,hereditary breast and ovarian cancer,CompositeMention,MESH:D061325
+9988281,235,255,non-familial cancers,DiseaseClass,MESH:D009369
+9988281,296,312,sporadic cancers,DiseaseClass,MESH:D009369
+9988281,437,476,non-familial breast and ovarian cancers,CompositeMention,MESH:D001943|MESH:D010051
+9988281,996,1015,breast malignancies,SpecificDisease,MESH:D001943
+9988281,1123,1147,invasive lobular cancers,DiseaseClass,MESH:D018275
+9988281,1152,1179,low-grade ductal carcinomas,SpecificDisease,MESH:D044584
+9988281,1269,1286,ductal carcinomas,SpecificDisease,MESH:D044584
+9988281,1387,1410,sporadic breast cancers,SpecificDisease,MESH:D001943
