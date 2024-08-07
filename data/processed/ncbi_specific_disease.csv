@@ -46,8 +46,8 @@ ID,Start,End,Description,Type,MESH ID
 9241281,214,234,Li-Fraumeni syndrome,SpecificDisease,MESH:D016864
 9241281,507,523,T-cell lymphomas,SpecificDisease,MESH:D016399
 9241281,1366,1390,acute radiation toxicity,SpecificDisease,MESH:D054508
-9218625,19,32,C7 deficiency,SpecificDisease,MESH:C566443
-9218625,82,95,C7 deficiency,SpecificDisease,MESH:C566443
+9218625,19,32,C7 deficiency,SpecificDisease,OMIM:610102
+9218625,82,95,C7 deficiency,SpecificDisease,OMIM:610102
 8931701,111,135,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8931701,141,165,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8931701,167,170,WAS,SpecificDisease,MESH:D014923
@@ -70,9 +70,9 @@ ID,Start,End,Description,Type,MESH ID
 8841191,1237,1250,breast cancer,SpecificDisease,MESH:D001943
 8841191,1734,1758,hereditary breast cancer,SpecificDisease,MESH:D001943
 8678979,117,131,retinoblastoma,SpecificDisease,MESH:D012175
-9182899,37,50,C9 deficiency,SpecificDisease,MESH:C565165
-9182899,959,984,complete deficiency of C9,SpecificDisease,MESH:C565165
-9182899,1064,1077,C9 deficiency,SpecificDisease,MESH:C565165
+9182899,37,50,C9 deficiency,SpecificDisease,OMIM:613825
+9182899,959,984,complete deficiency of C9,SpecificDisease,OMIM:613825
+9182899,1064,1077,C9 deficiency,SpecificDisease,OMIM:613825
 9020847,90,108,Myotonic dystrophy,SpecificDisease,MESH:D009223
 9020847,110,112,DM,SpecificDisease,MESH:D009223
 9174057,53,70,pancreatic cancer,SpecificDisease,MESH:D010190
@@ -81,8 +81,15 @@ ID,Start,End,Description,Type,MESH ID
 9174057,624,641,pancreatic tumors,SpecificDisease,MESH:D010190
 9174057,786,803,pancreatic tumors,SpecificDisease,MESH:D010190
 9174057,861,878,pancreatic cancer,SpecificDisease,MESH:D010190
+9083764,17,59,Schwartz-Jampel chondrodystrophic myotonia,SpecificDisease,OMIM:255800
+9083764,65,89,Schwartz-Jampel syndrome,SpecificDisease,OMIM:255800
+9083764,91,94,SJS,SpecificDisease,OMIM:255800
+9083764,96,122,chondrodystrophic myotonia,SpecificDisease,OMIM:255800
+9083764,255,258,SJS,SpecificDisease,OMIM:255800
+9083764,985,997,SJS  type 1A,SpecificDisease,OMIM:255800
 9083764,1241,1257,Kniest dysplasia,SpecificDisease,MESH:C537208
 9083764,1345,1357,Pyle disease,SpecificDisease,MESH:C536252
+9083764,1495,1498,SJS,SpecificDisease,OMIM:255800
 8636252,0,29,X-linked adrenoleukodystrophy,SpecificDisease,MESH:D000326
 8636252,64,81,Addison's disease,SpecificDisease,MESH:D000224
 8636252,112,141,X-Linked adrenoleukodystrophy,SpecificDisease,MESH:D000326
@@ -136,17 +143,19 @@ ID,Start,End,Description,Type,MESH ID
 8670333,1257,1260,FMF,SpecificDisease,MESH:D010505
 9144525,337,381,Deficiency of terminal complement components,SpecificDisease,MESH:D007153
 9144525,421,441,neisseria infections,SpecificDisease,MESH:D016870
-9144525,495,518,inherited C9 deficiency,SpecificDisease,MESH:C565165
-9144525,553,566,C9 deficiency,SpecificDisease,MESH:C565165
-9144525,658,671,C9 deficiency,SpecificDisease,MESH:C565165
-9144525,989,1002,C9 deficiency,SpecificDisease,MESH:C565165
+9144525,495,518,inherited C9 deficiency,SpecificDisease,OMIM:613825
+9144525,553,566,C9 deficiency,SpecificDisease,OMIM:613825
+9144525,658,671,C9 deficiency,SpecificDisease,OMIM:613825
+9144525,989,1002,C9 deficiency,SpecificDisease,OMIM:613825
 9222760,124,146,Classical galactosemia,SpecificDisease,MESH:D005693
 9222760,616,638,classical galactosemia,SpecificDisease,MESH:D005693
 9222760,1132,1144,galactosemia,SpecificDisease,MESH:D005693
-9056547,102,130,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-9056547,283,311,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-9056547,313,316,PMD,SpecificDisease,MESH:D020371
-9056547,567,570,PMD,SpecificDisease,MESH:D020371
+9056547,102,130,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+9056547,283,311,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+9056547,313,316,PMD,SpecificDisease,OMIM:312080
+9056547,466,493,X-linked spastic paraplegia,SpecificDisease,OMIM:312920
+9056547,495,498,SPG,SpecificDisease,OMIM:312920
+9056547,567,570,PMD,SpecificDisease,OMIM:312080
 8790412,39,64,alveolar rhabdomyosarcoma,SpecificDisease,MESH:D018232
 8790412,100,135,Pediatric alveolar rhabdomyosarcoma,SpecificDisease,MESH:D018232
 9090524,132,145,kidney cancer,SpecificDisease,MESH:D007680
@@ -178,6 +187,7 @@ ID,Start,End,Description,Type,MESH ID
 9145677,1316,1330,breast cancers,SpecificDisease,MESH:D001943
 9145677,1460,1474,ovarian cancer,SpecificDisease,MESH:D010051
 9145677,1518,1531,breast cancer,SpecificDisease,MESH:D001943
+9271438,229,260,clear-cell renal cell carcinoma,SpecificDisease,DOID:4467
 9271438,262,265,RCC,SpecificDisease,MESH:D002292
 9271438,1831,1856,von Hippel-Lindau disease,SpecificDisease,MESH:D006623
 9271438,1861,1864,RCC,SpecificDisease,MESH:D002292
@@ -189,7 +199,9 @@ ID,Start,End,Description,Type,MESH ID
 8666397,206,230,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8666397,1012,1036,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8789439,20,34,Norrie disease,SpecificDisease,MESH:C537849
+8789439,36,38,ND,SpecificDisease,MESH:C537849
 8789439,159,173,Norrie disease,SpecificDisease,MESH:C537849
+8789439,175,177,ND,SpecificDisease,MESH:C537849
 8659522,259,277,Huntington disease,SpecificDisease,MESH:D006816
 8659522,279,281,HD,SpecificDisease,MESH:D006816
 8659522,1421,1423,HD,SpecificDisease,MESH:D006816
@@ -198,11 +210,14 @@ ID,Start,End,Description,Type,MESH ID
 8894695,67,141,Complete hypoxanthine-guanine phosphoribosyl-transferase (HPRT) deficiency,SpecificDisease,MESH:D007926
 8894695,167,187,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 8894695,396,416,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
+8894695,552,570,deficiency of APRT,SpecificDisease,OMIM:102600
 8894695,591,606,HPRT-deficiency,SpecificDisease,MESH:D007926
+8894695,921,936,APRT deficiency,SpecificDisease,OMIM:102600
 8894695,1191,1211,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 8673132,84,92,myopathy,SpecificDisease,MESH:D009135
 8673132,94,112,Myotonic dystrophy,SpecificDisease,MESH:D009223
 8673132,114,116,DM,SpecificDisease,MESH:D009223
+8673132,330,344,Dmpk deficient,SpecificDisease,OMIM:160900
 8673132,395,424,progressive skeletal myopathy,SpecificDisease,MESH:D009135
 8673132,469,471,DM,SpecificDisease,MESH:D009223
 8673132,538,556,fibre degeneration,SpecificDisease,MESH:D020966
@@ -239,7 +254,7 @@ ID,Start,End,Description,Type,MESH ID
 8931695,267,288,diastrophic dysplasia,SpecificDisease,MESH:C536170
 8931695,296,319,atelosteogenesis type 2,SpecificDisease,MESH:C535395
 8931695,321,324,AO2,SpecificDisease,MESH:C535395
-8931695,407,430,DTDST chondrodysplasias,SpecificDisease,MESH:C536170
+8931695,407,430,DTDST chondrodysplasias,SpecificDisease,OMIM:222600
 8931695,537,541,AO-2,SpecificDisease,MESH:C535395
 8931695,597,600,AO2,SpecificDisease,MESH:C535395
 8931695,872,875,AO2,SpecificDisease,MESH:C535395
@@ -254,8 +269,8 @@ ID,Start,End,Description,Type,MESH ID
 8673131,777,785,myotonia,SpecificDisease,MESH:D009222
 8673131,787,795,cataract,SpecificDisease,MESH:D002386
 8673131,800,816,male-infertility,SpecificDisease,MESH:D007248
-8871666,19,62,combined subtotal deficiencies of C6 and C7,SpecificDisease,MESH:C566443
-8871666,128,169,Combined subtotal deficiency of C6 and C7,SpecificDisease,MESH:C566443
+8871666,19,62,combined subtotal deficiencies of C6 and C7,SpecificDisease,OMIM:612446|OMIM:610102
+8871666,128,169,Combined subtotal deficiency of C6 and C7,SpecificDisease,OMIM:612446|OMIM:610102
 9019400,98,111,breast cancer,SpecificDisease,MESH:D001943
 9019400,503,516,breast cancer,SpecificDisease,MESH:D001943
 9019400,554,571,breast carcinomas,SpecificDisease,MESH:D001943
@@ -277,19 +292,28 @@ ID,Start,End,Description,Type,MESH ID
 8828602,17,32,phenylketonuria,SpecificDisease,MESH:D010661
 8828602,44,59,phenylketonuria,SpecificDisease,MESH:D010661
 8828602,61,64,PKU,SpecificDisease,MESH:D010661
-8828602,113,160,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+8828602,113,160,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 8828602,217,220,PKU,SpecificDisease,MESH:D010661
 8828602,1017,1020,PKU,SpecificDisease,MESH:D010661
 8682510,0,24,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8682510,259,262,WAS,SpecificDisease,MESH:D014923
-8682510,287,312,X-linked thrombocytopenia,SpecificDisease,MESH:C564052
+8682510,287,312,X-linked thrombocytopenia,SpecificDisease,OMIM:313900
+8954016,27,69,hyperparathyroidism and jaw tumor syndrome,SpecificDisease,OMIM:145001
+8954016,86,102,renal hamartomas,SpecificDisease,MESH:D007674|MESH:D006222
+8954016,186,202,renal hamartomas,SpecificDisease,MESH:D007674|MESH:D006222
+8954016,204,253,Hereditary hyperparathyroidism-jaw tumor syndrome,SpecificDisease,OMIM:145001
+8954016,255,261,HPT-JT,SpecificDisease,OMIM:145001
+8954016,413,428,HPT-JT syndrome,SpecificDisease,OMIM:145001
+8954016,576,591,HPT-JT syndrome,SpecificDisease,OMIM:145001
 8954016,690,693,HPT,SpecificDisease,MESH:D006961
 8954016,698,700,JT,SpecificDisease,MESH:D007573
 8954016,770,772,JT,SpecificDisease,MESH:D007573
 8954016,865,890,polycystic kidney disease,SpecificDisease,MESH:D007690
 8954016,1026,1037,primary HPT,SpecificDisease,MESH:D049950
+8954016,1688,1704,renal hamartomas,SpecificDisease,MESH:D007674|MESH:D006222
 8954016,1772,1781,jaw tumor,SpecificDisease,MESH:D007573
 8954016,1788,1805,parathyroid tumor,SpecificDisease,MESH:D010282
+8954016,1834,1850,renal hamartomas,SpecificDisease,MESH:D007674|MESH:D006222
 8692963,460,472,galactosemia,SpecificDisease,MESH:D005693
 8692963,1578,1590,galactosemia,SpecificDisease,MESH:D005693
 8968716,1324,1337,breast cancer,SpecificDisease,MESH:D001943
@@ -339,13 +363,13 @@ ID,Start,End,Description,Type,MESH ID
 8625410,305,308,WAS,SpecificDisease,MESH:D014923
 8625410,936,939,WAS,SpecificDisease,MESH:D014923
 9272171,0,39,Adult onset globoid cell leukodystrophy,SpecificDisease,MESH:D007965
-9272171,41,55,Krabbe disease,SpecificDisease,MESH:D007965
+9272171,41,55,Krabbe disease,SpecificDisease,OMIM:245200
 9272171,201,240,adult onset globoid cell leukodystrophy,SpecificDisease,MESH:D007965
-9272171,242,256,Krabbe disease,SpecificDisease,MESH:D007965
+9272171,242,256,Krabbe disease,SpecificDisease,OMIM:245200
 9272171,258,264,AO-GLD,SpecificDisease,MESH:D007965
 9272171,1674,1680,IF-GLD,SpecificDisease,MESH:D007965
 9272171,1779,1782,GLD,SpecificDisease,MESH:D007965
-9144439,95,130,insulin-dependent diabetes mellitus,SpecificDisease,MESH:C565100
+9144439,95,130,insulin-dependent diabetes mellitus,SpecificDisease,OMIM:125852
 9144439,422,426,IDDM,SpecificDisease,MESH:D003922
 9144439,465,469,IDDM,SpecificDisease,MESH:D003922
 9144439,610,614,IDDM,SpecificDisease,MESH:D003922
@@ -353,13 +377,15 @@ ID,Start,End,Description,Type,MESH ID
 9144439,720,724,IDDM,SpecificDisease,MESH:D003922
 9144439,944,948,IDDM,SpecificDisease,MESH:D003922
 9144439,1108,1112,IDDM,SpecificDisease,MESH:D003922
-8892662,23,47,complement C7 deficiency,SpecificDisease,MESH:C566443
-8892662,49,73,Complement C7 deficiency,SpecificDisease,MESH:C566443
-8892662,75,78,C7D,SpecificDisease,MESH:C566443
+8845838,1346,1362,VLCAD deficiency,SpecificDisease,OMIM:201475
+8845838,1471,1487,VLCAD deficiency,SpecificDisease,OMIM:201475
+8892662,23,47,complement C7 deficiency,SpecificDisease,OMIM:610102
+8892662,49,73,Complement C7 deficiency,SpecificDisease,OMIM:610102
+8892662,75,78,C7D,SpecificDisease,OMIM:610102
 8892662,174,196,Neisseria meningitidis,SpecificDisease,MESH:D008589
-8892662,244,247,C7D,SpecificDisease,MESH:C566443
-8892662,1030,1033,C7D,SpecificDisease,MESH:C566443
-8892662,1091,1094,C7D,SpecificDisease,MESH:C566443
+8892662,244,247,C7D,SpecificDisease,OMIM:610102
+8892662,1030,1033,C7D,SpecificDisease,OMIM:610102
+8892662,1091,1094,C7D,SpecificDisease,OMIM:610102
 8622978,88,119,type IID von Willebrand disease,SpecificDisease,MESH:D056728
 8622978,260,291,type IID von Willebrand disease,SpecificDisease,MESH:D056728
 8622978,1405,1436,type IID von Willebrand disease,SpecificDisease,MESH:D056728
@@ -387,13 +413,13 @@ ID,Start,End,Description,Type,MESH ID
 10194428,1312,1327,hemochromatosis,SpecificDisease,MESH:D006432
 10196379,1257,1271,ovarian cancer,SpecificDisease,MESH:D010051
 10021369,1090,1096,cancer,SpecificDisease,MESH:D009369
-100562,0,58,Familial deficiency of the seventh component of complement,SpecificDisease,MESH:C566443
+100562,0,58,Familial deficiency of the seventh component of complement,SpecificDisease,OMIM:610102
 100562,183,216,disseminated gonococcal infection,SpecificDisease,MESH:D004673
 100562,234,258,meningococcal meningitis,SpecificDisease,MESH:D008585
-100562,898,920,Complete absence of C7,SpecificDisease,MESH:C566443
+100562,898,920,Complete absence of C7,SpecificDisease,OMIM:610102
 100562,984,1008,meningococcal meningitis,SpecificDisease,MESH:D008585
-100562,1196,1209,C7 deficiency,SpecificDisease,MESH:C566443
-100562,1292,1305,C7 deficiency,SpecificDisease,MESH:C566443
+100562,1196,1209,C7 deficiency,SpecificDisease,OMIM:610102
+100562,1292,1305,C7 deficiency,SpecificDisease,OMIM:610102
 100562,1428,1459,bacteremic neisseria infections,SpecificDisease,MESH:D016870
 10078749,44,66,oromandibular dystonia,SpecificDisease,MESH:D008538
 10078749,146,168,oromandibular dystonia,SpecificDisease,MESH:D008538
@@ -426,17 +452,17 @@ ID,Start,End,Description,Type,MESH ID
 10190819,1546,1558,cerebral ALD,SpecificDisease,MESH:D000326
 10190819,2533,2536,ALD,SpecificDisease,MESH:D000326
 10190819,2650,2653,ALD,SpecificDisease,MESH:D000326
-6859721,0,46,Absence of the seventh component of complement,SpecificDisease,MESH:C566443
+6859721,0,46,Absence of the seventh component of complement,SpecificDisease,OMIM:610102
 6859721,65,88,chronic meningococcemia,SpecificDisease,MESH:D008589
 6859721,103,113,vasculitis,SpecificDisease,MESH:D014657
 6859721,168,173,fever,SpecificDisease,MESH:D005334
 6859721,175,184,arthritis,SpecificDisease,MESH:D001168
 6859721,190,210,cutaneous vasculitis,SpecificDisease,MESH:D018366
 6859721,229,252,chronic meningococcemia,SpecificDisease,MESH:D008589
-6859721,367,416,deficiency of the seventh component of complement,SpecificDisease,MESH:C566443
-6859721,493,509,deficiency of C7,SpecificDisease,MESH:C566443
+6859721,367,416,deficiency of the seventh component of complement,SpecificDisease,OMIM:610102
+6859721,493,509,deficiency of C7,SpecificDisease,OMIM:610102
 6859721,527,555,Chronic neisserial infection,SpecificDisease,MESH:D016870
-6859721,579,592,C7 deficiency,SpecificDisease,MESH:C566443
+6859721,579,592,C7 deficiency,SpecificDisease,OMIM:610102
 6859721,640,660,cutaneous vasculitis,SpecificDisease,MESH:D018366
 10071185,40,82,dihydropyrimidine dehydrogenase deficiency,SpecificDisease,MESH:D054067
 10071185,84,132,Dihydropyrimidine dehydrogenase (DPD) deficiency,SpecificDisease,MESH:D054067
@@ -459,18 +485,18 @@ ID,Start,End,Description,Type,MESH ID
 10471457,1824,1848,microvesicular steatosis,SpecificDisease,MESH:D005234
 10471457,1950,1976,hereditary hemochromatosis,SpecificDisease,MESH:D006432
 10471457,2252,2267,hemochromatosis,SpecificDisease,MESH:D006432
-7574457,58,86,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-7574457,88,116,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-7574457,323,351,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-7574457,775,803,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-7574457,1202,1230,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
+7574457,58,86,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+7574457,88,116,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+7574457,323,351,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+7574457,775,803,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+7574457,1202,1230,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
 10466420,97,118,diastrophic dysplasia,SpecificDisease,MESH:C536170
 10466420,262,283,diastrophic dysplasia,SpecificDisease,MESH:C536170
 10466420,431,451,metatropic dysplasia,SpecificDisease,MESH:C537356
-1676565,44,72,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-1676565,270,307,X-linked Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-1676565,309,312,PMD,SpecificDisease,MESH:D020371
-1676565,643,646,PMD,SpecificDisease,MESH:D020371
+1676565,44,72,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+1676565,270,307,X-linked Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+1676565,309,312,PMD,SpecificDisease,OMIM:312080
+1676565,643,646,PMD,SpecificDisease,OMIM:312080
 1776638,0,16,Gardner syndrome,SpecificDisease,MESH:D005736
 1776638,122,138,Gardner syndrome,SpecificDisease,MESH:D005736
 1776638,140,142,GS,SpecificDisease,MESH:D005736
@@ -484,7 +510,7 @@ ID,Start,End,Description,Type,MESH ID
 1577763,688,708,type I C2 deficiency,SpecificDisease,OMIM:217000
 1577763,1343,1380,type I human complement C2 deficiency,SpecificDisease,OMIM:217000
 1577763,1815,1836,type II C2 deficiency,SpecificDisease,OMIM:217000
-10767339,20,35,FMR1 deficiency,SpecificDisease,MESH:D005600
+10767339,20,35,FMR1 deficiency,SpecificDisease,OMIM:300624
 10767339,92,110,Fragile X syndrome,SpecificDisease,MESH:D005600
 10767339,375,389,macroorchidism,SpecificDisease,MESH:D005600
 10767339,541,559,fragile X syndrome,SpecificDisease,MESH:D005600
@@ -554,7 +580,7 @@ ID,Start,End,Description,Type,MESH ID
 1409710,1271,1300,von Willebrand disease type B,SpecificDisease,MESH:D014842
 8554067,387,405,male breast cancer,SpecificDisease,MESH:D018567
 8554067,1154,1177,breast-ovarian syndrome,SpecificDisease,MESH:D061325
-8244393,496,555,autosomal recessive disease glucose/galactose malabsorption,SpecificDisease,MESH:C562602
+8244393,496,555,autosomal recessive disease glucose/galactose malabsorption,SpecificDisease,OMIM:606824
 1384323,103,138,Deficiency of beta-hexosaminidase A,SpecificDisease,MESH:D013661
 1384323,177,194,Tay-Sachs disease,SpecificDisease,MESH:D013661
 1384323,234,252,deficient in Hex A,SpecificDisease,MESH:D013661
@@ -587,6 +613,7 @@ ID,Start,End,Description,Type,MESH ID
 8188241,61,73,Alkaptonuria,SpecificDisease,MESH:D000474
 8188241,75,78,AKU,SpecificDisease,MESH:D000474
 8188241,353,363,Ochronosis,SpecificDisease,MESH:D009794
+8188241,431,453,ochronotic arthropathy,SpecificDisease,MESH:D009794|MESH:D007592
 8188241,544,556,alkaptonuria,SpecificDisease,MESH:D000474
 1317264,30,60,familial adenomatous polyposis,SpecificDisease,MESH:D011125
 1317264,82,96,gastric cancer,SpecificDisease,MESH:D013274
@@ -596,10 +623,10 @@ ID,Start,End,Description,Type,MESH ID
 1317264,476,490,gastric cancer,SpecificDisease,MESH:D013274
 1317264,531,546,gastric cancers,SpecificDisease,MESH:D013274
 1317264,1104,1119,gastric cancers,SpecificDisease,MESH:D013274
-10083734,106,159,Deficiency of the ninth component of human complement,SpecificDisease,MESH:C565165
-10083734,341,354,C9 deficiency,SpecificDisease,MESH:C565165
-10083734,486,499,C9 deficiency,SpecificDisease,MESH:C565165
-10083734,1184,1197,C9 deficiency,SpecificDisease,MESH:C565165
+10083734,106,159,Deficiency of the ninth component of human complement,SpecificDisease,OMIM:613825
+10083734,341,354,C9 deficiency,SpecificDisease,OMIM:613825
+10083734,486,499,C9 deficiency,SpecificDisease,OMIM:613825
+10083734,1184,1197,C9 deficiency,SpecificDisease,OMIM:613825
 2760209,129,149,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 2760209,151,207,hypoxanthine phosphoribosyltransferase [HPRT] deficiency,SpecificDisease,MESH:D007926
 10323252,79,121,X-linked Emery-Dreifuss muscular dystrophy,SpecificDisease,MESH:D020389
@@ -615,11 +642,11 @@ ID,Start,End,Description,Type,MESH ID
 10323252,1564,1568,EDMD,SpecificDisease,MESH:D020389
 7795653,213,252,non-hereditary (sporadic) breast cancer,SpecificDisease,MESH:D001943
 7795653,808,821,breast cancer,SpecificDisease,MESH:D001943
-10827108,58,86,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-10827108,275,303,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-10827108,305,308,PMD,SpecificDisease,MESH:D020371
-10827108,374,377,PMD,SpecificDisease,MESH:D020371
-10827108,894,897,PMD,SpecificDisease,MESH:D020371
+10827108,58,86,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+10827108,275,303,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+10827108,305,308,PMD,SpecificDisease,OMIM:312080
+10827108,374,377,PMD,SpecificDisease,OMIM:312080
+10827108,894,897,PMD,SpecificDisease,OMIM:312080
 1975560,90,108,myotonic dystrophy,SpecificDisease,MESH:D009223
 1975560,261,279,myotonic dystrophy,SpecificDisease,MESH:D009223
 1975560,281,283,DM,SpecificDisease,MESH:D009223
@@ -644,9 +671,12 @@ ID,Start,End,Description,Type,MESH ID
 10802667,1168,1183,SIX5 deficiency,SpecificDisease,MESH:D030342
 10802667,1225,1243,myotonic dystrophy,SpecificDisease,MESH:D009223
 10802667,1254,1272,myotonic dystrophy,SpecificDisease,MESH:D009223
+1999552,11,27,deficiency of C5,SpecificDisease,OMIM:609536
 1999552,48,75,discoid lupus erythematosus,SpecificDisease,MESH:D008179
 1999552,102,129,discoid lupus erythematosus,SpecificDisease,MESH:D008179
+1999552,224,240,deficiency of C5,SpecificDisease,OMIM:609536
 1999552,359,386,discoid lupus erythematosus,SpecificDisease,MESH:D008179
+1999552,391,404,C5 deficiency,SpecificDisease,OMIM:609536
 10818206,109,137,familial mediterranean fever,SpecificDisease,MESH:D010505
 10818206,139,167,Familial Mediterranean fever,SpecificDisease,MESH:D010505
 10818206,169,172,FMF,SpecificDisease,MESH:D010505
@@ -718,13 +748,13 @@ ID,Start,End,Description,Type,MESH ID
 3718019,228,263,complement factor 2 (C2) deficiency,SpecificDisease,OMIM:217000
 3718019,346,359,C2 deficiency,SpecificDisease,OMIM:217000
 3718019,511,524,C2 deficiency,SpecificDisease,OMIM:217000
-2963536,10,23,C3 deficiency,SpecificDisease,MESH:C565169
+2963536,10,23,C3 deficiency,SpecificDisease,OMIM:613779
 2963536,54,72,glomerulonephritis,SpecificDisease,MESH:D005921
-2963536,115,162,deficiency of the third component of complement,SpecificDisease,MESH:C565169
+2963536,115,162,deficiency of the third component of complement,SpecificDisease,OMIM:613779
 2963536,583,592,pneumonia,SpecificDisease,MESH:D011014
 2963536,697,730,mesangiopathic glomerulonephritis,SpecificDisease,MESH:D005921
-2963536,865,878,C3 deficiency,SpecificDisease,MESH:C565169
-2963536,1045,1058,C3 deficiency,SpecificDisease,MESH:C565169
+2963536,865,878,C3 deficiency,SpecificDisease,OMIM:613779
+2963536,1045,1058,C3 deficiency,SpecificDisease,OMIM:613779
 7586656,113,133,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 7586656,274,296,HPRT enzyme deficiency,SpecificDisease,MESH:D007926
 7586656,307,327,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
@@ -762,15 +792,15 @@ ID,Start,End,Description,Type,MESH ID
 10417286,126,138,cleft palate,SpecificDisease,MESH:D002972
 10417286,156,178,van der Woude syndrome,SpecificDisease,MESH:C536528
 10417286,180,183,VWS,SpecificDisease,MESH:C536528
-10417286,278,294,cleft lip/palate,SpecificDisease,MESH:D002972
-10417286,296,300,CL/P,SpecificDisease,MESH:D002972
+10417286,278,294,cleft lip/palate,SpecificDisease,MESH:D002971|MESH:D002972
+10417286,296,300,CL/P,SpecificDisease,MESH:D002971|MESH:D002972
 10417286,303,315,cleft palate,SpecificDisease,MESH:D002972
 10417286,317,319,CP,SpecificDisease,MESH:D002972
 10417286,322,333,bifid uvula,SpecificDisease,MESH:C531732
 10417286,339,349,hypodontia,SpecificDisease,MESH:D000848
 10417286,351,352,H,SpecificDisease,MESH:D000848
 10417286,373,376,VWS,SpecificDisease,MESH:C536528
-10417286,454,458,CL/P,SpecificDisease,MESH:D002972
+10417286,454,458,CL/P,SpecificDisease,MESH:D002971|MESH:D002972
 10417286,463,465,CP,SpecificDisease,MESH:D002972
 10417286,524,526,CP,SpecificDisease,MESH:D002972
 10417286,550,553,VWS,SpecificDisease,MESH:C536528
@@ -790,16 +820,17 @@ ID,Start,End,Description,Type,MESH ID
 2215607,2000,2025,premature atherosclerosis,SpecificDisease,MESH:D050197
 2215607,2047,2062,CETP deficiency,SpecificDisease,OMIM:143470
 2215607,2113,2128,CETP deficiency,SpecificDisease,OMIM:143470
-7523157,11,60,deficiency of the seventh component of complement,SpecificDisease,MESH:C566443
+7523157,11,60,deficiency of the seventh component of complement,SpecificDisease,OMIM:610102
 7523157,75,98,meningococcal infection,SpecificDisease,MESH:D008589
 7523157,222,262,Terminal complement component deficiency,SpecificDisease,MESH:D007153
 7523157,278,301,meningococcal infection,SpecificDisease,MESH:D008589
 7523157,424,447,meningococcal infection,SpecificDisease,MESH:D008589
 7523157,501,531,terminal complement deficiency,SpecificDisease,MESH:D007153
-7523157,577,636,completely deficient in the seventh component of complement,SpecificDisease,MESH:C566443
-7523157,934,946,C7 deficient,SpecificDisease,MESH:C566443
+7523157,577,636,completely deficient in the seventh component of complement,SpecificDisease,OMIM:610102
+7523157,934,946,C7 deficient,SpecificDisease,OMIM:610102
 7523157,1074,1097,meningococcal infection,SpecificDisease,MESH:D008589
 3162536,185,188,DMD,SpecificDisease,MESH:D020388
+3162536,192,195,BMD,SpecificDisease,MESH:C537666
 3162536,664,667,DMD,SpecificDisease,MESH:D020388
 10631148,106,131,hereditary retinoblastoma,SpecificDisease,MESH:D012175
 10631148,433,458,hereditary retinoblastoma,SpecificDisease,MESH:D012175
@@ -834,7 +865,7 @@ ID,Start,End,Description,Type,MESH ID
 10636421,467,471,XLRS,SpecificDisease,MESH:D041441
 10636421,1224,1228,XLRS,SpecificDisease,MESH:D041441
 10636421,1555,1559,XLRS,SpecificDisease,MESH:D041441
-10429004,94,130,phenylalanine hydroxylase deficiency,SpecificDisease,MESH:D010661
+10429004,94,130,phenylalanine hydroxylase deficiency,SpecificDisease,OMIM:261600
 10429004,332,356,maternal phenylketonuria,SpecificDisease,MESH:D017042
 10429004,358,361,PKU,SpecificDisease,MESH:D010661
 10429004,758,761,PKU,SpecificDisease,MESH:D010661
@@ -849,12 +880,12 @@ ID,Start,End,Description,Type,MESH ID
 10429004,2417,2420,PKU,SpecificDisease,MESH:D010661
 1380672,14,29,hypomyelination,SpecificDisease,MESH:D003711
 1380672,34,50,glial cell death,SpecificDisease,MESH:D004194
-1380672,462,490,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
+1380672,462,490,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
 1380672,620,635,hypomyelination,SpecificDisease,MESH:D003711
 1380672,831,847,myelin-deficient,SpecificDisease,MESH:D003711
 1380672,937,952,Hypomyelination,SpecificDisease,MESH:D003711
 1380672,1010,1038,oligodendrocyte degeneration,SpecificDisease,MESH:D056784
-1380672,1228,1256,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
+1380672,1228,1256,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
 10594001,70,82,Alkaptonuria,SpecificDisease,MESH:D000474
 10594001,84,87,AKU,SpecificDisease,MESH:D000474
 8441467,94,114,Adrenoleukodystrophy,SpecificDisease,MESH:D000326
@@ -876,6 +907,9 @@ ID,Start,End,Description,Type,MESH ID
 10618304,300,303,IVF,SpecificDisease,MESH:C537182
 10618304,806,809,IVF,SpecificDisease,MESH:C537182
 10618304,1689,1692,IVF,SpecificDisease,MESH:C537182
+10369876,0,64,Autosomal recessive familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+10369876,127,171,Familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+10369876,249,286,arginine vasopressin (AVP) deficiency,SpecificDisease,OMIM:125700
 10369876,627,662,neurohypophyseal diabetes insipidus,SpecificDisease,MESH:D020790
 2575483,19,27,aniridia,SpecificDisease,MESH:D015783
 2575483,157,165,aniridia,SpecificDisease,MESH:D015783
@@ -906,8 +940,8 @@ ID,Start,End,Description,Type,MESH ID
 10470088,372,399,sporadic colorectal cancers,SpecificDisease,MESH:D015179
 10470088,808,827,colorectal adenomas,SpecificDisease,MESH:D000236
 10470088,1268,1280,FAP desmoids,SpecificDisease,MESH:D018222
-7769092,986,1002,VLCAD deficiency,SpecificDisease,MESH:C536353
-7769092,1145,1161,VLCAD deficiency,SpecificDisease,MESH:C536353
+7769092,986,1002,VLCAD deficiency,SpecificDisease,OMIM:201475
+7769092,1145,1161,VLCAD deficiency,SpecificDisease,OMIM:201475
 7769092,1226,1253,hypertrophic cardiomyopathy,SpecificDisease,MESH:D002312
 1282899,276,296,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 1282899,309,378,complete deficiency of hypoxanthine guanine phosphoribosyltransferase,SpecificDisease,MESH:D007926
@@ -959,7 +993,7 @@ ID,Start,End,Description,Type,MESH ID
 2884570,39,54,phenylketonuria,SpecificDisease,MESH:D010661
 2884570,106,121,Phenylketonuria,SpecificDisease,MESH:D010661
 2884570,123,126,PKU,SpecificDisease,MESH:D010661
-2884570,189,236,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+2884570,189,236,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 2884570,292,295,PKU,SpecificDisease,MESH:D010661
 2884570,472,475,PKU,SpecificDisease,MESH:D010661
 8258524,162,189,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
@@ -1022,6 +1056,7 @@ ID,Start,End,Description,Type,MESH ID
 7964884,329,359,cerebrotendinous xanthomatosis,SpecificDisease,MESH:D019294
 7964884,361,364,CTX,SpecificDisease,MESH:D019294
 7964884,1563,1566,CTX,SpecificDisease,MESH:D019294
+102474,298,311,C6 deficiency,SpecificDisease,OMIM:612446
 2651669,28,51,Langer-Giedion syndrome,SpecificDisease,MESH:D015826
 2651669,270,293,Langer-Giedion syndrome,SpecificDisease,MESH:D015826
 2651669,295,298,LGS,SpecificDisease,MESH:D015826
@@ -1068,13 +1103,13 @@ ID,Start,End,Description,Type,MESH ID
 1345170,64,85,diastrophic dysplasia,SpecificDisease,MESH:C536170
 1345170,634,655,diastrophic dysplasia,SpecificDisease,MESH:C536170
 1345170,657,660,DTD,SpecificDisease,MESH:C536170
-10615125,68,97,familial expansile osteolysis,SpecificDisease,MESH:C536335
-10615125,99,128,Familial expansile osteolysis,SpecificDisease,MESH:C536335
-10615125,130,133,FEO,SpecificDisease,MESH:C536335
+10615125,68,97,familial expansile osteolysis,SpecificDisease,OMIM:174810
+10615125,99,128,Familial expansile osteolysis,SpecificDisease,OMIM:174810
+10615125,130,133,FEO,SpecificDisease,OMIM:174810
 10615125,223,249,increased bone remodelling,SpecificDisease,MESH:D001847
 10615125,255,273,osteolytic lesions,SpecificDisease,MESH:D030981
-10615125,451,454,FEO,SpecificDisease,MESH:C536335
-10615125,852,855,FEO,SpecificDisease,MESH:C536335
+10615125,451,454,FEO,SpecificDisease,OMIM:174810
+10615125,852,855,FEO,SpecificDisease,OMIM:174810
 10615125,859,889,familial Paget disease of bone,SpecificDisease,MESH:C538098
 10615125,891,894,PDB,SpecificDisease,MESH:C538098
 10196381,69,108,adrenoleukodystrophy protein deficiency,SpecificDisease,MESH:D000326
@@ -1129,19 +1164,20 @@ ID,Start,End,Description,Type,MESH ID
 10465113,940,952,Cleft palate,SpecificDisease,MESH:D002972
 10465113,1189,1204,DTDST disorders,SpecificDisease,MESH:D030342
 10465113,1323,1352,Multiple epiphyseal dysplasia,SpecificDisease,MESH:D010009
-10465113,1455,1459,EDM2,SpecificDisease,MESH:C535502
+10465113,1414,1418,EDM1,SpecificDisease,OMIM:132400
+10465113,1455,1459,EDM2,SpecificDisease,OMIM:600204
 10465113,1624,1627,MED,SpecificDisease,MESH:D010009
-10465113,1629,1633,EDM4,SpecificDisease,MESH:C535504
+10465113,1629,1633,EDM4,SpecificDisease,OMIM:226900
 8098180,0,18,Myotonic dystrophy,SpecificDisease,MESH:D009223
 8098180,104,122,Myotonic dystrophy,SpecificDisease,MESH:D009223
 8098180,124,126,DM,SpecificDisease,MESH:D009223
 1517503,6,26,pyoderma gangrenosum,SpecificDisease,MESH:D017511
-1517503,47,60,C7 deficiency,SpecificDisease,MESH:C566443
+1517503,47,60,C7 deficiency,SpecificDisease,OMIM:610102
 1517503,71,91,pyoderma gangrenosum,SpecificDisease,MESH:D017511
 1517503,93,95,PG,SpecificDisease,MESH:D017511
 1517503,277,279,PG,SpecificDisease,MESH:D017511
-1517503,311,324,C7 deficiency,SpecificDisease,MESH:C566443
-1517503,326,344,Deficiencies of C7,SpecificDisease,MESH:C566443
+1517503,311,324,C7 deficiency,SpecificDisease,OMIM:610102
+1517503,326,344,Deficiencies of C7,SpecificDisease,OMIM:610102
 1517503,501,503,PG,SpecificDisease,MESH:D017511
 1517503,592,594,PG,SpecificDisease,MESH:D017511
 8589715,0,17,Emerin deficiency,SpecificDisease,MESH:D020389
@@ -1155,6 +1191,11 @@ ID,Start,End,Description,Type,MESH ID
 7652577,266,274,melanoma,SpecificDisease,MESH:D008545
 7652577,650,658,melanoma,SpecificDisease,MESH:D008545
 7652577,668,677,melanomas,SpecificDisease,MESH:D008545
+10487710,22,66,familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+10487710,112,156,Familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+10487710,158,162,FNDI,SpecificDisease,OMIM:125700
+10487710,1292,1296,FNDI,SpecificDisease,OMIM:125700
+10487710,1348,1352,FNDI,SpecificDisease,OMIM:125700
 3572301,58,82,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 3572301,323,373,X-linked immunodeficiency Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 10732811,64,86,Machado-Joseph disease,SpecificDisease,MESH:D017827
@@ -1220,6 +1261,7 @@ ID,Start,End,Description,Type,MESH ID
 1319838,546,563,colorectal polyps,SpecificDisease,MESH:D003111
 1319838,1148,1165,colorectal polyps,SpecificDisease,MESH:D003111
 10480348,218,221,DMD,SpecificDisease,MESH:D020388
+10480348,222,225,BMD,SpecificDisease,MESH:C537666
 10480348,320,323,DMD,SpecificDisease,MESH:D020388
 1610789,878,890,galactosemia,SpecificDisease,MESH:D005693
 10777718,0,15,Gaucher disease,SpecificDisease,MESH:D005776
@@ -1277,7 +1319,7 @@ ID,Start,End,Description,Type,MESH ID
 1301937,167,170,TSD,SpecificDisease,MESH:D013661
 3856322,65,80,Phenylketonuria,SpecificDisease,MESH:D010661
 3856322,82,85,PKU,SpecificDisease,MESH:D010661
-3856322,110,160,deficiency of the enzyme phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+3856322,110,160,deficiency of the enzyme phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 3856322,878,881,PKU,SpecificDisease,MESH:D010661
 8302543,0,17,Macular dystrophy,SpecificDisease,MESH:D008268
 8302543,244,283,autosomal dominant retinitis pigmentosa,SpecificDisease,MESH:D012174
@@ -1288,9 +1330,12 @@ ID,Start,End,Description,Type,MESH ID
 8302543,1049,1079,choriocapillaris of the macula,SpecificDisease,MESH:D008268
 8302543,1712,1729,macular dystrophy,SpecificDisease,MESH:D008268
 23402,77,94,neonatal jaundice,SpecificDisease,MESH:D007567
+23402,137,155,lamellar cataracts,SpecificDisease,MESH:C535342|OMIM:116800
 23402,326,343,neonatal jaundice,SpecificDisease,MESH:D007567
+23402,745,773,bilateral lamellar cataracts,SpecificDisease,MESH:C535342|OMIM:116800
 23402,815,829,G6PD deficient,SpecificDisease,MESH:D005955
 23402,1230,1245,G6PD deficiency,SpecificDisease,MESH:D005955
+2989709,312,329,deficiency of AAT,SpecificDisease,MESH:C531610
 10976074,0,18,Myotonic dystrophy,SpecificDisease,MESH:D009223
 10976074,73,91,Myotonic dystrophy,SpecificDisease,MESH:D009223
 10976074,93,95,DM,SpecificDisease,MESH:D009223
@@ -1337,7 +1382,7 @@ ID,Start,End,Description,Type,MESH ID
 10571950,223,249,sensorineural hearing loss,SpecificDisease,MESH:D006319
 10571950,255,282,diffuse thyroid enlargement,SpecificDisease,MESH:D013959
 10571950,284,290,goiter,SpecificDisease,MESH:D006042
-10571950,345,364,hereditary deafness,SpecificDisease,MESH:D030342
+10571950,345,364,hereditary deafness,SpecificDisease,MESH:D030342|MESH:D003638
 10571950,384,387,PDS,SpecificDisease,MESH:C536648
 10571950,687,695,deafness,SpecificDisease,MESH:D003638
 10802668,64,73,cataracts,SpecificDisease,MESH:D002386
@@ -1376,18 +1421,20 @@ ID,Start,End,Description,Type,MESH ID
 10930571,142,164,Aarskog-Scott Syndrome,SpecificDisease,MESH:C535331
 10930571,166,169,AAS,SpecificDisease,MESH:C535331
 10930571,681,684,AAS,SpecificDisease,MESH:C535331
-10930571,1291,1318,X-linked agammaglobulinemia,SpecificDisease,MESH:C537409
+10930571,1291,1318,X-linked agammaglobulinemia,SpecificDisease,OMIM:300755
 2055114,193,205,histidinemia,SpecificDisease,MESH:C538320
 10364521,21,39,fragile X syndrome,SpecificDisease,MESH:D005600
 10364521,146,164,fragile X syndrome,SpecificDisease,MESH:D005600
 10364521,507,525,fragile X syndrome,SpecificDisease,MESH:D005600
 10364521,756,774,fragile X syndrome,SpecificDisease,MESH:D005600
-1384324,0,28,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-1384324,188,216,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-1384324,1328,1356,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
+1384324,0,28,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+1384324,188,216,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+1384324,1328,1356,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+2404853,204,229,Becker muscular dystrophy,SpecificDisease,MESH:C537666
+2404853,399,424,Becker muscular dystrophy,SpecificDisease,MESH:C537666
 10406661,61,77,kniest dysplasia,SpecificDisease,MESH:C537207
 10406661,79,95,Kniest dysplasia,SpecificDisease,MESH:C537208
-10406661,199,217,midface hypoplasia,SpecificDisease,MESH:C564570
+10406661,199,217,midface hypoplasia,SpecificDisease,OMIM:300194
 10406661,405,421,Kniest dysplasia,SpecificDisease,MESH:C537208
 10406661,772,788,Kniest dysplasia,SpecificDisease,MESH:C537208
 10406661,899,915,Kniest dysplasia,SpecificDisease,MESH:C537208
@@ -1424,26 +1471,30 @@ ID,Start,End,Description,Type,MESH ID
 1357962,873,876,PWS,SpecificDisease,MESH:D011218
 1357962,1142,1160,uniparental disomy,SpecificDisease,MESH:D024182
 1357962,1177,1180,PWS,SpecificDisease,MESH:D011218
+492335,8,44,defect in secretion of complement C5,SpecificDisease,OMIM:609536
+492335,64,119,deficiency of the fifth (C5) component of complement1-3,SpecificDisease,OMIM:609536
+492335,1187,1200,C5 deficiency,SpecificDisease,OMIM:609536
 8528199,23,47,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
-8528199,52,77,X-linked thrombocytopenia,SpecificDisease,MESH:C564052
+8528199,52,77,X-linked thrombocytopenia,SpecificDisease,OMIM:313900
 8528199,183,207,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8528199,209,212,WAS,SpecificDisease,MESH:D014923
-8528199,706,733,congenital thrombocytopenia,SpecificDisease,MESH:C564052
-8528199,833,858,X-linked thrombocytopenia,SpecificDisease,MESH:C564052
+8528199,706,733,congenital thrombocytopenia,SpecificDisease,OMIM:313900
+8528199,833,858,X-linked thrombocytopenia,SpecificDisease,OMIM:313900
 8528199,873,876,WAS,SpecificDisease,MESH:D014923
 8346255,141,162,retinoblastoma tumors,SpecificDisease,MESH:D012175
 7951315,41,61,congenital cataracts,SpecificDisease,MESH:D002386
 7951315,63,71,aniridia,SpecificDisease,MESH:D015783
 7951315,73,85,anophthalmia,SpecificDisease,MESH:D000853
 7951315,149,157,aniridia,SpecificDisease,MESH:D015783
+7951315,171,197,haploinsufficiency of PAX6,SpecificDisease,OMIM:106210
 7951315,322,330,aniridia,SpecificDisease,MESH:D015783
 7951315,367,387,congenital cataracts,SpecificDisease,MESH:D002386
 7951315,403,420,corneal dystrophy,SpecificDisease,MESH:D003317
-409732,0,24,Hereditary C7 deficiency,SpecificDisease,MESH:C566443
+409732,0,24,Hereditary C7 deficiency,SpecificDisease,OMIM:610102
 409732,162,184,ankylosing spondylitis,SpecificDisease,MESH:D013167
-409732,189,237,deficient in the seventh component of complement,SpecificDisease,MESH:C566443
-409732,707,720,C7 deficiency,SpecificDisease,MESH:C566443
-409732,1013,1026,CM deficienty,SpecificDisease,MESH:C566443
+409732,189,237,deficient in the seventh component of complement,SpecificDisease,OMIM:610102
+409732,707,720,C7 deficiency,SpecificDisease,OMIM:610102
+409732,1013,1026,CM deficienty,SpecificDisease,OMIM:610102
 10598815,0,16,Alstrom syndrome,SpecificDisease,MESH:D056769
 10598815,73,89,Alstrom syndrome,SpecificDisease,MESH:D056769
 10598815,146,166,retinal degeneration,SpecificDisease,MESH:D012162
@@ -1482,10 +1533,11 @@ ID,Start,End,Description,Type,MESH ID
 10742101,552,559,obesity,SpecificDisease,MESH:D009765
 10742101,708,715,obesity,SpecificDisease,MESH:D009765
 10742101,763,770,obesity,SpecificDisease,MESH:D009765
+10742101,782,799,leptin deficiency,SpecificDisease,OMIM:164160
 10742101,987,994,obesity,SpecificDisease,MESH:D009765
-10210128,44,72,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-10210128,123,151,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-10210128,643,671,Pelizaeus Merzbacher disease,SpecificDisease,MESH:D020371
+10210128,44,72,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+10210128,123,151,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+10210128,643,671,Pelizaeus Merzbacher disease,SpecificDisease,OMIM:312080
 1056013,61,82,Ataxia-telangiectasia,SpecificDisease,MESH:D001260
 1056013,193,212,lymphoid malignancy,SpecificDisease,MESH:D008223
 1056013,685,706,ataxia-telangiectasia,SpecificDisease,MESH:D001260
@@ -1504,6 +1556,7 @@ ID,Start,End,Description,Type,MESH ID
 1279971,103,113,piebaldism,SpecificDisease,MESH:D016116
 1279971,289,299,piebaldism,SpecificDisease,MESH:D016116
 3198117,687,702,G6PD deficiency,SpecificDisease,MESH:D005955
+10369860,247,263,cat-eye syndrome,SpecificDisease,MESH:C535918|OMIM:115470
 10369860,265,280,der () syndrome,SpecificDisease,MESH:C535733
 10369860,285,312,velo-cardio-facial syndrome,SpecificDisease,MESH:D004062
 10369860,313,330,DiGeorge syndrome,SpecificDisease,MESH:D004062
@@ -1511,6 +1564,10 @@ ID,Start,End,Description,Type,MESH ID
 10369860,337,340,DGS,SpecificDisease,MESH:D004062
 10369860,438,442,VCFS,SpecificDisease,MESH:D004062
 10369860,443,446,DGS,SpecificDisease,MESH:D004062
+1424237,20,36,cat eye syndrome,SpecificDisease,MESH:C535918|OMIM:115470
+1424237,128,144,cat eye syndrome,SpecificDisease,MESH:C535918|OMIM:115470
+1424237,146,149,CES,SpecificDisease,MESH:C535918|OMIM:115470
+1424237,188,191,CES,SpecificDisease,MESH:C535918|OMIM:115470
 1313112,56,91,familial adenomatous polyposis coli,SpecificDisease,MESH:D011125
 1313112,122,157,familial adenomatous polyposis coli,SpecificDisease,MESH:D011125
 1313112,159,163,FAPC,SpecificDisease,MESH:D011125
@@ -1527,6 +1584,8 @@ ID,Start,End,Description,Type,MESH ID
 3029599,636,656,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 2316519,201,228,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 2316519,230,233,DMD,SpecificDisease,MESH:D020388
+2316519,239,264,Becker muscular dystrophy,SpecificDisease,MESH:C537666
+2316519,266,269,BMD,SpecificDisease,MESH:C537666
 6087154,286,301,gouty arthritis,SpecificDisease,MESH:D015210
 6087154,340,360,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 6087154,362,365,L-N,SpecificDisease,MESH:D007926
@@ -1552,13 +1611,13 @@ ID,Start,End,Description,Type,MESH ID
 10721669,1338,1340,WD,SpecificDisease,MESH:D006527
 6103091,0,21,Complement deficiency,SpecificDisease,MESH:D007153
 6103091,26,35,nephritis,SpecificDisease,MESH:D009393
-6103091,120,136,deficiency of C3,SpecificDisease,MESH:C565169
-6103091,254,267,C3 deficiency,SpecificDisease,MESH:C565169
+6103091,120,136,deficiency of C3,SpecificDisease,OMIM:613779
+6103091,254,267,C3 deficiency,SpecificDisease,OMIM:613779
 6103091,308,326,glomerulonephritis,SpecificDisease,MESH:D005921
 6103091,328,339,proteinuria,SpecificDisease,MESH:D011507
 6103091,361,371,haematuria,SpecificDisease,MESH:D006417
-6103091,476,489,C3 deficiency,SpecificDisease,MESH:C565169
-6103091,717,730,C3 deficiency,SpecificDisease,MESH:C565169
+6103091,476,489,C3 deficiency,SpecificDisease,OMIM:613779
+6103091,717,730,C3 deficiency,SpecificDisease,OMIM:613779
 6103091,746,755,nephritis,SpecificDisease,MESH:D009393
 1222588,44,65,ataxia-telangiectasia,SpecificDisease,MESH:D001260
 1222588,205,226,ataxia-telangiectasia,SpecificDisease,MESH:D001260
@@ -1584,6 +1643,7 @@ ID,Start,End,Description,Type,MESH ID
 7550230,667,676,cataracts,SpecificDisease,MESH:D002386
 7550230,779,786,anosmia,SpecificDisease,MESH:D000857
 7550230,957,965,aniridia,SpecificDisease,MESH:D015783
+7550230,979,1005,haploinsufficiency of PAX6,SpecificDisease,OMIM:106210
 3354603,0,14,Hepatoblastoma,SpecificDisease,MESH:D018197
 3354603,67,83,Gardner syndrome,SpecificDisease,MESH:D005736
 3354603,85,99,Hepatoblastoma,SpecificDisease,MESH:D018197
@@ -1643,18 +1703,18 @@ ID,Start,End,Description,Type,MESH ID
 10712209,655,681,hereditary prostate cancer,SpecificDisease,MESH:C537243
 10712209,2299,2325,hereditary prostate cancer,SpecificDisease,MESH:C537243
 8466512,21,87,deficiency of mitochondrial very-long-chain acyl-CoA dehydrogenase,SpecificDisease,MESH:C536353
-8466512,435,451,VLCAD deficiency,SpecificDisease,MESH:C536353
+8466512,435,451,VLCAD deficiency,SpecificDisease,OMIM:201475
 1327525,26,46,Denys-Drash syndrome,SpecificDisease,MESH:D030321
 1327525,66,86,Denys-Drash syndrome,SpecificDisease,MESH:D030321
 1327525,88,99,Wilms tumor,SpecificDisease,MESH:D009396
 1327525,124,135,nephropathy,SpecificDisease,MESH:D007674
 1327525,650,670,Denys-Drash syndrome,SpecificDisease,MESH:D030321
-2008213,0,31,Glucose/galactose malabsorption,SpecificDisease,MESH:C562602
-2008213,85,116,Glucose/galactose malabsorption,SpecificDisease,MESH:C562602
-2008213,118,121,GGM,SpecificDisease,MESH:C562602
+2008213,0,31,Glucose/galactose malabsorption,SpecificDisease,OMIM:606824
+2008213,85,116,Glucose/galactose malabsorption,SpecificDisease,OMIM:606824
+2008213,118,121,GGM,SpecificDisease,OMIM:606824
 2008213,323,332,diarrhoea,SpecificDisease,MESH:D003967
 2008213,337,348,dehydration,SpecificDisease,MESH:D003681
-2008213,1150,1153,GGM,SpecificDisease,MESH:C562602
+2008213,1150,1153,GGM,SpecificDisease,OMIM:606824
 10639175,93,114,Ataxia-telangiectasia,SpecificDisease,MESH:D001260
 10639175,181,202,ataxia telangiectasia,SpecificDisease,MESH:D001260
 10639175,438,459,ataxia-telangiectasia,SpecificDisease,MESH:D001260
@@ -1678,7 +1738,7 @@ ID,Start,End,Description,Type,MESH ID
 10767347,64,83,embryonic lethality,SpecificDisease,MESH:D020964
 10767347,111,128,Friedreich ataxia,SpecificDisease,MESH:D005621
 10767347,130,134,FRDA,SpecificDisease,MESH:D005621
-10767347,535,565,iron-sulfur protein deficiency,SpecificDisease,MESH:C564972
+10767347,535,565,iron-sulfur protein deficiency,SpecificDisease,OMIM:255125
 10767347,897,916,embryonic lethality,SpecificDisease,MESH:D020964
 1301189,102,119,Tay-Sachs disease,SpecificDisease,MESH:D013661
 1301189,181,198,Tay-Sachs disease,SpecificDisease,MESH:D013661
@@ -1704,16 +1764,18 @@ ID,Start,End,Description,Type,MESH ID
 2309142,22,25,PKU,SpecificDisease,MESH:D010661
 2309142,132,147,Phenylketonuria,SpecificDisease,MESH:D010661
 2309142,149,152,PKU,SpecificDisease,MESH:D010661
-2309142,191,238,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+2309142,191,238,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 8575748,1036,1049,BRCA1 defects,SpecificDisease,OMIM:604370
+6783144,6,53,deficiency of the sixth component of complement,SpecificDisease,OMIM:612446
 6783144,72,96,meningococcal meningitis,SpecificDisease,MESH:D008585
+6783144,154,167,C6 deficiency,SpecificDisease,OMIM:612446
 6783144,271,295,meningococcal meningitis,SpecificDisease,MESH:D008585
 1346773,4,28,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 1346773,137,161,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 1346773,163,166,WAS,SpecificDisease,MESH:D014923
 1346773,467,470,WAS,SpecificDisease,MESH:D014923
-318684,0,58,Hereditary deficiency of the third component of complement,SpecificDisease,MESH:C565169
-318684,1690,1713,inherited C3 deficiency,SpecificDisease,MESH:C565169
+318684,0,58,Hereditary deficiency of the third component of complement,SpecificDisease,OMIM:613779
+318684,1690,1713,inherited C3 deficiency,SpecificDisease,OMIM:613779
 2544995,147,164,familial aniridia,SpecificDisease,MESH:D015783
 2544995,286,297,Wilms tumor,SpecificDisease,MESH:D009396
 2544995,299,307,aniridia,SpecificDisease,MESH:D015783
@@ -1722,6 +1784,7 @@ ID,Start,End,Description,Type,MESH ID
 10923035,132,169,Benign familial infantile convulsions,SpecificDisease,MESH:D020936
 10923035,171,175,BFIC,SpecificDisease,MESH:D020936
 10923035,519,523,BFIC,SpecificDisease,MESH:D020936
+10923035,711,761,generalized epilepsy and febrile seizures   plus  ,SpecificDisease,MESH:D004829|MESH:D003294
 10923035,857,861,BFIC,SpecificDisease,MESH:D020936
 10923035,947,951,BFIC,SpecificDisease,MESH:D020936
 10923035,1179,1183,BFIC,SpecificDisease,MESH:D020936
@@ -1767,10 +1830,10 @@ ID,Start,End,Description,Type,MESH ID
 126380,91,113,Ankylosing spondylitis,SpecificDisease,MESH:D013167
 126380,637,659,ankylosing spondylitis,SpecificDisease,MESH:D013167
 126380,908,930,ankylosing spondylitis,SpecificDisease,MESH:D013167
-1376553,77,105,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-1376553,241,269,Pelizaeus-merzbacher disease,SpecificDisease,MESH:D020371
-1376553,271,274,PMD,SpecificDisease,MESH:D020371
-1376553,735,738,PMD,SpecificDisease,MESH:D020371
+1376553,77,105,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+1376553,241,269,Pelizaeus-merzbacher disease,SpecificDisease,OMIM:312080
+1376553,271,274,PMD,SpecificDisease,OMIM:312080
+1376553,735,738,PMD,SpecificDisease,OMIM:312080
 7390473,189,204,G6PD deficiency,SpecificDisease,MESH:D005955
 10381492,27,53,hereditary hemochromatosis,SpecificDisease,MESH:D006432
 10381492,475,501,hereditary hemochromatosis,SpecificDisease,MESH:D006432
@@ -1797,6 +1860,7 @@ ID,Start,End,Description,Type,MESH ID
 6604602,152,174,ankylosing spondylitis,SpecificDisease,MESH:D013167
 6604602,424,446,ankylosing spondylitis,SpecificDisease,MESH:D013167
 6604602,595,616,psoriatic arthropathy,SpecificDisease,MESH:D015535
+6604602,639,657,entero-arthropathy,SpecificDisease,MESH:C538273|MESH:D001168
 6604602,674,687,sacro-iliitis,SpecificDisease,MESH:D058566
 6604602,794,803,psoriasis,SpecificDisease,MESH:D011565
 6604602,842,851,psoriasis,SpecificDisease,MESH:D011565
@@ -1805,11 +1869,15 @@ ID,Start,End,Description,Type,MESH ID
 6604602,1210,1232,acute anterior uveitis,SpecificDisease,MESH:D014606
 6604602,1245,1256,arthropathy,SpecificDisease,MESH:D007592
 6604602,1261,1287,inflammatory bowel disease,SpecificDisease,MESH:D015212
-6604602,1321,1365,HEREDITARY MULTIFOCAL RELAPSING INFLAMMATION,SpecificDisease,MESH:D030342
-6604602,1367,1372,HEMRI,SpecificDisease,MESH:D030342
+6604602,1321,1365,HEREDITARY MULTIFOCAL RELAPSING INFLAMMATION,SpecificDisease,MESH:D007249|MESH:D030342
+6604602,1367,1372,HEMRI,SpecificDisease,MESH:D007249|MESH:D030342
 6604602,1393,1415,Ankylosing spondylitis,SpecificDisease,MESH:D013167
 6604602,1417,1438,psoriatic arthropathy,SpecificDisease,MESH:D015535
+6604602,1443,1461,entero-arthropathy,SpecificDisease,MESH:C538273|MESH:D007592
+777027,0,58,Hereditary deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
+777027,157,215,hereditary deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
 777027,432,460,systemic lupus erythematosus,SpecificDisease,MESH:D008180
+777027,986,999,C5 deficiency,SpecificDisease,OMIM:609536
 777027,1396,1431,paroxysmal nocturnal hemoglobinuria,SpecificDisease,MESH:D006457
 10807793,13,41,familial Mediterranean fever,SpecificDisease,MESH:D010505
 10807793,149,177,Familial Mediterranean fever,SpecificDisease,MESH:D010505
@@ -1848,7 +1916,7 @@ ID,Start,End,Description,Type,MESH ID
 8460149,341,364,hypobetalipoproteinemia,SpecificDisease,MESH:D006995
 8460149,590,613,hypobetalipoproteinemia,SpecificDisease,MESH:D006995
 8460149,858,881,hypobetalipoproteinemia,SpecificDisease,MESH:D006995
-8460149,945,960,chylomicronemia,SpecificDisease,MESH:D008072
+8460149,945,960,chylomicronemia,SpecificDisease,OMIM:238600
 8460149,1095,1107,exencephalus,SpecificDisease,MESH:D009436
 8460149,1112,1125,hydrocephalus,SpecificDisease,MESH:D006849
 8460149,1180,1203,hypobetalipoproteinemia,SpecificDisease,MESH:D006995
@@ -1897,6 +1965,8 @@ ID,Start,End,Description,Type,MESH ID
 1978564,1051,1054,FAP,SpecificDisease,MESH:D011125
 1978564,1334,1337,FAP,SpecificDisease,MESH:D011125
 1978564,1517,1534,colorectal cancer,SpecificDisease,MESH:D015179
+8370681,76,130,Autosomal dominant neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+8370681,365,419,autosomal dominant neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
 8259519,137,154,colorectal cancer,SpecificDisease,MESH:D015179
 8259519,313,316,APC,SpecificDisease,MESH:D011125
 2703233,0,18,Myotonic dystrophy,SpecificDisease,MESH:D009223
@@ -2012,7 +2082,7 @@ ID,Start,End,Description,Type,MESH ID
 4019732,34,56,van der Woude syndrome,SpecificDisease,MESH:C536528
 4019732,281,303,van der Woude syndrome,SpecificDisease,MESH:C536528
 4019732,305,308,VWS,SpecificDisease,MESH:C536528
-4019732,325,335,oral cleft,SpecificDisease,MESH:D002972
+4019732,325,335,oral cleft,SpecificDisease,MESH:D002971|MESH:D002972
 4019732,337,349,cleft palate,SpecificDisease,MESH:D002972
 4019732,351,353,CP,SpecificDisease,MESH:D002972
 4019732,359,368,cleft lip,SpecificDisease,MESH:D002971
@@ -2036,15 +2106,18 @@ ID,Start,End,Description,Type,MESH ID
 4019732,1642,1645,VWS,SpecificDisease,MESH:C536528
 2491010,174,201,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 2491010,203,206,DMD,SpecificDisease,MESH:D020388
+2491010,210,235,Becker muscular dystrophy,SpecificDisease,MESH:C537666
+2491010,237,240,BMD,SpecificDisease,MESH:C537666
 2491010,953,956,DMD,SpecificDisease,MESH:D020388
-10417279,61,89,Pelizaeus-Merzbacher Disease,SpecificDisease,MESH:D020371
-10417279,274,302,Pelizaeus-Merzbacher Disease,SpecificDisease,MESH:D020371
+2491010,958,961,BMD,SpecificDisease,MESH:C537666
+10417279,61,89,Pelizaeus-Merzbacher Disease,SpecificDisease,OMIM:312080
+10417279,274,302,Pelizaeus-Merzbacher Disease,SpecificDisease,OMIM:312080
 10417279,304,307,PMD,SpecificDisease,MESH:D020371
 10417279,506,509,PMD,SpecificDisease,MESH:D020371
 2569949,726,729,PKU,SpecificDisease,MESH:D010661
-7668252,864,880,VLCAD deficiency,SpecificDisease,MESH:C536353
+7668252,864,880,VLCAD deficiency,SpecificDisease,OMIM:201475
 7668252,1033,1071,deficiency of the normal VLCAD protein,SpecificDisease,MESH:C536353
-7668252,1450,1466,VLCAD deficiency,SpecificDisease,MESH:C536353
+7668252,1450,1466,VLCAD deficiency,SpecificDisease,OMIM:201475
 2601691,170,195,retinoblastoma (RB) tumor,SpecificDisease,MESH:D012175
 2601691,248,257,RB tumors,SpecificDisease,MESH:D012175
 2601691,409,418,RB tumors,SpecificDisease,MESH:D012175
@@ -2061,9 +2134,12 @@ ID,Start,End,Description,Type,MESH ID
 3615198,84,99,phenylketonuria,SpecificDisease,MESH:D010661
 3615198,101,126,Classical Phenylketonuria,SpecificDisease,MESH:D010661
 3615198,128,131,PKU,SpecificDisease,MESH:D010661
-3615198,194,241,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+3615198,194,241,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,OMIM:261600
+10521293,124,140,Wolfram syndrome,SpecificDisease,OMIM:222300
 10521293,211,243,juvenile-onset diabetes mellitus,SpecificDisease,MESH:D003922
 10521293,260,273,optic atrophy,SpecificDisease,MESH:D009896
+10521293,567,583,Wolfram syndrome,SpecificDisease,OMIM:222300
+10521293,1452,1468,Wolfram syndrome,SpecificDisease,OMIM:222300
 10521293,1572,1589,diabetes mellitus,SpecificDisease,MESH:D003920
 10528860,0,45,Maternal uniparental disomy for chromosome 14,SpecificDisease,MESH:D024182
 10528860,106,151,maternal uniparental disomy for chromosome 14,SpecificDisease,MESH:D024182
@@ -2085,15 +2161,17 @@ ID,Start,End,Description,Type,MESH ID
 2729274,121,124,AMN,SpecificDisease,MESH:D000326
 2729274,697,700,AMN,SpecificDisease,MESH:D000326
 3169738,135,138,DMD,SpecificDisease,MESH:D020388
+3169738,143,146,BMD,SpecificDisease,MESH:C537666
 3169738,403,406,DMD,SpecificDisease,MESH:D020388
 3169738,430,433,DMD,SpecificDisease,MESH:D020388
+3169738,441,444,BMD,SpecificDisease,MESH:C537666
 3169738,606,609,DMD,SpecificDisease,MESH:D020388
 7951327,159,173,Wilson disease,SpecificDisease,MESH:D006527
 7951327,635,649,Wilson disease,SpecificDisease,MESH:D006527
 7951327,743,757,Wilson disease,SpecificDisease,MESH:D006527
 1731805,43,84,normotriglyceridemic abetalipoproteinemia,SpecificDisease,MESH:D000012
 1731805,143,184,Normotriglyceridemic abetalipoproteinemia,SpecificDisease,MESH:D000012
-1731805,242,264,deficiency of apoB-100,SpecificDisease,MESH:D000012
+1731805,242,264,deficiency of apoB-100,SpecificDisease,OMIM:200100
 10788334,517,532,ovarian cancers,SpecificDisease,MESH:D010051
 10788334,559,573,breast cancers,SpecificDisease,MESH:D001943
 10788334,1044,1058,ovarian cancer,SpecificDisease,MESH:D010051
@@ -2103,12 +2181,12 @@ ID,Start,End,Description,Type,MESH ID
 7762560,400,402,DM,SpecificDisease,MESH:D009223
 7762560,1344,1346,DM,SpecificDisease,MESH:D009223
 7573040,181,185,SCA3,SpecificDisease,MESH:D017827
-7573040,191,234,type I autosomal dominant cerebellar ataxia,SpecificDisease,MESH:D017827
-7573040,236,247,ADCA type I,SpecificDisease,MESH:D017827
+7573040,191,234,type I autosomal dominant cerebellar ataxia,SpecificDisease,OMIM:109150
+7573040,236,247,ADCA type I,SpecificDisease,OMIM:109150
 7573040,420,424,SCA3,SpecificDisease,MESH:D017827
 7573040,475,497,Machado-Joseph disease,SpecificDisease,MESH:D017827
 7573040,499,502,MJD,SpecificDisease,MESH:D017827
-7573040,731,765,dentatorubropallidoluysian atrophy,SpecificDisease,MESH:D020191
+7573040,731,765,dentatorubropallidoluysian atrophy,SpecificDisease,OMIM:125370
 7573040,844,847,MJD,SpecificDisease,MESH:D017827
 2309698,44,64,adrenoleukodystrophy,SpecificDisease,MESH:D000326
 2309698,173,202,X-linked adrenoleukodystrophy,SpecificDisease,MESH:D000326
@@ -2180,7 +2258,7 @@ ID,Start,End,Description,Type,MESH ID
 1301146,69,78,fragile X,SpecificDisease,MESH:D005600
 1301146,392,410,fragile X syndrome,SpecificDisease,MESH:D005600
 1301146,678,696,fragile X syndrome,SpecificDisease,MESH:D005600
-7939630,284,319,sporadic breast and ovarian cancers,SpecificDisease,MESH:D001943
+7939630,284,319,sporadic breast and ovarian cancers,SpecificDisease,MESH:D001943|MESH:D010051
 7939630,579,597,ovarian carcinomas,SpecificDisease,MESH:D010051
 8307570,267,280,Ewing sarcoma,SpecificDisease,MESH:D012512
 8307570,293,315,neuroectodermal tumors,SpecificDisease,MESH:D017599
@@ -2206,6 +2284,11 @@ ID,Start,End,Description,Type,MESH ID
 10767326,671,679,glaucoma,SpecificDisease,MESH:D005901
 10767326,914,929,iris hypoplasia,SpecificDisease,MESH:D007499
 10767326,1883,1891,glaucoma,SpecificDisease,MESH:D005901
+10446987,201,232,Dermatofibrosarcoma protuberans,SpecificDisease,MESH:C538219
+10446987,234,238,DFSP,SpecificDisease,MESH:C538219
+10446987,1527,1531,DFSP,SpecificDisease,MESH:C538219
+10446987,1742,1746,DFSP,SpecificDisease,MESH:C538219
+10446987,1751,1775,giant cell fibroblastoma,SpecificDisease,MESH:C538219
 2006152,334,349,phenylketonuria,SpecificDisease,MESH:D010661
 2006152,351,354,PKU,SpecificDisease,MESH:D010661
 10528243,11,39,familial Mediterranean fever,SpecificDisease,MESH:D010505
@@ -2218,10 +2301,10 @@ ID,Start,End,Description,Type,MESH ID
 10528243,1169,1186,chronic arthritis,SpecificDisease,MESH:D001168
 10528243,1202,1209,myalgia,SpecificDisease,MESH:D059352
 10528243,1510,1513,FMF,SpecificDisease,MESH:D010505
-8195156,222,264,hereditary glucose/galactose malabsorption,SpecificDisease,MESH:C562602
+8195156,222,264,hereditary glucose/galactose malabsorption,SpecificDisease,OMIM:606824
 8195156,301,309,diarrhea,SpecificDisease,MESH:D003967
 8195156,404,412,diarrhea,SpecificDisease,MESH:D003967
-8195156,1098,1129,glucose/galactose malabsorption,SpecificDisease,MESH:C562602
+8195156,1098,1129,glucose/galactose malabsorption,SpecificDisease,OMIM:606824
 10766245,80,101,ataxia-telangiectasia,SpecificDisease,MESH:D001260
 10766245,103,105,AT,SpecificDisease,MESH:D001260
 10766245,149,175,Nijmegen breakage syndrome,SpecificDisease,MESH:D049932
@@ -2230,9 +2313,9 @@ ID,Start,End,Description,Type,MESH ID
 10766245,647,650,NBS,SpecificDisease,MESH:D049932
 1671881,49,64,phenylketonuria,SpecificDisease,MESH:D010661
 1671881,66,91,Classical phenylketonuria,SpecificDisease,MESH:D010661
-1671881,138,185,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+1671881,138,185,deficiency of hepatic phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 1671881,606,609,PKU,SpecificDisease,MESH:D010661
-1671881,684,700,PAH deficiencies,SpecificDisease,MESH:D010661
+1671881,684,700,PAH deficiencies,SpecificDisease,OMIM:261600
 10839544,92,113,Ataxia-telangiectasia,SpecificDisease,MESH:D001260
 10839544,115,118,A-T,SpecificDisease,MESH:D001260
 10839544,124,150,Nijmegen breakage syndrome,SpecificDisease,MESH:D049932
@@ -2255,6 +2338,8 @@ ID,Start,End,Description,Type,MESH ID
 10441573,1125,1139,breast cancers,SpecificDisease,MESH:D001943
 10441573,1187,1200,breast cancer,SpecificDisease,MESH:D001943
 10441573,1205,1219,ovarian cancer,SpecificDisease,MESH:D010051
+7535801,19,52,subtotal complement C6 deficiency,SpecificDisease,OMIM:612446
+7535801,130,163,subtotal complement C6 deficiency,SpecificDisease,OMIM:612446
 10408776,29,58,sporadic renal cell carcinoma,SpecificDisease,MESH:D002292
 10408776,119,122,RCC,SpecificDisease,MESH:D002292
 10408776,235,256,renal cell carcinomas,SpecificDisease,MESH:D002292
@@ -2281,32 +2366,37 @@ ID,Start,End,Description,Type,MESH ID
 10077651,364,366,HH,SpecificDisease,MESH:D006432
 10077651,1281,1304,dietary iron deficiency,SpecificDisease,MESH:D018798
 1325652,226,246,colorectal carcinoma,SpecificDisease,MESH:D015179
+1269174,0,13,Analbuminemia,SpecificDisease,OMIM:103600
+1269174,42,55,Analbuminemia,SpecificDisease,OMIM:103600
 1269174,138,155,atopic dermatitis,SpecificDisease,MESH:D003876
 1269174,162,178,bronchial asthma,SpecificDisease,MESH:D001249
 1269174,187,203,seizure disorder,SpecificDisease,MESH:D004827
 1269174,209,229,hyperlipoproteinemia,SpecificDisease,MESH:D006951
 1269174,237,250,corneal arcus,SpecificDisease,MESH:D001112
+1269174,482,495,analbuminemia,SpecificDisease,OMIM:103600
+1269174,764,777,analbuminemia,SpecificDisease,OMIM:103600
+1269174,854,867,analbuminemia,SpecificDisease,OMIM:103600
 3524231,13,40,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 3524231,236,263,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 3524231,265,268,DMD,SpecificDisease,MESH:D020388
 3524231,374,377,DMD,SpecificDisease,MESH:D020388
-3524231,382,412,growth hormone (GH) deficiency,SpecificDisease,MESH:C537404
+3524231,382,412,growth hormone (GH) deficiency,SpecificDisease,OMIM:262400
 8528198,50,74,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
-8528198,79,104,isolated thrombocytopenia,SpecificDisease,MESH:C564052
+8528198,79,104,isolated thrombocytopenia,SpecificDisease,OMIM:313900
 8528198,284,317,X-linked Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8528198,319,322,WAS,SpecificDisease,MESH:D014923
 8528198,467,470,WAS,SpecificDisease,MESH:D014923
 8528198,598,601,WAS,SpecificDisease,MESH:D014923
-8528198,605,630,isolated thrombocytopenia,SpecificDisease,MESH:C564052
+8528198,605,630,isolated thrombocytopenia,SpecificDisease,OMIM:313900
 8528198,934,937,WAS,SpecificDisease,MESH:D014923
 8528198,976,992,thrombocytopenia,SpecificDisease,MESH:D013921
 8528198,1184,1187,WAS,SpecificDisease,MESH:D014923
 8528198,1322,1325,WAS,SpecificDisease,MESH:D014923
-8528198,1396,1423,congenital thrombocytopenia,SpecificDisease,MESH:C564052
-8528198,1478,1503,isolated thrombocytopenia,SpecificDisease,MESH:C564052
+8528198,1396,1423,congenital thrombocytopenia,SpecificDisease,OMIM:313900
+8528198,1478,1503,isolated thrombocytopenia,SpecificDisease,OMIM:313900
 8528198,1536,1539,WAS,SpecificDisease,MESH:D014923
 8528198,1594,1597,WAS,SpecificDisease,MESH:D014923
-8528198,1757,1782,isolated thrombocytopenia,SpecificDisease,MESH:C564052
+8528198,1757,1782,isolated thrombocytopenia,SpecificDisease,OMIM:313900
 8528198,1811,1814,WAS,SpecificDisease,MESH:D014923
 8178825,0,18,Huntington disease,SpecificDisease,MESH:D006816
 8178825,79,97,Huntington disease,SpecificDisease,MESH:D006816
@@ -2335,15 +2425,15 @@ ID,Start,End,Description,Type,MESH ID
 10706858,124,144,Protein S deficiency,SpecificDisease,MESH:D018455
 10706858,177,194,venous thrombosis,SpecificDisease,MESH:D020246
 10706858,533,553,protein S deficiency,SpecificDisease,MESH:D018455
-10706858,560,577,PROS1 gene defect,SpecificDisease,MESH:C567077
-10706858,854,871,PROS1 gene defect,SpecificDisease,MESH:C567077
-10706858,942,959,PROS1 gene defect,SpecificDisease,MESH:C567077
+10706858,560,577,PROS1 gene defect,SpecificDisease,OMIM:612336
+10706858,854,871,PROS1 gene defect,SpecificDisease,OMIM:612336
+10706858,942,959,PROS1 gene defect,SpecificDisease,OMIM:612336
 10706858,991,1001,thrombosis,SpecificDisease,MESH:D013927
 10706858,1100,1120,thrombophilic defect,SpecificDisease,MESH:D019851
 10706858,1167,1173,trauma,SpecificDisease,MESH:D014947
 10706858,1215,1225,thrombosis,SpecificDisease,MESH:D013927
-10706858,1318,1343,defects in the PROS1 gene,SpecificDisease,MESH:C567077
-10706858,1530,1548,PROS1 gene defects,SpecificDisease,MESH:C567077
+10706858,1318,1343,defects in the PROS1 gene,SpecificDisease,OMIM:612336
+10706858,1530,1548,PROS1 gene defects,SpecificDisease,OMIM:612336
 10706858,1553,1573,protein S deficiency,SpecificDisease,MESH:D018455
 10706858,1599,1609,thrombosis,SpecificDisease,MESH:D013927
 10382910,30,72,X-linked Emery-Dreifuss muscular dystrophy,SpecificDisease,MESH:D020389
@@ -2372,21 +2462,28 @@ ID,Start,End,Description,Type,MESH ID
 10323740,403,411,lip pits,SpecificDisease,MESH:C536528
 10323740,607,610,VWS,SpecificDisease,MESH:C536528
 10323740,933,936,VWS,SpecificDisease,MESH:C536528
+10323740,1129,1156,popliteal pterygia syndrome,SpecificDisease,OMIM:119500
+7607677,0,30,Mucopolysaccharidosis type IVA,SpecificDisease,OMIM:253000
+7607677,110,135,Mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+7607677,137,144,MPS IVA,SpecificDisease,OMIM:253000
 7607677,193,240,deficiency in N-acetylgalactosamine-6-sulfatase,SpecificDisease,MESH:D009085
 2995231,198,225,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 2995231,227,230,DMD,SpecificDisease,MESH:D020388
+2995231,236,261,Becker muscular dystrophy,SpecificDisease,MESH:C537666
+2995231,263,266,BMD,SpecificDisease,MESH:C537666
 2995231,989,992,DMD,SpecificDisease,MESH:D020388
+2995231,997,1000,BMD,SpecificDisease,MESH:C537666
 10590055,248,284,neonatal alloimmune thrombocytopenia,SpecificDisease,MESH:D054098
 3464560,241,268,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 3464560,270,273,DMD,SpecificDisease,MESH:D020388
-3789016,33,80,deficiency of the third component of complement,SpecificDisease,MESH:C565169
-3789016,130,143,C3 deficiency,SpecificDisease,MESH:C565169
-3789016,278,291,C3 deficiency,SpecificDisease,MESH:C565169
-3789016,506,519,C3 deficiency,SpecificDisease,MESH:C565169
-3789016,670,683,C3 deficiency,SpecificDisease,MESH:C565169
-3789016,791,804,C3 deficiency,SpecificDisease,MESH:C565169
-3789016,885,898,C3 deficiency,SpecificDisease,MESH:C565169
-10426139,152,167,McLeod syndrome,SpecificDisease,MESH:C564038
+3789016,33,80,deficiency of the third component of complement,SpecificDisease,OMIM:613779
+3789016,130,143,C3 deficiency,SpecificDisease,OMIM:613779
+3789016,278,291,C3 deficiency,SpecificDisease,OMIM:613779
+3789016,506,519,C3 deficiency,SpecificDisease,OMIM:613779
+3789016,670,683,C3 deficiency,SpecificDisease,OMIM:613779
+3789016,791,804,C3 deficiency,SpecificDisease,OMIM:613779
+3789016,885,898,C3 deficiency,SpecificDisease,OMIM:613779
+10426139,152,167,McLeod syndrome,SpecificDisease,OMIM:300842
 10426139,289,303,acanthocytosis,SpecificDisease,MESH:D000012
 10330430,47,83,familial hypertrophic cardiomyopathy,SpecificDisease,MESH:D024741
 10330430,188,224,familial hypertrophic cardiomyopathy,SpecificDisease,MESH:D024741
@@ -2402,11 +2499,11 @@ ID,Start,End,Description,Type,MESH ID
 1302022,144,146,DM,SpecificDisease,MESH:D009223
 1302022,807,809,DM,SpecificDisease,MESH:D009223
 2310692,0,36,Paroxysmal nocturnal haemoglobinuria,SpecificDisease,MESH:D006457
-2310692,53,100,deficiency of the ninth component of complement,SpecificDisease,MESH:C565165
+2310692,53,100,deficiency of the ninth component of complement,SpecificDisease,OMIM:613825
 2310692,118,135,haemolytic attack,SpecificDisease,MESH:D006461
 2310692,162,198,paroxysmal nocturnal haemoglobinuria,SpecificDisease,MESH:D006457
 2310692,200,203,PNH,SpecificDisease,MESH:D006457
-2310692,226,280,inherited deficiency in the ninth complement component,SpecificDisease,MESH:C565165
+2310692,226,280,inherited deficiency in the ninth complement component,SpecificDisease,OMIM:613825
 2310692,583,593,haemolysis,SpecificDisease,MESH:D006461
 2310692,640,650,haemolysis,SpecificDisease,MESH:D006461
 2310692,658,673,haemoglobinuria,SpecificDisease,MESH:D006456
@@ -2414,23 +2511,27 @@ ID,Start,End,Description,Type,MESH ID
 2310692,1230,1233,PNH,SpecificDisease,MESH:D006457
 2310692,1258,1268,haemolysis,SpecificDisease,MESH:D006461
 2310692,1272,1275,PNH,SpecificDisease,MESH:D006457
-2310692,1306,1319,C9 deficiency,SpecificDisease,MESH:C565165
+2310692,1306,1319,C9 deficiency,SpecificDisease,OMIM:613825
 10943845,90,103,breast cancer,SpecificDisease,MESH:D001943
 8375105,189,216,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 8375105,218,221,DMD,SpecificDisease,MESH:D020388
 10198641,747,757,aneuploidy,SpecificDisease,MESH:D000782
 1769645,73,88,phenylketonuria,SpecificDisease,MESH:D010661
 1769645,482,497,phenylketonuria,SpecificDisease,MESH:D010661
+10814710,149,174,Mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+10814710,176,183,MPS IVA,SpecificDisease,OMIM:253000
+10814710,242,298,deficiency of N -acetylgalactosamine-6-sulfate sulfatase,SpecificDisease,OMIM:253000
+10814710,1880,1887,MPS IVA,SpecificDisease,OMIM:253000
 7437512,0,24,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 7437512,147,171,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 7437512,173,176,WAS,SpecificDisease,MESH:D014923
 7437512,1235,1257,Wiskott-Aldrich defect,SpecificDisease,MESH:D014923
 7437512,1486,1489,WAS,SpecificDisease,MESH:D014923
-2792129,0,58,Familial deficiency of the seventh component of complement,SpecificDisease,MESH:C566443
+2792129,0,58,Familial deficiency of the seventh component of complement,SpecificDisease,OMIM:610102
 2792129,85,109,meningococcal infections,SpecificDisease,MESH:D008589
-2792129,158,178,recurrent meningitis,SpecificDisease,MESH:D008581
-2792129,195,240,absence of the seventh component of complemen,SpecificDisease,MESH:C566443
-2792129,628,641,C7 deficiency,SpecificDisease,MESH:C566443
+2792129,158,178,recurrent meningitis,SpecificDisease,MESH:D008581|MESH:D012008
+2792129,195,240,absence of the seventh component of complemen,SpecificDisease,OMIM:610102
+2792129,628,641,C7 deficiency,SpecificDisease,OMIM:610102
 10190331,0,26,Non-syndromic hearing loss,SpecificDisease,MESH:C537845
 10190331,43,71,enlarged vestibular aqueduct,SpecificDisease,OMIM:600791
 10190331,100,128,Enlarged vestibular aqueduct,SpecificDisease,OMIM:600791
@@ -2448,7 +2549,7 @@ ID,Start,End,Description,Type,MESH ID
 2862466,113,148,autoimmune chronic active hepatitis,SpecificDisease,MESH:D006521
 2862466,150,153,CAH,SpecificDisease,MESH:D006521
 2862466,709,712,CAH,SpecificDisease,MESH:D006521
-2862466,997,1010,C4 deficiency,SpecificDisease,MESH:C565167
+2862466,997,1010,C4 deficiency,SpecificDisease,OMIM:614380|OMIM:614379
 3417303,136,154,myotonic dystrophy,SpecificDisease,MESH:D009223
 3417303,156,158,DM,SpecificDisease,MESH:D009223
 3417303,323,325,DM,SpecificDisease,MESH:D009223
@@ -2461,7 +2562,7 @@ ID,Start,End,Description,Type,MESH ID
 7937795,1549,1563,ovarian cancer,SpecificDisease,MESH:D010051
 3455778,102,117,Phenylketonuria,SpecificDisease,MESH:D010661
 3455778,119,122,PKU,SpecificDisease,MESH:D010661
-3455778,137,195,deficiency of the hepatic enzyme phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+3455778,137,195,deficiency of the hepatic enzyme phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 3455778,1322,1325,PKU,SpecificDisease,MESH:D010661
 7599636,41,73,X-linked amelogenesis imperfecta,SpecificDisease,MESH:C538243
 7599636,524,556,X-linked amelogenesis imperfecta,SpecificDisease,MESH:C538243
@@ -2477,7 +2578,7 @@ ID,Start,End,Description,Type,MESH ID
 161677,292,305,C2 deficiency,SpecificDisease,OMIM:217000
 1146783,0,12,Histidinemia,SpecificDisease,MESH:C538320
 1146783,93,105,histidinemia,SpecificDisease,MESH:C538320
-1937471,0,57,Hypoxanthine-guanine phosphoribosyltransferase deficiency,SpecificDisease,MESH:C562583
+1937471,0,57,Hypoxanthine-guanine phosphoribosyltransferase deficiency,SpecificDisease,OMIM:300323
 1937471,146,166,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 1937471,233,306,absence of hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity,SpecificDisease,MESH:D007926
 1937471,374,389,gouty arthritis,SpecificDisease,MESH:D015210
@@ -2496,9 +2597,13 @@ ID,Start,End,Description,Type,MESH ID
 10736265,323,340,diabetes mellitus,SpecificDisease,MESH:D003920
 10736265,345,367,cardiovascular disease,SpecificDisease,MESH:D002318
 10736265,419,422,IGT,SpecificDisease,MESH:D018149
+10736265,684,701,hyperglycerolemia,SpecificDisease,MESH:C538138
 1505217,142,164,Aspartylglucosaminuria,SpecificDisease,MESH:D054880
 1505217,166,169,AGU,SpecificDisease,MESH:D054880
 1505217,242,290,deficiency of the enzyme aspartylglucosaminidase,SpecificDisease,MESH:D054880
+10891444,77,103,congenital afibrinogenemia,SpecificDisease,MESH:C531603
+10891444,105,131,Congenital afibrinogenemia,SpecificDisease,MESH:C531603
+10891444,1437,1463,congenital afibrinogenemia,SpecificDisease,MESH:C531603
 523196,104,124,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
 523196,185,198,hyperuricemia,SpecificDisease,MESH:D033461
 523196,402,422,Lesch-Nyhan syndrome,SpecificDisease,MESH:D007926
@@ -2528,7 +2633,7 @@ ID,Start,End,Description,Type,MESH ID
 7076260,502,517,G6PD deficiency,SpecificDisease,MESH:D005955
 3862128,106,121,Phenylketonuria,SpecificDisease,MESH:D010661
 3862128,123,126,PKU,SpecificDisease,MESH:D010661
-3862128,200,258,deficiency of the hepatic enzyme phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+3862128,200,258,deficiency of the hepatic enzyme phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 2390095,0,61,Total deficiency of plasma cholesteryl ester transfer protein,SpecificDisease,OMIM:143470
 2390095,160,212,cholesteryl ester transfer protein (CETP) deficiency,SpecificDisease,OMIM:143470
 2390095,1133,1148,CETP deficiency,SpecificDisease,OMIM:143470
@@ -2553,8 +2658,15 @@ ID,Start,End,Description,Type,MESH ID
 10958786,188,205,Colorectal Cancer,SpecificDisease,MESH:D015179
 2886237,0,13,Choroideremia,SpecificDisease,MESH:D015794
 2886237,229,242,choroideremia,SpecificDisease,MESH:D015794
+2886237,255,258,TCD,SpecificDisease,MESH:C531652
+2886237,263,301,Progressive Tapeto-Choroidal Dystrophy,SpecificDisease,MESH:C531652
+2886237,476,479,TCD,SpecificDisease,MESH:C531652
+2886237,900,903,TCD,SpecificDisease,MESH:C531652
+2886237,985,988,TCD,SpecificDisease,MESH:C531652
+2886237,1065,1068,TCD,SpecificDisease,MESH:C531652
 10369870,607,633,Charcot-Marie-Tooth type 1,SpecificDisease,MESH:D002607
-10369870,664,701,congenital hypomyelinating neuropathy,SpecificDisease,MESH:C535301
+10369870,635,659,Dejerine-Sottas syndrome,SpecificDisease,MESH:C538392
+10369870,664,701,congenital hypomyelinating neuropathy,SpecificDisease,OMIM:605253
 2786201,25,47,von Willebrand disease,SpecificDisease,MESH:D014842
 2786201,98,120,von Willebrand disease,SpecificDisease,MESH:D014842
 2786201,122,125,vWD,SpecificDisease,MESH:D014842
@@ -2574,6 +2686,7 @@ ID,Start,End,Description,Type,MESH ID
 10051005,1860,1877,colorectal cancer,SpecificDisease,MESH:D015179
 10051005,2047,2065,endometrial cancer,SpecificDisease,MESH:D016889
 10051005,2093,2121,premenopausal ovarian cancer,SpecificDisease,MESH:D010051
+7814011,240,242,ND,SpecificDisease,MESH:C537849
 8571953,839,853,ovarian cancer,SpecificDisease,MESH:D010051
 7166314,78,105,congenital hemolytic anemia,SpecificDisease,MESH:D000745
 7166314,178,217,chronic nonspherocytic hemolytic anemia,SpecificDisease,MESH:D000746
@@ -2591,25 +2704,25 @@ ID,Start,End,Description,Type,MESH ID
 1468459,535,544,Hypotonia,SpecificDisease,MESH:D009123
 1468459,549,565,laxity of joints,SpecificDisease,MESH:C535884
 1468459,775,779,CFND,SpecificDisease,MESH:C536456
-1707231,77,105,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-1707231,233,261,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
+1707231,77,105,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+1707231,233,261,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
 7579347,4,28,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
-7579347,33,69,X-linked congenital thrombocytopenia,SpecificDisease,MESH:C564052
+7579347,33,69,X-linked congenital thrombocytopenia,SpecificDisease,OMIM:313900
 7579347,116,140,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 7579347,142,145,WAS,SpecificDisease,MESH:D014923
 7579347,198,214,thrombocytopenia,SpecificDisease,MESH:D013921
 7579347,233,239,eczema,SpecificDisease,MESH:D004485
-7579347,354,390,congenital X-linked thrombocytopenia,SpecificDisease,MESH:C564052
-7579347,392,395,XLT,SpecificDisease,MESH:C564052
+7579347,354,390,congenital X-linked thrombocytopenia,SpecificDisease,OMIM:313900
+7579347,392,395,XLT,SpecificDisease,OMIM:313900
 7579347,441,447,eczema,SpecificDisease,MESH:D004485
 7579347,521,524,WAS,SpecificDisease,MESH:D014923
 7579347,1243,1246,WAS,SpecificDisease,MESH:D014923
-7579347,1387,1390,XLT,SpecificDisease,MESH:C564052
+7579347,1387,1390,XLT,SpecificDisease,OMIM:313900
 7579347,1395,1398,WAS,SpecificDisease,MESH:D014923
 1709636,102,117,phenylketonuria,SpecificDisease,MESH:D010661
 1709636,119,134,Phenylketonuria,SpecificDisease,MESH:D010661
 1709636,136,139,PKU,SpecificDisease,MESH:D010661
-1709636,182,239,"deficiency of a hepatic enzyme, phenylalanine hydroxylase",SpecificDisease,MESH:D010661
+1709636,182,239,"deficiency of a hepatic enzyme, phenylalanine hydroxylase",SpecificDisease,OMIM:261600
 1709636,294,297,PKU,SpecificDisease,MESH:D010661
 10633128,0,17,Friedreich ataxia,SpecificDisease,MESH:D005621
 10633128,32,49,Friedreich ataxia,SpecificDisease,MESH:D005621
@@ -2621,7 +2734,7 @@ ID,Start,End,Description,Type,MESH ID
 10737119,605,632,idiopathic torsion dystonia,SpecificDisease,MESH:D004422
 10737119,659,683,dopa-responsive dystonia,SpecificDisease,MESH:C538007
 10737119,707,742,paroxysmal dystonic choreoathetosis,SpecificDisease,MESH:C537181
-10737119,848,887,X-linked dystonia parkinsonism syndrome,SpecificDisease,MESH:C564048
+10737119,848,887,X-linked dystonia parkinsonism syndrome,SpecificDisease,OMIM:314250
 10737119,1148,1175,idiopathic torsion dystonia,SpecificDisease,MESH:D004422
 10737119,1232,1256,dopa-responsive dystonia,SpecificDisease,MESH:C538007
 10533031,30,47,Friedreich ataxia,SpecificDisease,MESH:D005621
@@ -2629,13 +2742,16 @@ ID,Start,End,Description,Type,MESH ID
 10533031,932,946,cardiomyopathy,SpecificDisease,MESH:D009202
 10533031,948,965,diabetes mellitus,SpecificDisease,MESH:D003920
 492812,10,34,meningococcal meningitis,SpecificDisease,MESH:D008585
+492812,40,84,absence of the sixth component of complement,SpecificDisease,OMIM:612446
 492812,180,204,meningococcal meningitis,SpecificDisease,MESH:D008585
+492812,209,253,absence of the sixth component of complement,SpecificDisease,OMIM:612446
 492812,313,334,neisserial infections,SpecificDisease,MESH:D016870
+492812,338,351,C6 deficiency,SpecificDisease,OMIM:612446
 492812,801,822,neisserial infections,SpecificDisease,MESH:D016870
 10519880,131,161,cerebrotendinous xanthomatosis,SpecificDisease,MESH:D019294
 10519880,198,228,cerebrotendinous xanthomatosis,SpecificDisease,MESH:D019294
 10519880,230,233,CTX,SpecificDisease,MESH:D019294
-10519880,1438,1458,abnormality of CYP27,SpecificDisease,MESH:D019294
+10519880,1438,1458,abnormality of CYP27,SpecificDisease,OMIM:213700
 8187068,74,99,advanced prostate cancers,SpecificDisease,MESH:D011471
 8187068,183,209,metastatic prostate cancer,SpecificDisease,MESH:D011471
 8187068,954,978,advanced prostate cancer,SpecificDisease,MESH:D011471
@@ -2661,6 +2777,8 @@ ID,Start,End,Description,Type,MESH ID
 10987655,298,302,EA-2,SpecificDisease,MESH:C535506
 10987655,305,333,familial hemiplegic migraine,SpecificDisease,MESH:D020325
 10987655,335,338,FHM,SpecificDisease,MESH:D020325
+10987655,344,368,spinocerebellar ataxia 6,SpecificDisease,OMIM:183086
+10987655,370,374,SCA6,SpecificDisease,OMIM:183086
 10987655,398,402,EA-2,SpecificDisease,MESH:C535506
 10987655,567,570,FHM,SpecificDisease,MESH:D020325
 10987655,955,959,EA-2,SpecificDisease,MESH:C535506
@@ -2734,11 +2852,16 @@ ID,Start,End,Description,Type,MESH ID
 10557309,105,130,Alveolar rhabdomyosarcoma,SpecificDisease,MESH:D018232
 10557309,148,183,pediatric cancer of striated muscle,SpecificDisease,MESH:D019042
 3032521,423,437,retinoblastoma,SpecificDisease,MESH:D012175
+10612394,81,116,ataxia-telangiectasia-like disorder,SpecificDisease,OMIM:604391
+10612394,223,258,ataxia-telangiectasia-like disorder,SpecificDisease,OMIM:604391
+10612394,260,264,ATLD,SpecificDisease,OMIM:604391
 10612394,356,359,A-T,SpecificDisease,MESH:D001260
 10612394,371,374,NBS,SpecificDisease,MESH:D049932
 10612394,387,425,hypersensitivity to ionizing radiation,SpecificDisease,MESH:D004194
 10612394,924,927,A-T,SpecificDisease,MESH:D001260
 2450401,268,271,DMD,SpecificDisease,MESH:D020388
+6086495,146,171,Becker muscular dystrophy,SpecificDisease,MESH:C537666
+6086495,173,176,BMD,SpecificDisease,MESH:C537666
 10830915,61,78,Friedreich ataxia,SpecificDisease,MESH:D005621
 10830915,80,97,Friedreich ataxia,SpecificDisease,MESH:D005621
 10830915,99,103,FRDA,SpecificDisease,MESH:D005621
@@ -2752,7 +2875,7 @@ ID,Start,End,Description,Type,MESH ID
 1361100,21,36,phenylketonuria,SpecificDisease,MESH:D010661
 1361100,48,63,Phenylketonuria,SpecificDisease,MESH:D010661
 1361100,65,68,PKU,SpecificDisease,MESH:D010661
-1361100,184,242,deficiency of the hepatic enzyme phenylalanine hydroxylase,SpecificDisease,MESH:D010661
+1361100,184,242,deficiency of the hepatic enzyme phenylalanine hydroxylase,SpecificDisease,OMIM:261600
 1361100,250,253,PKU,SpecificDisease,MESH:D010661
 1361100,1388,1391,PKU,SpecificDisease,MESH:D010661
 1733838,29,43,Norrie disease,SpecificDisease,MESH:C537849
@@ -2766,10 +2889,10 @@ ID,Start,End,Description,Type,MESH ID
 7479827,361,374,liver failure,SpecificDisease,MESH:D017093
 7479827,376,393,skeletal myopathy,SpecificDisease,MESH:D009135
 7479827,399,413,cardiomyopathy,SpecificDisease,MESH:D009202
-7479827,806,822,VLCAD deficiency,SpecificDisease,MESH:C536353
+7479827,806,822,VLCAD deficiency,SpecificDisease,OMIM:201475
 7479827,854,868,cardiac arrest,SpecificDisease,MESH:D006323
 7479827,873,887,cardiomyopathy,SpecificDisease,MESH:D009202
-7479827,1356,1372,VLCAD deficiency,SpecificDisease,MESH:C536353
+7479827,1356,1372,VLCAD deficiency,SpecificDisease,OMIM:201475
 7479827,1463,1477,cardiomyopathy,SpecificDisease,MESH:D009202
 7479827,1482,1494,sudden death,SpecificDisease,MESH:D003645
 1577476,42,77,golden retriever muscular dystrophy,SpecificDisease,MESH:D009136
@@ -2779,11 +2902,12 @@ ID,Start,End,Description,Type,MESH ID
 1577476,265,292,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 1577476,294,297,DMD,SpecificDisease,MESH:D020388
 1577476,631,635,GRMD,SpecificDisease,MESH:D009136
-1577476,883,904,dystrophin deficiency,SpecificDisease,MESH:D020388
+1577476,883,904,dystrophin deficiency,SpecificDisease,OMIM:310200
 1981994,39,67,familial Mediterranean fever,SpecificDisease,MESH:D010505
 1981994,166,194,familial Mediterranean fever,SpecificDisease,MESH:D010505
 1981994,196,199,MEF,SpecificDisease,MESH:D010505
 1981994,238,241,MEF,SpecificDisease,MESH:D010505
+1981994,246,261,MEF-amyloidosis,SpecificDisease,MESH:D000686|MESH:D010505
 1981994,592,595,MEF,SpecificDisease,MESH:D010505
 1201235,81,105,severe neonatal jaundice,SpecificDisease,MESH:D007567
 1201235,125,140,G6PD deficiency,SpecificDisease,MESH:D005955
@@ -2821,6 +2945,9 @@ ID,Start,End,Description,Type,MESH ID
 116187,21,52,pyruvate carboxylase deficiency,SpecificDisease,MESH:D015324
 116187,316,347,pyruvate carboxylase deficiency,SpecificDisease,MESH:D015324
 116187,349,371,PC Portland deficiency,SpecificDisease,MESH:D015324
+2852474,0,34,Complex glycerol kinase deficiency,SpecificDisease,MESH:C538138
+2852474,149,183,complex glycerol kinase deficiency,SpecificDisease,MESH:C538138
+2852474,185,189,CGKD,SpecificDisease,MESH:C538138
 2852474,356,385,congenital adrenal hypoplasia,SpecificDisease,MESH:D000312
 2852474,1348,1371,gonadotropin deficiency,SpecificDisease,MESH:C535764
 2852474,1373,1376,GTD,SpecificDisease,MESH:C535764
@@ -2835,12 +2962,14 @@ ID,Start,End,Description,Type,MESH ID
 7726234,171,174,DMD,SpecificDisease,MESH:D020388
 7726234,230,248,myotonic dystrophy,SpecificDisease,MESH:D009223
 7726234,521,548,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
-7726234,561,582,dystrophin deficiency,SpecificDisease,MESH:D020388
+7726234,561,582,dystrophin deficiency,SpecificDisease,OMIM:310200
 7726234,647,665,Myotonic dystrophy,SpecificDisease,MESH:D009223
 7726234,721,739,Duchenne dystrophy,SpecificDisease,MESH:D020388
 8500791,36,48,hemophilia A,SpecificDisease,MESH:D006467
 8500791,152,164,hemophilia A,SpecificDisease,MESH:D006467
 8500791,169,191,von Willebrand disease,SpecificDisease,MESH:D014842
+8500791,1502,1512,hemophilia,SpecificDisease,MESH:D006467|MESH:D002836
+8500791,1582,1592,hemophilia,SpecificDisease,MESH:D006467|MESH:D002836
 10737980,100,129,X-linked Adrenoleukodystrophy,SpecificDisease,MESH:D000326
 10737980,131,136,X-ALD,SpecificDisease,MESH:D000326
 2355960,26,43,Tay-Sachs disease,SpecificDisease,MESH:D013661
@@ -2898,16 +3027,21 @@ ID,Start,End,Description,Type,MESH ID
 10807385,445,485,sporadic (nonhereditary) ovarian cancers,SpecificDisease,MESH:D010051
 10807385,565,580,ovarian cancers,SpecificDisease,MESH:D010051
 10807385,1223,1237,ovarian cancer,SpecificDisease,MESH:D010051
+10807385,2276,2318,BRCA-associated hereditary ovarian cancers,SpecificDisease,OMIM:604370|OMIM:612555|OMIM:613399
 1302008,105,125,Denys-Drash syndrome,SpecificDisease,MESH:D030321
 1302008,250,262,Wilms tumour,SpecificDisease,MESH:D009396
 3014348,88,115,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 3014348,117,120,DMD,SpecificDisease,MESH:D020388
 3014348,540,543,DMD,SpecificDisease,MESH:D020388
 3014348,1050,1053,DMD,SpecificDisease,MESH:D020388
+3014348,1058,1083,Becker muscular dystrophy,SpecificDisease,MESH:C537666
+3014348,1085,1088,BMD,SpecificDisease,MESH:C537666
 3014348,1161,1164,DMD,SpecificDisease,MESH:D020388
 3014348,1255,1258,DMD,SpecificDisease,MESH:D020388
 7802009,90,117,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 7802009,305,332,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
+1127526,0,13,Analbuminemia,SpecificDisease,OMIM:103600
+1127526,78,91,analbuminemia,SpecificDisease,OMIM:103600
 7857677,163,178,Gaucher disease,SpecificDisease,MESH:D005776
 7857677,180,182,GD,SpecificDisease,MESH:D005776
 7857677,200,237,deficiency of beta-glucocerebrosidase,SpecificDisease,MESH:D005776
@@ -2924,7 +3058,7 @@ ID,Start,End,Description,Type,MESH ID
 10447259,139,163,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 10447259,165,168,WAS,SpecificDisease,MESH:D014923
 10447259,1488,1491,WAS,SpecificDisease,MESH:D014923
-10447259,1589,1592,XLT,SpecificDisease,MESH:C564052
+10447259,1589,1592,XLT,SpecificDisease,OMIM:313900
 511159,144,195,glucose-6-phosphate dehydrogenase (G6PD) deficiency,SpecificDisease,MESH:D005955
 511159,632,647,G6PD deficiency,SpecificDisease,MESH:D005955
 8266996,104,121,Angelman syndrome,SpecificDisease,MESH:D017204
@@ -2939,6 +3073,7 @@ ID,Start,End,Description,Type,MESH ID
 8266996,546,549,PWS,SpecificDisease,MESH:D011218
 1307245,36,50,Norrie disease,SpecificDisease,MESH:C537849
 1307245,111,134,X linked Norrie disease,SpecificDisease,MESH:C537849
+1307245,136,138,ND,SpecificDisease,MESH:C537849
 1307245,944,958,Norrie disease,SpecificDisease,MESH:C537849
 7874117,87,103,Kniest dysplasia,SpecificDisease,MESH:C537208
 7874117,105,121,Kniest dysplasia,SpecificDisease,MESH:C537208
@@ -2957,7 +3092,12 @@ ID,Start,End,Description,Type,MESH ID
 3578281,123,144,Prader-Willi syndrome,SpecificDisease,MESH:D011218
 3578281,146,149,PWS,SpecificDisease,MESH:D011218
 3578281,924,927,PWS,SpecificDisease,MESH:D011218
+495634,0,47,Deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
+495634,179,226,deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
 495634,409,429,gonococcal infection,SpecificDisease,MESH:D006069
+495634,1518,1531,C5 deficiency,SpecificDisease,OMIM:609536
+495634,1674,1687,C5 deficiency,SpecificDisease,OMIM:609536
+495634,1689,1705,Deficiency of C5,SpecificDisease,OMIM:609536
 495634,1790,1810,gonococcal infection,SpecificDisease,MESH:D006069
 8533762,142,189,Deficiency of glucose-6-phosphate dehydrogenase,SpecificDisease,MESH:D005955
 8533762,262,269,malaria,SpecificDisease,MESH:D008288
@@ -2995,12 +3135,12 @@ ID,Start,End,Description,Type,MESH ID
 8563759,370,385,ovarian cancers,SpecificDisease,MESH:D010051
 8563759,1160,1172,spina bifida,SpecificDisease,MESH:D016135
 8563759,1177,1188,anencephaly,SpecificDisease,MESH:D000757
-8301658,0,35,X linked recessive thrombocytopenia,SpecificDisease,MESH:C564052
+8301658,0,35,X linked recessive thrombocytopenia,SpecificDisease,OMIM:313900
 8301658,88,104,thrombocytopenia,SpecificDisease,MESH:D013921
-8301658,416,460,X linked recessive thrombocytopenic disorder,SpecificDisease,MESH:C564052
+8301658,416,460,X linked recessive thrombocytopenic disorder,SpecificDisease,OMIM:313900
 8301658,657,681,Wiskott-Aldrich syndrome,SpecificDisease,MESH:D014923
 8301658,683,686,WAS,SpecificDisease,MESH:D014923
-8301658,882,917,X linked recessive thrombocytopenia,SpecificDisease,MESH:C564052
+8301658,882,917,X linked recessive thrombocytopenia,SpecificDisease,OMIM:313900
 7315872,12,42,cerebrotendinous xanthomatosis,SpecificDisease,MESH:D019294
 7315872,44,47,CTX,SpecificDisease,MESH:D019294
 7315872,193,223,cerebrotendinous xanthomatosis,SpecificDisease,MESH:D019294
@@ -3019,31 +3159,37 @@ ID,Start,End,Description,Type,MESH ID
 3258663,1519,1548,severe von Willebrand disease,SpecificDisease,MESH:D056729
 7795591,194,208,retinoblastoma,SpecificDisease,MESH:D012175
 7795591,845,859,retinoblastoma,SpecificDisease,MESH:D012175
-2773936,0,28,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-2773936,276,304,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-2773936,721,749,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-2773936,1297,1325,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-2773936,1574,1612,Pelizaeus-Merzbacher disease (type II),SpecificDisease,MESH:D020371
-2773936,1746,1774,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
+2773936,0,28,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+2773936,276,304,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+2773936,721,749,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+2773936,1297,1325,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+2773936,1574,1612,Pelizaeus-Merzbacher disease (type II),SpecificDisease,OMIM:312080
+2773936,1746,1774,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
 7874163,35,57,Machado-Joseph disease,SpecificDisease,MESH:D017827
 7874163,196,218,Machado-Joseph disease,SpecificDisease,MESH:D017827
 7874163,220,223,MJD,SpecificDisease,MESH:D017827
 7874163,439,442,MJD,SpecificDisease,MESH:D017827
 7874163,698,701,MJD,SpecificDisease,MESH:D017827
+2303408,0,56,Deficiency of the murine fifth complement component (C5),SpecificDisease,OMIM:609536
+2303408,156,169,C5 deficiency,SpecificDisease,OMIM:609536
+2303408,330,346,deficient for C5,SpecificDisease,OMIM:609536
+2303408,490,503,C5 deficiency,SpecificDisease,OMIM:609536
+2303408,686,699,C5 deficiency,SpecificDisease,OMIM:609536
+2303408,1708,1729,C5 protein deficiency,SpecificDisease,OMIM:609536
 2241452,10,20,meningitis,SpecificDisease,MESH:D008581
-2241452,39,94,congenital deficiency of the C9 component of complement,SpecificDisease,MESH:C565165
-2241452,110,123,C9 deficiency,SpecificDisease,MESH:C565165
-2241452,185,198,C9 deficiency,SpecificDisease,MESH:C565165
+2241452,39,94,congenital deficiency of the C9 component of complement,SpecificDisease,OMIM:613825
+2241452,110,123,C9 deficiency,SpecificDisease,OMIM:613825
+2241452,185,198,C9 deficiency,SpecificDisease,OMIM:613825
 2241452,368,388,bacterial meningitis,SpecificDisease,MESH:D016920
 2241452,451,470,purulent meningitis,SpecificDisease,MESH:D008586
 2241452,513,543,acute meningococcal meningitis,SpecificDisease,MESH:D008585
 2241452,583,608,immunoglobulin deficiency,SpecificDisease,MESH:D004406
-2241452,652,691,complete deficiency of the C9 component,SpecificDisease,MESH:C565165
-2241452,859,881,complete C9 deficiency,SpecificDisease,MESH:C565165
+2241452,652,691,complete deficiency of the C9 component,SpecificDisease,OMIM:613825
+2241452,859,881,complete C9 deficiency,SpecificDisease,OMIM:613825
 2241452,1011,1031,bacterial meningitis,SpecificDisease,MESH:D016920
-2241452,1078,1091,C9 deficiency,SpecificDisease,MESH:C565165
-2241452,1112,1132,recurrent meningitis,SpecificDisease,MESH:D008581
-2241452,1157,1179,complete C9 deficiency,SpecificDisease,MESH:C565165
+2241452,1078,1091,C9 deficiency,SpecificDisease,OMIM:613825
+2241452,1112,1132,recurrent meningitis,SpecificDisease,MESH:D008581|MESH:D012008
+2241452,1157,1179,complete C9 deficiency,SpecificDisease,OMIM:613825
 6387532,26,46,adrenoleukodystrophy,SpecificDisease,MESH:D000326
 6387532,193,213,adrenoleukodystrophy,SpecificDisease,MESH:D000326
 6387532,215,218,ALD,SpecificDisease,MESH:D000326
@@ -3062,7 +3208,7 @@ ID,Start,End,Description,Type,MESH ID
 2894613,126,129,VHL,SpecificDisease,MESH:D006623
 2894613,233,250,hemangioblastomas,SpecificDisease,MESH:D018325
 2894613,282,300,phaeochromocytomas,SpecificDisease,MESH:D010673
-2894613,302,325,pancreatic malignancies,SpecificDisease,MESH:C535837
+2894613,302,325,pancreatic malignancies,SpecificDisease,OMIM:260350
 2894613,331,352,renal cell carcinomas,SpecificDisease,MESH:D002292
 2894613,354,375,Renal cell carcinomas,SpecificDisease,MESH:D002292
 2894613,1072,1102,Sporadic renal cell carcinomas,SpecificDisease,MESH:D002292
@@ -3077,12 +3223,13 @@ ID,Start,End,Description,Type,MESH ID
 10716718,208,229,ataxia-telangiectasia,SpecificDisease,MESH:D001260
 10716718,231,234,A-T,SpecificDisease,MESH:D001260
 10716718,447,462,thymic lymphoma,SpecificDisease,MESH:D013953
-10716718,952,966,Atm deficiency,SpecificDisease,MESH:D001260
+10716718,952,966,Atm deficiency,SpecificDisease,OMIM:208900
 10716718,1180,1183,A-T,SpecificDisease,MESH:D001260
 1303173,104,155,glucose 6-phosphate dehydrogenase (G6PD) deficiency,SpecificDisease,MESH:D005955
 1303173,762,777,G6PD deficiency,SpecificDisease,MESH:D005955
 1303173,1527,1552,enzyme deficiency in G6PD,SpecificDisease,MESH:D005955
 2253937,431,434,DMD,SpecificDisease,MESH:D020388
+2253937,436,439,BMD,SpecificDisease,MESH:C537666
 2591962,33,51,myotonic dystrophy,SpecificDisease,MESH:D009223
 2591962,137,155,myotonic dystrophy,SpecificDisease,MESH:D009223
 2591962,157,159,DM,SpecificDisease,MESH:D009223
@@ -3095,10 +3242,10 @@ ID,Start,End,Description,Type,MESH ID
 10417280,180,183,PWS,SpecificDisease,MESH:D011218
 10417280,189,206,Angelman syndrome,SpecificDisease,MESH:D017204
 10417280,208,210,AS,SpecificDisease,MESH:D017204
-8530105,134,164,trichorhinophalangeal syndrome,SpecificDisease,MESH:C536820
+8530105,134,164,trichorhinophalangeal syndrome,SpecificDisease,OMIM:190350
 8530105,365,388,Langer-Giedion syndrome,SpecificDisease,MESH:D015826
-8530105,886,916,trichorhinophalangeal syndrome,SpecificDisease,MESH:C536820
-8530105,918,922,TRPS,SpecificDisease,MESH:C536820
+8530105,886,916,trichorhinophalangeal syndrome,SpecificDisease,OMIM:190350
+8530105,918,922,TRPS,SpecificDisease,OMIM:190350
 8530105,1235,1258,Langer-Giedion syndrome,SpecificDisease,MESH:D015826
 313733,0,24,Hereditary C2 deficiency,SpecificDisease,OMIM:217000
 313733,86,99,C2 deficiency,SpecificDisease,OMIM:217000
@@ -3113,34 +3260,36 @@ ID,Start,End,Description,Type,MESH ID
 7543316,310,328,myotonic dystrophy,SpecificDisease,MESH:D009223
 7543316,1172,1190,myotonic dystrophy,SpecificDisease,MESH:D009223
 7543316,1505,1523,myotonic dystrophy,SpecificDisease,MESH:D009223
-8004674,26,41,McLeod syndrome,SpecificDisease,MESH:C564038
-8004674,91,106,McLeod syndrome,SpecificDisease,MESH:C564038
-8004674,903,918,McLeod syndrome,SpecificDisease,MESH:C564038
+8004674,26,41,McLeod syndrome,SpecificDisease,OMIM:300842
+8004674,91,106,McLeod syndrome,SpecificDisease,OMIM:300842
+8004674,903,918,McLeod syndrome,SpecificDisease,OMIM:300842
 10790204,19,68,very long chain acyl-CoA dehydrogenase deficiency,SpecificDisease,MESH:C536353
 10790204,230,287,Very long chain acyl-CoA dehydrogenase (VLCAD) deficiency,SpecificDisease,MESH:C536353
-10790204,473,489,VLCAD deficiency,SpecificDisease,MESH:C536353
+10790204,473,489,VLCAD deficiency,SpecificDisease,OMIM:201475
 10932179,117,135,Huntington disease,SpecificDisease,MESH:D006816
 10932179,137,139,HD,SpecificDisease,MESH:D006816
 10932179,1004,1006,HD,SpecificDisease,MESH:D006816
 8240110,31,51,retinitis pigmentosa,SpecificDisease,MESH:D012174
 8240110,53,70,pattern dystrophy,SpecificDisease,MESH:D008268
-8240110,76,97,fundus flavimaculatus,SpecificDisease,MESH:D000080362
+8240110,76,97,fundus flavimaculatus,SpecificDisease,MESH:C535804
 8240110,267,306,autosomal dominant retinitis pigmentosa,SpecificDisease,MESH:D012174
 8240110,316,333,macular dystrophy,SpecificDisease,MESH:D008268
-8240110,339,367,retinitis punctata albescens,SpecificDisease,MESH:C562733
+8240110,339,367,retinitis punctata albescens,SpecificDisease,OMIM:136880
 8240110,1039,1059,retinitis pigmentosa,SpecificDisease,MESH:D012174
 8240110,1172,1197,pattern macular dystrophy,SpecificDisease,MESH:D008268
 8240110,1364,1384,macular degeneration,SpecificDisease,MESH:D008268
-8240110,1437,1458,fundus flavimaculatus,SpecificDisease,MESH:D000080362
+8240110,1437,1458,fundus flavimaculatus,SpecificDisease,MESH:C535804
 8240110,1560,1580,macular degeneration,SpecificDisease,MESH:D008268
 8240110,1598,1618,Pericentral scotomas,SpecificDisease,MESH:D012607
 10441571,223,231,aniridia,SpecificDisease,MESH:D015783
 10441571,233,247,Peters anomaly,SpecificDisease,MESH:C537884
 10441571,249,266,corneal dystrophy,SpecificDisease,MESH:D003317
 10441571,268,287,congenital cataract,SpecificDisease,MESH:D002386
+10441571,293,310,foveal hypoplasia,SpecificDisease,OMIM:136520
 10441571,1050,1064,Peters anomaly,SpecificDisease,MESH:C537884
 10441571,1066,1085,congenital cataract,SpecificDisease,MESH:D002386
 10441571,1087,1104,Axenfeldt anomaly,SpecificDisease,MESH:C535679
+10441571,1113,1130,foveal hypoplasia,SpecificDisease,OMIM:136520
 1673289,977,995,Huntington disease,SpecificDisease,MESH:D006816
 1673289,997,999,HD,SpecificDisease,MESH:D006816
 8101038,64,107,late-infantile metachromatic leukodystrophy,SpecificDisease,MESH:D007966
@@ -3213,37 +3362,41 @@ ID,Start,End,Description,Type,MESH ID
 3346017,22,49,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 3347839,585,612,Duchenne muscular dystrophy,SpecificDisease,MESH:D020388
 3347839,614,617,DMD,SpecificDisease,MESH:D020388
+7790377,1391,1417,PTS1 protein-import defect,SpecificDisease,OMIM:202370|OMIM:214100
 7790377,1513,1542,neonatal adrenoleukodystrophy,SpecificDisease,OMIM:202370
 7790377,1546,1564,Zellweger syndrome,SpecificDisease,MESH:D015211
-8012387,32,60,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-8012387,343,371,Pelizaeus-Merzbacher disease,SpecificDisease,MESH:D020371
-8012387,373,376,PMD,SpecificDisease,MESH:D020371
-8012387,930,933,PMD,SpecificDisease,MESH:D020371
+8012387,0,27,X-linked spastic paraplegia,SpecificDisease,OMIM:312920
+8012387,32,60,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+8012387,132,159,X-linked spastic paraplegia,SpecificDisease,OMIM:312920
+8012387,161,164,SPG,SpecificDisease,OMIM:312920
+8012387,343,371,Pelizaeus-Merzbacher disease,SpecificDisease,OMIM:312080
+8012387,373,376,PMD,SpecificDisease,OMIM:312080
+8012387,930,933,PMD,SpecificDisease,OMIM:312080
 9949209,158,185,hepatic copper accumulation,SpecificDisease,MESH:D008107
 9949209,272,299,hepatic copper accumulation,SpecificDisease,MESH:D008107
 9949209,346,360,Wilson disease,SpecificDisease,MESH:D006527
 9949209,362,364,WD,SpecificDisease,MESH:D006527
 9949209,499,514,copper overload,SpecificDisease,MESH:D008107
-9949209,523,553,non-Indian childhood cirrhosis,SpecificDisease,MESH:C566123
-9949209,637,653,copper toxicosis,SpecificDisease,MESH:C566123
-9949209,655,657,CT,SpecificDisease,MESH:C566123
-9949209,814,816,CT,SpecificDisease,MESH:C566123
-9949209,999,1001,CT,SpecificDisease,MESH:C566123
+9949209,523,553,non-Indian childhood cirrhosis,SpecificDisease,OMIM:215600
+9949209,637,653,copper toxicosis,SpecificDisease,OMIM:215600
+9949209,655,657,CT,SpecificDisease,OMIM:215600
+9949209,814,816,CT,SpecificDisease,OMIM:215600
+9949209,999,1001,CT,SpecificDisease,OMIM:215600
 9949209,1147,1149,WD,SpecificDisease,MESH:D006527
-9949209,1174,1176,CT,SpecificDisease,MESH:C566123
-9949209,1261,1263,CT,SpecificDisease,MESH:C566123
+9949209,1174,1176,CT,SpecificDisease,OMIM:215600
+9949209,1261,1263,CT,SpecificDisease,OMIM:215600
 9950360,96,99,FAP,SpecificDisease,MESH:D011125
 9950360,225,242,colorectal cancer,SpecificDisease,MESH:D015179
 9950360,298,328,familial adenomatous polyposis,SpecificDisease,MESH:D011125
 9950360,330,333,FAP,SpecificDisease,MESH:D011125
 9950360,642,659,colorectal cancer,SpecificDisease,MESH:D015179
-9634518,32,68,phenylalanine hydroxylase deficiency,SpecificDisease,MESH:D010661
+9634518,32,68,phenylalanine hydroxylase deficiency,SpecificDisease,OMIM:261600
 9634518,177,192,Phenylketonuria,SpecificDisease,MESH:D010661
 9634518,194,197,PKU,SpecificDisease,MESH:D010661
 9634518,203,229,mild hyperphenylalaninemia,SpecificDisease,MESH:D010661
 9634518,231,234,MHP,SpecificDisease,MESH:D010661
-9634518,413,427,PAH deficiency,SpecificDisease,MESH:D010661
-9634518,1442,1456,PAH deficiency,SpecificDisease,MESH:D010661
+9634518,413,427,PAH deficiency,SpecificDisease,OMIM:261600
+9634518,1442,1456,PAH deficiency,SpecificDisease,OMIM:261600
 9634518,1640,1661,hyperphenylalaninemia,SpecificDisease,MESH:D010661
 9563950,61,79,myotonic dystrophy,SpecificDisease,MESH:D009223
 9563950,81,99,Myotonic dystrophy,SpecificDisease,MESH:D009223
@@ -3307,6 +3460,7 @@ ID,Start,End,Description,Type,MESH ID
 9705283,425,433,aniridia,SpecificDisease,MESH:D015783
 9705283,435,449,Peters anomaly,SpecificDisease,MESH:C537884
 9705283,451,479,autosomal dominant keratitis,SpecificDisease,MESH:C537022
+9705283,485,510,familial foveal dysplasia,SpecificDisease,OMIM:136520
 9705283,592,600,aniridia,SpecificDisease,MESH:D015783
 9705283,757,765,Aniridia,SpecificDisease,MESH:D015783
 9705283,1524,1532,aniridia,SpecificDisease,MESH:D015783
@@ -3364,20 +3518,36 @@ ID,Start,End,Description,Type,MESH ID
 9792860,716,751,autosomal recessive Alport syndrome,SpecificDisease,MESH:C536587
 9771706,68,85,diabetes mellitus,SpecificDisease,MESH:D003920
 9771706,90,103,optic atrophy,SpecificDisease,MESH:D009896
+9771706,105,121,Wolfram syndrome,SpecificDisease,OMIM:222300
+9771706,124,140,Wolfram syndrome,SpecificDisease,OMIM:222300
+9771706,142,145,WFS,SpecificDisease,OMIM:222300
 9771706,247,282,insulin-dependent diabetes mellitus,SpecificDisease,MESH:D003922
 9771706,299,312,optic atrophy,SpecificDisease,MESH:D009896
+9472666,35,69,complement component C6 deficiency,SpecificDisease,OMIM:612446
+9472666,101,135,Complement component C6 deficiency,SpecificDisease,OMIM:612446
+9472666,137,140,C6D,SpecificDisease,OMIM:612446
 9472666,200,224,meningococcal meningitis,SpecificDisease,MESH:D008585
+9472666,272,275,C6D,SpecificDisease,OMIM:612446
 9472666,300,310,meningitis,SpecificDisease,MESH:D008581
 9472666,320,340,neisserial infection,SpecificDisease,MESH:D016870
+9472666,720,723,C6D,SpecificDisease,OMIM:612446
 9733027,124,141,Friedreich ataxia,SpecificDisease,MESH:D005621
+9506545,337,341,SCA1,SpecificDisease,OMIM:164400
+9506545,351,355,SCA2,SpecificDisease,OMIM:183090
 9506545,369,373,SCA3,SpecificDisease,MESH:D017827
 9506545,374,396,Machado-Joseph disease,SpecificDisease,MESH:D017827
 9506545,398,401,MJD,SpecificDisease,MESH:D017827
+9506545,416,420,SCA1,SpecificDisease,OMIM:164400
 9506545,482,493,hypermetria,SpecificDisease,MESH:D002524
+9506545,537,541,SCA2,SpecificDisease,OMIM:183090
 9506545,816,820,SCA3,SpecificDisease,MESH:D017827
 9506545,822,843,gaze-evoked nystagmus,SpecificDisease,MESH:D009759
 9506545,1011,1032,gaze-evoked nystagmus,SpecificDisease,MESH:D009759
+9506545,1081,1085,SCA1,SpecificDisease,OMIM:164400
+9506545,1098,1102,SCA2,SpecificDisease,OMIM:183090
 9506545,1133,1137,SCA3,SpecificDisease,MESH:D017827
+9506545,1228,1232,SCA1,SpecificDisease,OMIM:164400
+9506545,1234,1238,SCA2,SpecificDisease,OMIM:183090
 9506545,1244,1248,SCA3,SpecificDisease,MESH:D017827
 9288106,72,97,sporadic T-cell leukaemia,SpecificDisease,MESH:D015458
 9288106,99,120,Ataxia-telangiectasia,SpecificDisease,MESH:D001260
@@ -3393,6 +3563,10 @@ ID,Start,End,Description,Type,MESH ID
 9288106,1340,1345,B-NHL,SpecificDisease,MESH:D016393
 9288106,1594,1608,sporadic T-PLL,SpecificDisease,MESH:D015461
 9288106,1741,1746,T-PLL,SpecificDisease,MESH:D015461
+9580132,140,184,familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9580132,186,230,Familial neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9580132,232,236,FNDI,SpecificDisease,OMIM:125700
+9580132,463,467,FNDI,SpecificDisease,OMIM:125700
 9792409,180,201,ataxia-telangiectasia,SpecificDisease,MESH:D001260
 9792409,203,206,A-T,SpecificDisease,MESH:D001260
 9792409,1526,1529,A-T,SpecificDisease,MESH:D001260
@@ -3409,6 +3583,7 @@ ID,Start,End,Description,Type,MESH ID
 9482572,120,134,Peters anomaly,SpecificDisease,MESH:C537884
 9482572,141,161,congenital cataracts,SpecificDisease,MESH:D002386
 9482572,168,196,autosomal dominant keratitis,SpecificDisease,MESH:C537022
+9482572,207,233,isolated foveal hypoplasia,SpecificDisease,OMIM:136520
 9482572,295,303,aniridia,SpecificDisease,MESH:D015783
 9674906,0,31,Schwartz-Jampel syndrome type 2,SpecificDisease,MESH:C537502
 9674906,36,60,Stuve-Wiedemann syndrome,SpecificDisease,MESH:C537502
@@ -3445,19 +3620,26 @@ ID,Start,End,Description,Type,MESH ID
 9585605,77,79,AS,SpecificDisease,MESH:D017204
 9585605,157,175,uniparental disomy,SpecificDisease,MESH:D024182
 9585605,177,180,UPD,SpecificDisease,MESH:D024182
+9360520,0,54,Autosomal dominant neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9360520,131,185,Autosomal dominant neurohypophyseal diabetes insipidus,SpecificDisease,OMIM:125700
+9360520,187,192,ADNDI,SpecificDisease,OMIM:125700
 9360520,453,471,diabetes insipidus,SpecificDisease,MESH:D003919
+9360520,587,592,ADNDI,SpecificDisease,OMIM:125700
 9709714,19,46,hypertrophic cardiomyopathy,SpecificDisease,MESH:D002312
 9709714,89,145,very-long-chain acyl-coenzyme A dehydrogenase deficiency,SpecificDisease,MESH:C536353
 9709714,147,211,Very-long-chain acyl-coenzyme A dehydrogenase (VLCAD) deficiency,SpecificDisease,MESH:C536353
-9709714,364,380,VLCAD deficiency,SpecificDisease,MESH:C536353
+9709714,364,380,VLCAD deficiency,SpecificDisease,OMIM:201475
 9709714,431,458,hypertrophic cardiomyopathy,SpecificDisease,MESH:D002312
 9709714,460,472,hepatomegaly,SpecificDisease,MESH:D006529
 9709714,494,503,hypotonia,SpecificDisease,MESH:D009123
-9709714,535,551,VLCAD deficiency,SpecificDisease,MESH:C536353
-9709714,1061,1077,VLCAD deficiency,SpecificDisease,MESH:C536353
+9709714,535,551,VLCAD deficiency,SpecificDisease,OMIM:201475
+9709714,1061,1077,VLCAD deficiency,SpecificDisease,OMIM:201475
 9600235,298,319,ataxia-telangiectasia,SpecificDisease,MESH:D001260
 9600235,321,324,A-T,SpecificDisease,MESH:D001260
 9770531,675,678,VHL,SpecificDisease,MESH:D006623
+9385378,96,121,mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9385378,123,148,Mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9385378,150,157,MPS IVA,SpecificDisease,OMIM:253000
 9603435,133,153,G(M2) gangliosidosis,SpecificDisease,MESH:D020143
 9603435,285,302,Tay-Sachs disease,SpecificDisease,MESH:D013661
 9603435,304,307,TSD,SpecificDisease,MESH:D013661
@@ -3474,8 +3656,8 @@ ID,Start,End,Description,Type,MESH ID
 9618170,292,309,skeletal myopathy,SpecificDisease,MESH:D009135
 9618170,422,427,XLDCM,SpecificDisease,MESH:D002311
 9618170,1151,1156,XLDCM,SpecificDisease,MESH:D002311
-9585583,25,49,Saethre-Chotzen syndrome,SpecificDisease,MESH:D000168
-9585583,131,155,Saethre-Chotzen syndrome,SpecificDisease,MESH:D000168
+9585583,25,49,Saethre-Chotzen syndrome,SpecificDisease,OMIM:101400
+9585583,131,155,Saethre-Chotzen syndrome,SpecificDisease,OMIM:101400
 9585583,198,214,craniosynostosis,SpecificDisease,MESH:D003398
 9585583,845,863,coronal synostosis,SpecificDisease,MESH:D003398
 9585583,865,878,brachycephaly,SpecificDisease,MESH:D003398
@@ -3490,6 +3672,10 @@ ID,Start,End,Description,Type,MESH ID
 9371490,378,402,sporadic prostate cancer,SpecificDisease,MESH:D011471
 9371490,710,725,prostate tumors,SpecificDisease,MESH:D011471
 9371490,1140,1164,sporadic prostate cancer,SpecificDisease,MESH:D011471
+9521421,27,52,mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9521421,173,198,Mucopolysaccharidosis IVA,SpecificDisease,OMIM:253000
+9521421,200,207,MPS IVA,SpecificDisease,OMIM:253000
+9521421,1889,1896,MPS IVA,SpecificDisease,OMIM:253000
 9852676,57,75,myotonic dystrophy,SpecificDisease,MESH:D009223
 9852676,1258,1260,DM,SpecificDisease,MESH:D009223
 9852676,1265,1283,Friedreichs ataxia,SpecificDisease,MESH:D005621
@@ -3547,18 +3733,18 @@ ID,Start,End,Description,Type,MESH ID
 9448273,1007,1010,VHL,SpecificDisease,MESH:D006623
 9448273,1270,1273,VHL,SpecificDisease,MESH:D006623
 9448273,1287,1290,VHL,SpecificDisease,MESH:D006623
-9703418,87,111,complement C9 deficiency,SpecificDisease,MESH:C565165
-9703418,113,166,Deficiency of the ninth component of human complement,SpecificDisease,MESH:C565165
-9703418,288,301,C9 deficiency,SpecificDisease,MESH:C565165
+9703418,87,111,complement C9 deficiency,SpecificDisease,OMIM:613825
+9703418,113,166,Deficiency of the ninth component of human complement,SpecificDisease,OMIM:613825
+9703418,288,301,C9 deficiency,SpecificDisease,OMIM:613825
 9703418,363,387,meningococcal meningitis,SpecificDisease,MESH:D008585
-9703418,882,895,C9 deficiency,SpecificDisease,MESH:C565165
-9848786,0,36,Human complement factor H deficiency,SpecificDisease,MESH:C562875
+9703418,882,895,C9 deficiency,SpecificDisease,OMIM:613825
+9848786,0,36,Human complement factor H deficiency,SpecificDisease,OMIM:609814
 9848786,53,78,hemolytic uremic syndrome,SpecificDisease,MESH:D006463
-9848786,115,177,deficiency in the human complement regulatory protein Factor H,SpecificDisease,MESH:C562875
+9848786,115,177,deficiency in the human complement regulatory protein Factor H,SpecificDisease,OMIM:609814
 9848786,204,223,acute renal disease,SpecificDisease,MESH:D007674
 9848786,296,321,hemolytic uremic syndrome,SpecificDisease,MESH:D006463
 9848786,323,326,HUS,SpecificDisease,MESH:D006463
-9848786,891,910,Factor H deficiency,SpecificDisease,MESH:C562875
+9848786,891,910,Factor H deficiency,SpecificDisease,OMIM:609814
 9848786,961,964,HUS,SpecificDisease,MESH:D006463
 9848786,1061,1064,HUS,SpecificDisease,MESH:D006463
 9521325,42,77,idiopathic ventricular fibrillation,SpecificDisease,MESH:C537182
@@ -3623,11 +3809,17 @@ ID,Start,End,Description,Type,MESH ID
 9861003,651,655,BPAD,SpecificDisease,MESH:D001714
 9861003,932,936,BPAD,SpecificDisease,MESH:D001714
 9861003,1484,1488,BPAD,SpecificDisease,MESH:D001714
+932197,0,58,Hereditary deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
+932197,156,214,hereditary deficiency of the fifth component of complement,SpecificDisease,OMIM:609536
 932197,279,307,systemic lupus erythematosus,SpecificDisease,MESH:D008180
+932197,983,996,C5 deficiency,SpecificDisease,OMIM:609536
 932197,1630,1648,glomerulonephritis,SpecificDisease,MESH:D005921
 932197,1650,1660,vasculitis,SpecificDisease,MESH:D014657
 9439660,455,458,A-T,SpecificDisease,MESH:D001260
+9856498,23,36,C6 deficiency,SpecificDisease,OMIM:612446
+9856498,72,125,Deficiency of the sixth component of human complement,SpecificDisease,OMIM:612446
 9856498,210,231,Meningococcal disease,SpecificDisease,MESH:D008589
+9856498,289,302,C6 deficiency,SpecificDisease,OMIM:612446
 9744473,53,81,metachromatic leukodystrophy,SpecificDisease,MESH:D007966
 9744473,83,112,Deficiency of arylsulfatase A,SpecificDisease,MESH:D007966
 9744473,143,171,metachromatic leukodystrophy,SpecificDisease,MESH:D007966
@@ -3651,9 +3843,11 @@ ID,Start,End,Description,Type,MESH ID
 9497246,1616,1629,breast cancer,SpecificDisease,MESH:D001943
 9497246,1863,1876,breast cancer,SpecificDisease,MESH:D001943
 9620771,19,26,obesity,SpecificDisease,MESH:D009765
+9620771,398,413,ACTH deficiency,SpecificDisease,OMIM:201400|MESH:C535668
 9620771,702,709,obesity,SpecificDisease,MESH:D009765
 9620771,821,828,obesity,SpecificDisease,MESH:D009765
 9620771,1001,1008,obesity,SpecificDisease,MESH:D009765
+9620771,1041,1056,ACTH deficiency,SpecificDisease,OMIM:201400|MESH:C535668
 9620771,1583,1590,obesity,SpecificDisease,MESH:D009765
 9420335,254,272,pancreatic cancers,SpecificDisease,MESH:D010190
 9420335,681,700,gastrulation defect,SpecificDisease,MESH:D004194
@@ -3690,9 +3884,9 @@ ID,Start,End,Description,Type,MESH ID
 993342,1337,1350,C2 deficiency,SpecificDisease,OMIM:217000
 993342,1448,1461,C2 deficiency,SpecificDisease,OMIM:217000
 993342,1489,1502,C2 deficiency,SpecificDisease,OMIM:217000
-9856499,0,24,Complement C7 deficiency,SpecificDisease,MESH:C566443
-9856499,131,144,C7 deficiency,SpecificDisease,MESH:C566443
-9856499,487,497,C7 defects,SpecificDisease,MESH:C566443
+9856499,0,24,Complement C7 deficiency,SpecificDisease,OMIM:610102
+9856499,131,144,C7 deficiency,SpecificDisease,OMIM:610102
+9856499,487,497,C7 defects,SpecificDisease,OMIM:610102
 9529364,74,101,diffuse mesangial sclerosis,SpecificDisease,MESH:C537346
 9529364,356,376,Denys-Drash syndrome,SpecificDisease,MESH:D030321
 9529364,378,381,DDS,SpecificDisease,MESH:D030321
