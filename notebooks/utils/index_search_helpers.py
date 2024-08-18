@@ -1,0 +1,239 @@
+import json
+import re
+from typing import Dict, List, Literal
+from neo4j import Driver
+from pandas import DataFrame
+from rapidfuzz import fuzz, distance
+
+from utils.generic import Models, Vectors, contains_abbreviation
+
+
+###########
+# QUERIES #
+###########
+
+fulltext_index_query = """
+    CALL db.index.fulltext.queryNodes('diseaseIndex', $disease_name)
+    YIELD node, score
+    RETURN node.DiseaseID AS MESH_ID, node.AltDiseaseIDs as AltDiseaseIDs, node.DiseaseName AS Description, node.Synonyms AS Synonyms, score
+    LIMIT $limit
+"""
+
+vector_index_query = """
+    CALL db.index.vector.queryNodes($index, $limit, $embedding)
+    YIELD node, score
+    with node, score
+    WHERE score > $threshold
+    RETURN node.DiseaseName AS Description,
+        node.DiseaseID AS MESH_ID,
+        node.AltDiseaseIDs AS AltDiseaseIDs,
+        node.Synonyms AS Synonyms,
+        score
+"""
+
+###########
+# HELPERS #
+###########
+
+def fulltext_search(
+        query: str,
+        disease_name: str,
+        driver: Driver,
+        limit=1
+        ) -> list:
+    with driver.session() as session:
+        disease_name_re = re.sub('[^A-Za-z0-9 ]+', '', disease_name) # to address the limitation of the fulltext index
+
+        result = session.run(query, disease_name=disease_name_re, limit=limit)
+
+        return [{
+            'MESH_ID': record['MESH_ID'],
+            'Description': record['Description'],
+            'Synonyms': record['Synonyms'],
+            'AltDiseaseIDs': record['AltDiseaseIDs'],
+            'score': record['score']} for record in result
+        ]
+
+def get_embedding_col_name(
+        model: Models,
+        prop: Literal['SynonymsCentroidEmbedding','DiseaseEmbedding' ,'SynonymsEmbedding']
+        ) -> str:
+    return f"{prop}-{model.value.replace('.', '_').replace('/', '-')}"
+
+def vector_index_search(
+        driver: Driver,
+        query: str,
+        embedding: list,
+        index: str,
+        limit=1, 
+        threshold=0.80
+        ) -> list:
+    with driver.session() as session:
+        result = session.run(query, index=index, embedding=embedding, limit=limit, threshold=threshold)
+
+        return [{
+            'MESH_ID': record['MESH_ID'],
+            'Description': record['Description'],
+            'Synonyms': record['Synonyms'],
+            'AltDiseaseIDs': record['AltDiseaseIDs'],
+            'score': record['score']} for record in result
+        ]
+
+def predict_with_vector_index(
+        dataset: DataFrame,
+        query: str,
+        index: str,
+        embedding_col: str,
+        driver: Driver,
+        limit=1,
+        threshold=0.80
+        ) -> list:
+    predicted_values = []
+
+    for _, row in dataset.iterrows():
+        disease_name = row['Description']
+        true_mesh_id = row['MESH ID']
+        embedding = row[embedding_col]
+        
+        search_results = vector_index_search(driver, query, json.loads(embedding), index, limit, threshold)
+
+        for item in search_results:
+            item['True MESH_ID'] = true_mesh_id
+            item['True Description'] = disease_name
+        
+        predicted_values.append(search_results if len(search_results) > 0 else [{
+            "MESH_ID": "Unknown", 
+            "AltDiseaseIDs": "Unknown", 
+            "Description": "Unknown",
+            "True MESH_ID": true_mesh_id,
+            "True Description": disease_name
+            }]
+        )
+
+    return predicted_values
+
+def predict_with_fulltext_index(
+        dataset: DataFrame,
+        driver: Driver,
+        limit=1
+        ) -> list:
+    predicted_values = []
+
+    for _, row in dataset.iterrows():
+        disease_name = row['Description']
+        true_mesh_id = row['MESH ID']
+        
+        search_results = fulltext_search(fulltext_index_query, disease_name, driver, limit)
+        for item in search_results:
+            item['True MESH_ID'] = true_mesh_id
+            item['True Description'] = disease_name
+        
+        predicted_values.append(search_results if len(search_results) > 0 else [{
+            "MESH_ID": "Unknown", 
+            "AltDiseaseIDs": "Unknown", 
+            "Description": "Unknown",
+            "True MESH_ID": true_mesh_id,
+            "True Description": disease_name
+            }]
+        )
+
+    return predicted_values
+
+def get_combined_search_for_df(dataset: DataFrame, embedding_col: str, driver: Driver) -> list:
+    predicted_values = []
+
+    for _, row in dataset.iterrows():
+        disease_name = row['Description']
+        true_mesh_id = row['MESH ID']
+        embedding = row[embedding_col]
+        
+        search_results = combined_search(disease_name=disease_name, embedding=json.loads(embedding), driver=driver)
+
+        for item in search_results:
+            item['True MESH_ID'] = true_mesh_id
+            item['True Description'] = disease_name
+        
+        predicted_values.append(search_results if len(search_results) > 0 else [{
+            "MESH_ID": "Unknown", 
+            "AltDiseaseIDs": "Unknown", 
+            "Description": "Unknown",
+            "True MESH_ID": true_mesh_id,
+            "True Description": disease_name
+            }]
+        )
+
+    return predicted_values
+
+def calculate_string_similarity(candidates_list: List[str], disease_name: str) -> Dict[str, float]:
+    similarity_metrics = {
+        "weighted_ratio": 0,
+        "token_set_ratio": 0,
+        "JaroWinkler_distance": 0,
+        "LCSseq_distance": 0
+    }
+
+    for candidate in candidates_list:
+        similarity_metrics["weighted_ratio"] = max(similarity_metrics["weighted_ratio"], fuzz.WRatio(candidate, disease_name))
+        similarity_metrics["token_set_ratio"] = max(similarity_metrics["token_set_ratio"], fuzz.token_set_ratio(candidate, disease_name))
+        similarity_metrics["JaroWinkler_distance"] = max(similarity_metrics["JaroWinkler_distance"], distance.JaroWinkler.similarity(candidate, disease_name))
+        similarity_metrics["LCSseq_distance"] = max(similarity_metrics["LCSseq_distance"], distance.LCSseq.similarity(candidate, disease_name))
+
+    return similarity_metrics
+
+def custom_sort_key(candidate: dict, disease_name: str) -> tuple:
+    abbrev = contains_abbreviation(disease_name)
+    
+    primary_metric = candidate['weighted_ratio'] if abbrev else candidate['token_set_ratio']
+    secondary_metric = candidate['token_set_ratio'] if abbrev else candidate['weighted_ratio']
+    
+    # JaroWinkler_distance and LCSseq_distance as tertiary and quaternary metrics
+    tertiary_metric = candidate['JaroWinkler_distance']
+    quaternary_metric = candidate['LCSseq_distance']
+    
+    return (-primary_metric, -secondary_metric, -tertiary_metric, -quaternary_metric)
+
+def process_predictions(predictions: list, disease_name: str) -> list:
+    for prediction in predictions:
+        synonyms = prediction['Synonyms'] if isinstance(prediction['Synonyms'], str) else ""
+        combined_names = synonyms.split('|') + [prediction['Description']]
+
+        ranking = calculate_string_similarity(combined_names, disease_name)
+        prediction.update(ranking)
+
+    return sorted(predictions, key=lambda candidate: custom_sort_key(candidate, disease_name))
+
+def combined_search(disease_name: str, embedding: list, driver: Driver, limit=5) -> dict:
+    fulltext_predictions = fulltext_search(
+        query=fulltext_index_query,
+        disease_name=disease_name,
+        driver=driver,
+        limit=limit
+    )
+
+    name_vector_predictions = vector_index_search(
+        driver=driver,
+        query=vector_index_query,
+        embedding=embedding,
+        index=Vectors.BAAI_DISEASE_NAME.value,
+        limit=limit,
+        threshold=0.80
+    )
+    
+    centroid_synonyms_vector_predictions = vector_index_search(
+        driver=driver,
+        query=vector_index_query,
+        embedding=embedding,
+        index=Vectors.BAAI_DISEASE_SYNONYMS_CENTROID.value,
+        limit=limit,
+        threshold=0.80
+    )
+
+    fulltext_predictions = process_predictions(fulltext_predictions, disease_name)
+    name_vector_predictions = process_predictions(name_vector_predictions, disease_name)
+    centroid_synonyms_vector_predictions = process_predictions(centroid_synonyms_vector_predictions, disease_name)
+
+    # Combine all predictions and sort
+    combined = fulltext_predictions + name_vector_predictions + centroid_synonyms_vector_predictions
+    combined = sorted(combined, key=lambda candidate: custom_sort_key(candidate, disease_name))
+
+    return combined[0:limit]
