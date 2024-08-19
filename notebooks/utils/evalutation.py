@@ -1,4 +1,30 @@
+from matplotlib import pyplot as plt
+from neo4j import Driver
 import pandas as pd
+
+###########
+# QEURIES #
+###########
+
+get_shortest_path_query = """
+    WITH $trueID AS startId, $predictedID AS endId
+
+    MATCH (start:Disease)
+    WHERE (start.DiseaseID IS NOT NULL AND ANY(id IN SPLIT(toString(start.DiseaseID), '|') WHERE id = startId))
+    OR (start.AltDiseaseIDs IS NOT NULL AND ANY(altId IN SPLIT(toString(start.AltDiseaseIDs), '|') WHERE altId = startId))
+
+    MATCH (end:Disease)
+    WHERE (end.DiseaseID IS NOT NULL AND ANY(id IN SPLIT(toString(end.DiseaseID), '|') WHERE id = endId))
+    OR (end.AltDiseaseIDs IS NOT NULL AND ANY(altId IN SPLIT(toString(end.AltDiseaseIDs), '|') WHERE altId = endId))
+
+    MATCH p = shortestPath((start)-[*]-(end))
+
+    RETURN length(p) AS distance
+"""
+
+###########
+# HELPERS #
+###########
 
 def extract_ids(entry: dict) -> list:
     """
@@ -123,3 +149,50 @@ def hits_at_n_score(disease_predictions: list, n: int):
 
     return hits_at_n_score
 
+def mark_predictions_with_shortest_path(disease_predictions: list, driver: Driver) -> list:
+    with driver.session() as session:
+        for candidates_for_single_disease in disease_predictions:
+            for candidate in candidates_for_single_disease:
+                true_id = candidate['True MESH_ID']
+                predicted_ids = extract_ids(candidate)
+                # Mark whether the prediction is correct
+                if true_id in predicted_ids:
+                    candidate['is_correct'] = True
+                    candidate['shortest_path'] = 0  # Direct match
+                else:
+                    candidate['is_correct'] = False
+                    predicted_id = candidate['MESH_ID']
+                    
+                    # If the predicted ID is not "Unknown", calculate the shortest path
+                    if predicted_id != "Unknown":
+                        result = session.run(get_shortest_path_query, trueID=true_id, predictedID=predicted_id)
+                        single_result = result.single()
+
+                        if single_result is not None:
+                            candidate['shortest_path'] = single_result[0]
+                        else:
+                            candidate['shortest_path'] = -1  # No path found
+                    else:
+                        candidate['shortest_path'] = -2  # Unknown prediction
+
+    return disease_predictions
+
+def display_shortest_path_predictions(shortest_path_predictions: list):
+    bins = list(range(min(shortest_path_predictions), max(shortest_path_predictions) + 2))
+
+    plt.figure(figsize=(10, 6))
+    n, bins, patches = plt.hist(shortest_path_predictions, bins=bins, edgecolor='black', color='blue', alpha=0.7)
+
+    # Change color for specific bars (-1 and -2)
+    for i, bin_edge in enumerate(bins[:-1]):
+        if bin_edge == -1:
+            patches[i].set_facecolor('red')
+            plt.text(bin_edge + 0.5, n[i] + 10, 'No path found', ha='center', va='bottom', color='black', fontsize=10)
+        elif bin_edge == -2:
+            patches[i].set_facecolor('orange')
+            plt.text(bin_edge + 0.5, n[i] + 10, 'No predicted ID', ha='center', va='bottom', color='black', fontsize=10)
+
+    plt.title('Distribution of Shortest Path Distances')
+    plt.xlabel('Distance')
+    plt.ylabel('Frequency')
+    plt.show()

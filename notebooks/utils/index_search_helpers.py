@@ -182,15 +182,35 @@ def calculate_string_similarity(candidates_list: List[str], disease_name: str) -
 
 def custom_sort_key(candidate: dict, disease_name: str) -> tuple:
     abbrev = contains_abbreviation(disease_name)
-    
+
+    # Original scoring metrics
     primary_metric = candidate['weighted_ratio'] if abbrev else candidate['token_set_ratio']
     secondary_metric = candidate['token_set_ratio'] if abbrev else candidate['weighted_ratio']
-    
-    # JaroWinkler_distance and LCSseq_distance as tertiary and quaternary metrics
     tertiary_metric = candidate['JaroWinkler_distance']
     quaternary_metric = candidate['LCSseq_distance']
+
+    # New scoring logic for prioritizing exact matches and subtypes
+    exact_match = 0
+    subtype_penalty = 0
+
+    # Prioritize exact match
+    if candidate['Description'].strip().lower() == disease_name.strip().lower():
+        exact_match = 1
+
+    # Penalize broader matches that miss subtype details
+    if 'type' in disease_name.lower() and 'type' not in candidate['Description'].lower():
+        subtype_penalty = -1
     
-    return (-primary_metric, -secondary_metric, -tertiary_metric, -quaternary_metric)
+
+    # Return a tuple with the original metrics and the new factors
+    return (
+        -exact_match,                 # Higher priority for exact matches
+        subtype_penalty,              # Penalize missing subtype information
+        -primary_metric, 
+        -secondary_metric, 
+        -tertiary_metric, 
+        -quaternary_metric
+    )
 
 def process_predictions(predictions: list, disease_name: str) -> list:
     for prediction in predictions:
@@ -202,12 +222,15 @@ def process_predictions(predictions: list, disease_name: str) -> list:
 
     return sorted(predictions, key=lambda candidate: custom_sort_key(candidate, disease_name))
 
-def combined_search(disease_name: str, embedding: list, driver: Driver, limit=5) -> dict:
+def find_all_direct_vector_hits(candidates: list) -> list:
+    return [d for d in candidates if d.get('score') == 1.0]
+
+def combined_search(disease_name: str, embedding: list, driver: Driver, limit: 100) -> dict:
     fulltext_predictions = fulltext_search(
         query=fulltext_index_query,
         disease_name=disease_name,
         driver=driver,
-        limit=limit
+        limit=100
     )
 
     name_vector_predictions = vector_index_search(
@@ -215,7 +238,7 @@ def combined_search(disease_name: str, embedding: list, driver: Driver, limit=5)
         query=vector_index_query,
         embedding=embedding,
         index=Vectors.BAAI_DISEASE_NAME.value,
-        limit=limit,
+        limit=100,
         threshold=0.80
     )
     
@@ -224,16 +247,22 @@ def combined_search(disease_name: str, embedding: list, driver: Driver, limit=5)
         query=vector_index_query,
         embedding=embedding,
         index=Vectors.BAAI_DISEASE_SYNONYMS_CENTROID.value,
-        limit=limit,
+        limit=100,
         threshold=0.80
     )
 
-    fulltext_predictions = process_predictions(fulltext_predictions, disease_name)
-    name_vector_predictions = process_predictions(name_vector_predictions, disease_name)
-    centroid_synonyms_vector_predictions = process_predictions(centroid_synonyms_vector_predictions, disease_name)
+    name_vec_direct_hits = find_all_direct_vector_hits(name_vector_predictions)
+    centroid_direct_hits = find_all_direct_vector_hits(centroid_synonyms_vector_predictions)
 
-    # Combine all predictions and sort
-    combined = fulltext_predictions + name_vector_predictions + centroid_synonyms_vector_predictions
-    combined = sorted(combined, key=lambda candidate: custom_sort_key(candidate, disease_name))
+    if len(name_vec_direct_hits) > 0 or len(centroid_direct_hits) > 0:
+        return name_vec_direct_hits + centroid_direct_hits
+    else:
+        fulltext_predictions = process_predictions(fulltext_predictions, disease_name)
+        name_vector_predictions = process_predictions(name_vector_predictions, disease_name)
+        centroid_synonyms_vector_predictions = process_predictions(centroid_synonyms_vector_predictions, disease_name)
 
-    return combined[0:limit]
+        # Combine all predictions and sort
+        combined = fulltext_predictions + name_vector_predictions + centroid_synonyms_vector_predictions
+        combined = sorted(combined, key=lambda candidate: custom_sort_key(candidate, disease_name))
+
+        return combined[0:limit]
