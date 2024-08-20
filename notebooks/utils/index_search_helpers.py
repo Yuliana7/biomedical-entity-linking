@@ -225,7 +225,13 @@ def process_predictions(predictions: list, disease_name: str) -> list:
 def find_all_direct_vector_hits(candidates: list) -> list:
     return [d for d in candidates if d.get('score') == 1.0]
 
-def combined_search(disease_name: str, embedding: list, driver: Driver, limit: 100) -> dict:
+def combined_search(
+        disease_name: str,
+        embedding: list,
+        driver: Driver,
+        limit: 100,
+        name_vec_index: Vectors.BAAI_DISEASE_NAME.value,
+        centoid_vec_index: Vectors.BAAI_DISEASE_SYNONYMS_CENTROID.value) -> dict:
     fulltext_predictions = fulltext_search(
         query=fulltext_index_query,
         disease_name=disease_name,
@@ -237,7 +243,7 @@ def combined_search(disease_name: str, embedding: list, driver: Driver, limit: 1
         driver=driver,
         query=vector_index_query,
         embedding=embedding,
-        index=Vectors.BAAI_DISEASE_NAME.value,
+        index=name_vec_index,
         limit=100,
         threshold=0.80
     )
@@ -246,7 +252,7 @@ def combined_search(disease_name: str, embedding: list, driver: Driver, limit: 1
         driver=driver,
         query=vector_index_query,
         embedding=embedding,
-        index=Vectors.BAAI_DISEASE_SYNONYMS_CENTROID.value,
+        index=centoid_vec_index,
         limit=100,
         threshold=0.80
     )
@@ -266,3 +272,41 @@ def combined_search(disease_name: str, embedding: list, driver: Driver, limit: 1
         combined = sorted(combined, key=lambda candidate: custom_sort_key(candidate, disease_name))
 
         return combined[0:limit]
+    
+def get_combined_search_for_df(dataset: DataFrame,
+                               embedding_col: str,
+                               driver: Driver,
+                               limit: 100,
+                               name_vec_index: Vectors.BAAI_DISEASE_NAME.value,
+                               centoid_vec_index: Vectors.BAAI_DISEASE_SYNONYMS_CENTROID.value
+                               ) -> list:
+    predicted_values = []
+
+    for _, row in dataset.iterrows():
+        disease_name = row['Description']
+        true_mesh_id = row['MESH ID']
+        embedding = row[embedding_col]
+        
+        search_results = combined_search(
+            disease_name=disease_name,
+            embedding=json.loads(embedding),
+            driver=driver,
+            limit=limit,
+            name_vec_index=name_vec_index,
+            centoid_vec_index=centoid_vec_index
+            )
+
+        for item in search_results:
+            item['True MESH_ID'] = true_mesh_id
+            item['True Description'] = disease_name
+        
+        predicted_values.append(search_results if len(search_results) > 0 else [{
+            "MESH_ID": "Unknown", 
+            "AltDiseaseIDs": "Unknown", 
+            "Description": "Unknown",
+            "True MESH_ID": true_mesh_id,
+            "True Description": disease_name
+            }]
+        )
+
+    return predicted_values

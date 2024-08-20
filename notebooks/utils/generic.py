@@ -37,5 +37,7 @@ Models = Enum('Models', {
 
 Vectors = Enum('Vectors', {
     "BAAI_DISEASE_NAME": "baaiVectorIndex",
-    "BAAI_DISEASE_SYNONYMS_CENTROID": "baaiVectorIndex_combinedSynonym"
+    "BAAI_DISEASE_SYNONYMS_CENTROID": "baaiVectorIndex_combinedSynonym",
+    "LLAMA3_DISEASE_NAME": "llama3VectorIndex",
+    "LLAMA3_DISEASE_SYNONYMS_CENTROID": "llama3VectorIndex_combinedSynonym",
 })
