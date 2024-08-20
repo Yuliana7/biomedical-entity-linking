@@ -11,9 +11,13 @@ When starting with this repository, you should download the data used in this pr
 We used CTD Knowledge Base for the Knowledge Graph and NCBI Disease Dataset for annotated disease entities.
 
 [Download CTD Knowledge Base](https://ctdbase.org/reports/CTD_diseases.csv.gz)
+
 [Download NCBI Disease Corpus - train](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/NCBItrainset_corpus.zip)
+
 [Download NCBI Disease Corpus - dev](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/NCBIdevelopset_corpus.zip)
+
 [Download NCBI Disease Corpus - test](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/NCBItestset_corpus.zip)
+
 
 After loading these - please place them in [data/row](data/raw) folder. It should have the following structure:
 
