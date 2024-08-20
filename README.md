@@ -40,6 +40,8 @@ We used Docker Desktop to run Neo4j instance locally, please refer to the offici
 
 [db/conf](db/conf) folder contains configuration needed for Neo4j to run. The credentials should be placed into `.env` file on your local machine.
 
+Llama3 embeddings and LLM used in this project were served from a local ollama server. Please refer to [Ollama](https://ollama.com/) documentation for the installation instructions.
+
 ## Project structure
 
 This project consist of a set of experiments conducted in dedicated Jupyter notebooks.
@@ -67,6 +69,9 @@ In this part we:
 **[Part 4. Experiment with a different embedding model](notebooks/embedding_model_experiments.ipynb)**
 
 In this part we will recreate the experiment with LLAMA3 embeddings and compare the performance.
+
+**[Part 5. Augumenting search results](notebooks/augumented_search_results.ipynb)**
+This is a final part of this research. This notebook includes additional retrieval functions and a simple RAG setup using a local ollama server.
 
 **[untils](notebooks/utils)** folder contains re-usable code for creating/updating and using different search strategies as well as enums for safeguarding against typos when conducting these experiments.
 
