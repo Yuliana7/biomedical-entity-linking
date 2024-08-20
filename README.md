@@ -1,6 +1,12 @@
 # Biomedial Entity Linking
 
-Introduction tbd
+The rapid growth of the healthcare sector has led to an explosion of biomedical data from sources like literature, electronic medical records (EMRs), clinical trials, and genomic databases. While this data offers valuable insights, it also presents challenges for researchers and healthcare professionals. Advances in machine learning have revolutionized data analysis, introducing powerful algorithms capable of mining and interpreting biomedical information with unprecedented accuracy.
+
+However, challenges remain, such as ambiguous terminology, abbreviations, misspellings, and varied medical jargon, making it difficult to extract accurate information. To address this, robust Biomedical Entity Linking (BM-EL) methods are crucial for linking terms to their correct concepts within a knowledge base, ensuring accurate data interpretation and informed decision-making in healthcare.
+
+BM-EL not only improves information retrieval from biomedical texts but also integrates and correlates data across different sources. By resolving ambiguities and standardizing terms, BM-EL enhances precision in research, supporting personalized medicine, clinical decision-making, and biomedical research. As biomedical data continues to grow, refining BM-EL techniques becomes increasingly important.
+
+This research focuses on building a Biomedical Entity Linking system using a Knowledge Graph. This is later used by a simple RAG system that acts as a medical assistant.
 
 ## Project setup
 
