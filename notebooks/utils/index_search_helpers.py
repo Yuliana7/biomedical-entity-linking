@@ -230,8 +230,8 @@ def combined_search(
         embedding: list,
         driver: Driver,
         limit: 100,
-        name_vec_index: Vectors.BAAI_DISEASE_NAME.value,
-        centoid_vec_index: Vectors.BAAI_DISEASE_SYNONYMS_CENTROID.value) -> dict:
+        name_vec_index=Vectors.BAAI_DISEASE_NAME.value,
+        centoid_vec_index=Vectors.BAAI_DISEASE_SYNONYMS_CENTROID.value) -> dict:
     fulltext_predictions = fulltext_search(
         query=fulltext_index_query,
         disease_name=disease_name,
