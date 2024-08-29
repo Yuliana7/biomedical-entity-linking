@@ -8,3 +8,4 @@ db/data
 db/logs
 db/plugins
 .env
+.vscode

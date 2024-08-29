@@ -39,7 +39,7 @@ def extract_ids(entry: dict) -> list:
     mesh_ids = entry['MESH_ID'].split('|') if entry['MESH_ID'] else []
     alt_disease_ids = []
 
-    if 'AltDiseaseIDs' in entry.keys() and entry['AltDiseaseIDs'] is not None and not pd.isna(entry['AltDiseaseIDs']):
+    if 'AltDiseaseIDs' in entry.keys()and entry['AltDiseaseIDs'] is not None and not pd.isna(entry['AltDiseaseIDs']):
         alt_disease_ids = entry['AltDiseaseIDs'].split('|')
 
     all_ids = mesh_ids + alt_disease_ids
@@ -53,10 +53,12 @@ def partial_match(true_labels: list, predicted_labels: list) -> bool:
 
     Parameters:
         true_labels (list): A list of dictionaries representing the true labels.
-        predicted_labels (list): A list of lists, where each inner list contains dictionaries representing the predicted labels.
+        predicted_labels (list): A list of lists, where each inner list contains dictionaries 
+        representing the predicted labels.
 
     Returns:
-        bool: True if there is a partial match between the true labels and the predicted labels, False otherwise.
+        bool: True if there is a partial match between the true labels and the predicted labels,
+        False otherwise.
     """
     true_set = set(extract_ids(true_labels))
     predicted_set = set(extract_ids(predicted_labels[0]))
@@ -88,11 +90,13 @@ def mrr_score(disease_predictions: list) -> float:
     Calculate the Mean Reciprocal Rank (MRR) for a list of disease predictions.
     
     Parameters:
-        disease_predictions (list): A list of lists, where each inner list represents the predictions for a single disease.
+        disease_predictions (list): A list of lists, where each inner list represents
+        the predictions for a single disease.
             Each prediction is a dictionary with the following keys:
             - 'True MESH_ID' (str): The true MESH ID for the disease.
             - 'True Description' (str): The true description for the disease.
-            - Other keys (str): Additional keys may be present in the dictionary, but they are not used in the calculation.
+            - Other keys (str): Additional keys may be present in the dictionary,
+            but they are not used in the calculation.
     
     Returns:
         float: The Mean Reciprocal Rank (MRR) score.
@@ -125,12 +129,14 @@ def hits_at_n_score(disease_predictions: list, n: int):
     Calculate the Hits@N score given a list of ranks and the value of N.
     
     Parameters:
-        disease_predictions (list): A list of lists, where each inner list represents the predictions for a single disease.
+        disease_predictions (list): A list of lists, where each inner list represents
+        the predictions for a single disease.
             Each prediction is a dictionary with the following keys:
             - 'True MESH_ID' (str): The true MESH ID for the disease.
             - 'True Description' (str): The true description for the disease.
-            - Other keys (str): Additional keys may be present in the dictionary, but they are not used in the calculation.
-                         If a query has no correct match, it should have a rank of 0 or be excluded.
+            - Other keys (str): Additional keys may be present in the dictionary,
+            but they are not used in the calculation.
+            If a query has no correct match, it should have a rank of 0 or be excluded.
         n (int): The value of N for Hits@N (e.g., Hits@1, Hits@5).
     
     Returns:

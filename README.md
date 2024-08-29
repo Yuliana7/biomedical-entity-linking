@@ -12,6 +12,8 @@ This research focuses on building a Biomedical Entity Linking system using a Kno
 
 When starting with this repository, you should download the data used in this project and setup Neo4J on your local machine.
 
+Please use `requirements.txt` to install the dependecies.
+
 ### Data aquisition
 
 We used CTD Knowledge Base for the Knowledge Graph and NCBI Disease Dataset for annotated disease entities.
